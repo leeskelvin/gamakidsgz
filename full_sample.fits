@@ -1,0 +1,1313 @@
+SIMPLE  =                    T / Standard FITS format                           BITPIX  =                    8 / Character data                                 NAXIS   =                    1 / Text string                                    NAXIS1  =                48067 / Number of characters                           VOTMETA =                    T / Table metadata in VOTable format               EXTEND  =                    T / There are standard extensions                  COMMENT                                                                         COMMENT The data in this primary HDU consists of bytes which                    COMMENT comprise a VOTABLE document.                                            COMMENT The VOTable describes the metadata of the table contained               COMMENT in the following BINTABLE extension.                                    COMMENT Such a BINTABLE extension can be used on its own as a perfectly         COMMENT good table, but the information from this HDU may provide some          COMMENT useful additional metadata.                                             COMMENT There is one following BINTABLE.                                        NTABLE  =                    1 / Number of following BINTABLE HDUs              END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <?xml version='1.0'?>
+<VOTABLE version="1.4"
+ xmlns="http://www.ivoa.net/xml/VOTable/v1.3">
+<!--
+ !  VOTable written by STIL version 3.4 (uk.ac.starlink.votable.VOTableWriter)
+ !  at 2020-06-02T03:01:13
+ !-->
+<RESOURCE>
+<!-- Describes BINTABLE extensions in the following HDU.-->
+<TABLE name="Joined" nrows="32">
+<PARAM arraysize="11" datatype="char" name="COMMENT" value="No comment.">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="27" datatype="char" name="First input table" value="2: gz2_photoz_debiased.fits"/>
+<PARAM arraysize="20" datatype="char" name="Second input table" value="7: gz2_dr8objid.fits"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="First input table" value="1: Full_sample.fits"/>
+<PARAM arraysize="17" datatype="char" name="Second input table" value="3: gz2sample.fits"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="26" datatype="char" name="First input table" value="21: Full_sample_Extra.fits"/>
+<PARAM arraysize="28" datatype="char" name="Second input table" value="18: GalaxyZoo1_DR_extra.fits"/>
+<PARAM arraysize="38" datatype="char" name="Match type" value="Pair match, all matched pairs included">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="27" datatype="char" name="First input table" value="3: gz2sample_final_wvt.fits"/>
+<PARAM arraysize="16" datatype="char" name="Second input table" value="2: gz2table.fits"/>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="20" datatype="char" name="First input table" value="1: gz2master.fits.gz"/>
+<PARAM arraysize="40" datatype="char" name="Second input table" value="2: dr6z7_zoo_corrected_vmax_spclass.fits"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="24" datatype="char" name="First input table" value="2: Full_sample_Spec.fits"/>
+<PARAM arraysize="21" datatype="char" name="Second input table" value="1: gz2and1master.fits"/>
+<PARAM arraysize="38" datatype="char" name="Match type" value="Pair match, all matched pairs included">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="27" datatype="char" name="First input table" value="3: gz2sample_final_wvt.fits"/>
+<PARAM arraysize="16" datatype="char" name="Second input table" value="2: gz2table.fits"/>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="20" datatype="char" name="First input table" value="1: gz2master.fits.gz"/>
+<PARAM arraysize="40" datatype="char" name="Second input table" value="2: dr6z7_zoo_corrected_vmax_spclass.fits"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="31" datatype="char" name="First input table" value="1: Full_sample_Spec_w_urls.fits"/>
+<PARAM arraysize="21" datatype="char" name="Second input table" value="3: gz2and1master.fits"/>
+<PARAM arraysize="11" datatype="char" name="COMMENT" value="No comment.">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="37" datatype="char" name="Match type" value="Multi-table match performed by TOPCAT">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="6" datatype="char" name="Matched table 1" value="Joined">
+<DESCRIPTION>Table on which the match was done</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="6" datatype="char" name="Matched table 2" value="Joined">
+<DESCRIPTION>Table on which the match was done</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="6" datatype="char" name="Matched table 3" value="Joined">
+<DESCRIPTION>Table on which the match was done</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="30" datatype="char" name="First input table" value="6: gal_fibsfr_dr7_v5_2.fits.gz"/>
+<PARAM arraysize="34" datatype="char" name="Second input table" value="7: gal_fibspecsfr_dr7_v5_2.fits.gz"/>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="27" datatype="char" name="First input table" value="8: gal_totsfr_dr7_v5_2.fits"/>
+<PARAM arraysize="34" datatype="char" name="Second input table" value="9: gal_totspecsfr_dr7_v5_2.fits.gz"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="14" datatype="char" name="First input table" value="10: match(6,7)"/>
+<PARAM arraysize="14" datatype="char" name="Second input table" value="11: match(8,9)"/>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="16" datatype="char" name="First input table" value="12: match(10,11)"/>
+<PARAM arraysize="16" datatype="char" name="Second input table" value="13: CAS-IDs.fits"/>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="26" datatype="char" name="First input table" value="15: fiblgm_dr7_v5_2.fit.gz"/>
+<PARAM arraysize="24" datatype="char" name="Second input table" value="16: totlgm_dr7_v5_2b.fit"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="16" datatype="char" name="First input table" value="14: match(12,13)"/>
+<PARAM arraysize="16" datatype="char" name="Second input table" value="17: match(15,16)"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="24" datatype="char" name="First input table" value="4: zoo2MainSpecz.fits.gz"/>
+<PARAM arraysize="16" datatype="char" name="Second input table" value="18: match(14,17)"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="First input table" value="19: gz2_mstar_sfr"/>
+<PARAM arraysize="18" datatype="char" name="Second input table" value="20: gz2sample.fits"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="31" datatype="char" name="First input table" value="1: Full_sample_spec_w_urls.fits"/>
+<PARAM arraysize="23" datatype="char" name="Second input table" value="2: gz2_kitchensink.fits"/>
+<FIELD datatype="long" name="dr8objid">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="long" name="dr7objid_1">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="float" name="ra_1"/>
+<FIELD datatype="float" name="dec_1"/>
+<FIELD arraysize="11" datatype="char" name="rastring"/>
+<FIELD arraysize="11" datatype="char" name="decstring"/>
+<FIELD arraysize="20" datatype="char" name="sample"/>
+<FIELD arraysize="20" datatype="char" name="gz2class"/>
+<FIELD datatype="short" name="total_classifications">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="total_votes">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t01_smooth_or_features_a01_smooth_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t01_smooth_or_features_a01_smooth_weight"/>
+<FIELD datatype="float" name="t01_smooth_or_features_a01_smooth_fraction"/>
+<FIELD datatype="float" name="t01_smooth_or_features_a01_smooth_weighted_fraction"/>
+<FIELD datatype="float" name="t01_smooth_or_features_a01_smooth_debiased"/>
+<FIELD datatype="short" name="t01_smooth_or_features_a01_smooth_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t01_smooth_or_features_a02_features_or_disk_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t01_smooth_or_features_a02_features_or_disk_weight"/>
+<FIELD datatype="float" name="t01_smooth_or_features_a02_features_or_disk_fraction"/>
+<FIELD datatype="float" name="t01_smooth_or_features_a02_features_or_disk_weighted_fraction"/>
+<FIELD datatype="float" name="t01_smooth_or_features_a02_features_or_disk_debiased"/>
+<FIELD datatype="short" name="t01_smooth_or_features_a02_features_or_disk_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t01_smooth_or_features_a03_star_or_artifact_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t01_smooth_or_features_a03_star_or_artifact_weight"/>
+<FIELD datatype="float" name="t01_smooth_or_features_a03_star_or_artifact_fraction"/>
+<FIELD datatype="float" name="t01_smooth_or_features_a03_star_or_artifact_weighted_fraction"/>
+<FIELD datatype="float" name="t01_smooth_or_features_a03_star_or_artifact_debiased"/>
+<FIELD datatype="short" name="t01_smooth_or_features_a03_star_or_artifact_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t02_edgeon_a04_yes_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t02_edgeon_a04_yes_weight"/>
+<FIELD datatype="float" name="t02_edgeon_a04_yes_fraction"/>
+<FIELD datatype="float" name="t02_edgeon_a04_yes_weighted_fraction"/>
+<FIELD datatype="float" name="t02_edgeon_a04_yes_debiased"/>
+<FIELD datatype="short" name="t02_edgeon_a04_yes_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t02_edgeon_a05_no_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t02_edgeon_a05_no_weight"/>
+<FIELD datatype="float" name="t02_edgeon_a05_no_fraction"/>
+<FIELD datatype="float" name="t02_edgeon_a05_no_weighted_fraction"/>
+<FIELD datatype="float" name="t02_edgeon_a05_no_debiased"/>
+<FIELD datatype="short" name="t02_edgeon_a05_no_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t03_bar_a06_bar_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t03_bar_a06_bar_weight"/>
+<FIELD datatype="float" name="t03_bar_a06_bar_fraction"/>
+<FIELD datatype="float" name="t03_bar_a06_bar_weighted_fraction"/>
+<FIELD datatype="float" name="t03_bar_a06_bar_debiased"/>
+<FIELD datatype="short" name="t03_bar_a06_bar_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t03_bar_a07_no_bar_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t03_bar_a07_no_bar_weight"/>
+<FIELD datatype="float" name="t03_bar_a07_no_bar_fraction"/>
+<FIELD datatype="float" name="t03_bar_a07_no_bar_weighted_fraction"/>
+<FIELD datatype="float" name="t03_bar_a07_no_bar_debiased"/>
+<FIELD datatype="short" name="t03_bar_a07_no_bar_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t04_spiral_a08_spiral_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t04_spiral_a08_spiral_weight"/>
+<FIELD datatype="float" name="t04_spiral_a08_spiral_fraction"/>
+<FIELD datatype="float" name="t04_spiral_a08_spiral_weighted_fraction"/>
+<FIELD datatype="float" name="t04_spiral_a08_spiral_debiased"/>
+<FIELD datatype="short" name="t04_spiral_a08_spiral_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t04_spiral_a09_no_spiral_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t04_spiral_a09_no_spiral_weight"/>
+<FIELD datatype="float" name="t04_spiral_a09_no_spiral_fraction"/>
+<FIELD datatype="float" name="t04_spiral_a09_no_spiral_weighted_fraction"/>
+<FIELD datatype="float" name="t04_spiral_a09_no_spiral_debiased"/>
+<FIELD datatype="short" name="t04_spiral_a09_no_spiral_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t05_bulge_prominence_a10_no_bulge_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t05_bulge_prominence_a10_no_bulge_weight"/>
+<FIELD datatype="float" name="t05_bulge_prominence_a10_no_bulge_fraction"/>
+<FIELD datatype="float" name="t05_bulge_prominence_a10_no_bulge_weighted_fraction"/>
+<FIELD datatype="float" name="t05_bulge_prominence_a10_no_bulge_debiased"/>
+<FIELD datatype="short" name="t05_bulge_prominence_a10_no_bulge_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t05_bulge_prominence_a11_just_noticeable_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t05_bulge_prominence_a11_just_noticeable_weight"/>
+<FIELD datatype="float" name="t05_bulge_prominence_a11_just_noticeable_fraction"/>
+<FIELD datatype="float" name="t05_bulge_prominence_a11_just_noticeable_weighted_fraction"/>
+<FIELD datatype="float" name="t05_bulge_prominence_a11_just_noticeable_debiased"/>
+<FIELD datatype="short" name="t05_bulge_prominence_a11_just_noticeable_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t05_bulge_prominence_a12_obvious_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t05_bulge_prominence_a12_obvious_weight"/>
+<FIELD datatype="float" name="t05_bulge_prominence_a12_obvious_fraction"/>
+<FIELD datatype="float" name="t05_bulge_prominence_a12_obvious_weighted_fraction"/>
+<FIELD datatype="float" name="t05_bulge_prominence_a12_obvious_debiased"/>
+<FIELD datatype="short" name="t05_bulge_prominence_a12_obvious_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t05_bulge_prominence_a13_dominant_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t05_bulge_prominence_a13_dominant_weight"/>
+<FIELD datatype="float" name="t05_bulge_prominence_a13_dominant_fraction"/>
+<FIELD datatype="float" name="t05_bulge_prominence_a13_dominant_weighted_fraction"/>
+<FIELD datatype="float" name="t05_bulge_prominence_a13_dominant_debiased"/>
+<FIELD datatype="short" name="t05_bulge_prominence_a13_dominant_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t06_odd_a14_yes_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t06_odd_a14_yes_weight"/>
+<FIELD datatype="float" name="t06_odd_a14_yes_fraction"/>
+<FIELD datatype="float" name="t06_odd_a14_yes_weighted_fraction"/>
+<FIELD datatype="float" name="t06_odd_a14_yes_debiased"/>
+<FIELD datatype="short" name="t06_odd_a14_yes_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t06_odd_a15_no_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t06_odd_a15_no_weight"/>
+<FIELD datatype="float" name="t06_odd_a15_no_fraction"/>
+<FIELD datatype="float" name="t06_odd_a15_no_weighted_fraction"/>
+<FIELD datatype="float" name="t06_odd_a15_no_debiased"/>
+<FIELD datatype="short" name="t06_odd_a15_no_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t07_rounded_a16_completely_round_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t07_rounded_a16_completely_round_weight"/>
+<FIELD datatype="float" name="t07_rounded_a16_completely_round_fraction"/>
+<FIELD datatype="float" name="t07_rounded_a16_completely_round_weighted_fraction"/>
+<FIELD datatype="float" name="t07_rounded_a16_completely_round_debiased"/>
+<FIELD datatype="short" name="t07_rounded_a16_completely_round_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t07_rounded_a17_in_between_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t07_rounded_a17_in_between_weight"/>
+<FIELD datatype="float" name="t07_rounded_a17_in_between_fraction"/>
+<FIELD datatype="float" name="t07_rounded_a17_in_between_weighted_fraction"/>
+<FIELD datatype="float" name="t07_rounded_a17_in_between_debiased"/>
+<FIELD datatype="short" name="t07_rounded_a17_in_between_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t07_rounded_a18_cigar_shaped_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t07_rounded_a18_cigar_shaped_weight"/>
+<FIELD datatype="float" name="t07_rounded_a18_cigar_shaped_fraction"/>
+<FIELD datatype="float" name="t07_rounded_a18_cigar_shaped_weighted_fraction"/>
+<FIELD datatype="float" name="t07_rounded_a18_cigar_shaped_debiased"/>
+<FIELD datatype="short" name="t07_rounded_a18_cigar_shaped_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t08_odd_feature_a19_ring_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t08_odd_feature_a19_ring_weight"/>
+<FIELD datatype="float" name="t08_odd_feature_a19_ring_fraction"/>
+<FIELD datatype="float" name="t08_odd_feature_a19_ring_weighted_fraction"/>
+<FIELD datatype="float" name="t08_odd_feature_a19_ring_debiased"/>
+<FIELD datatype="short" name="t08_odd_feature_a19_ring_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t08_odd_feature_a20_lens_or_arc_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t08_odd_feature_a20_lens_or_arc_weight"/>
+<FIELD datatype="float" name="t08_odd_feature_a20_lens_or_arc_fraction"/>
+<FIELD datatype="float" name="t08_odd_feature_a20_lens_or_arc_weighted_fraction"/>
+<FIELD datatype="float" name="t08_odd_feature_a20_lens_or_arc_debiased"/>
+<FIELD datatype="short" name="t08_odd_feature_a20_lens_or_arc_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t08_odd_feature_a21_disturbed_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t08_odd_feature_a21_disturbed_weight"/>
+<FIELD datatype="float" name="t08_odd_feature_a21_disturbed_fraction"/>
+<FIELD datatype="float" name="t08_odd_feature_a21_disturbed_weighted_fraction"/>
+<FIELD datatype="float" name="t08_odd_feature_a21_disturbed_debiased"/>
+<FIELD datatype="short" name="t08_odd_feature_a21_disturbed_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t08_odd_feature_a22_irregular_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t08_odd_feature_a22_irregular_weight"/>
+<FIELD datatype="float" name="t08_odd_feature_a22_irregular_fraction"/>
+<FIELD datatype="float" name="t08_odd_feature_a22_irregular_weighted_fraction"/>
+<FIELD datatype="float" name="t08_odd_feature_a22_irregular_debiased"/>
+<FIELD datatype="short" name="t08_odd_feature_a22_irregular_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t08_odd_feature_a23_other_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t08_odd_feature_a23_other_weight"/>
+<FIELD datatype="float" name="t08_odd_feature_a23_other_fraction"/>
+<FIELD datatype="float" name="t08_odd_feature_a23_other_weighted_fraction"/>
+<FIELD datatype="float" name="t08_odd_feature_a23_other_debiased"/>
+<FIELD datatype="short" name="t08_odd_feature_a23_other_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t08_odd_feature_a24_merger_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t08_odd_feature_a24_merger_weight"/>
+<FIELD datatype="float" name="t08_odd_feature_a24_merger_fraction"/>
+<FIELD datatype="float" name="t08_odd_feature_a24_merger_weighted_fraction"/>
+<FIELD datatype="float" name="t08_odd_feature_a24_merger_debiased"/>
+<FIELD datatype="short" name="t08_odd_feature_a24_merger_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t08_odd_feature_a38_dust_lane_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t08_odd_feature_a38_dust_lane_weight"/>
+<FIELD datatype="float" name="t08_odd_feature_a38_dust_lane_fraction"/>
+<FIELD datatype="float" name="t08_odd_feature_a38_dust_lane_weighted_fraction"/>
+<FIELD datatype="float" name="t08_odd_feature_a38_dust_lane_debiased"/>
+<FIELD datatype="short" name="t08_odd_feature_a38_dust_lane_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t09_bulge_shape_a25_rounded_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t09_bulge_shape_a25_rounded_weight"/>
+<FIELD datatype="float" name="t09_bulge_shape_a25_rounded_fraction"/>
+<FIELD datatype="float" name="t09_bulge_shape_a25_rounded_weighted_fraction"/>
+<FIELD datatype="float" name="t09_bulge_shape_a25_rounded_debiased"/>
+<FIELD datatype="short" name="t09_bulge_shape_a25_rounded_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t09_bulge_shape_a26_boxy_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t09_bulge_shape_a26_boxy_weight"/>
+<FIELD datatype="float" name="t09_bulge_shape_a26_boxy_fraction"/>
+<FIELD datatype="float" name="t09_bulge_shape_a26_boxy_weighted_fraction"/>
+<FIELD datatype="float" name="t09_bulge_shape_a26_boxy_debiased"/>
+<FIELD datatype="short" name="t09_bulge_shape_a26_boxy_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t09_bulge_shape_a27_no_bulge_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t09_bulge_shape_a27_no_bulge_weight"/>
+<FIELD datatype="float" name="t09_bulge_shape_a27_no_bulge_fraction"/>
+<FIELD datatype="float" name="t09_bulge_shape_a27_no_bulge_weighted_fraction"/>
+<FIELD datatype="float" name="t09_bulge_shape_a27_no_bulge_debiased"/>
+<FIELD datatype="short" name="t09_bulge_shape_a27_no_bulge_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t10_arms_winding_a28_tight_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t10_arms_winding_a28_tight_weight"/>
+<FIELD datatype="float" name="t10_arms_winding_a28_tight_fraction"/>
+<FIELD datatype="float" name="t10_arms_winding_a28_tight_weighted_fraction"/>
+<FIELD datatype="float" name="t10_arms_winding_a28_tight_debiased"/>
+<FIELD datatype="short" name="t10_arms_winding_a28_tight_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t10_arms_winding_a29_medium_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t10_arms_winding_a29_medium_weight"/>
+<FIELD datatype="float" name="t10_arms_winding_a29_medium_fraction"/>
+<FIELD datatype="float" name="t10_arms_winding_a29_medium_weighted_fraction"/>
+<FIELD datatype="float" name="t10_arms_winding_a29_medium_debiased"/>
+<FIELD datatype="short" name="t10_arms_winding_a29_medium_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t10_arms_winding_a30_loose_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t10_arms_winding_a30_loose_weight"/>
+<FIELD datatype="float" name="t10_arms_winding_a30_loose_fraction"/>
+<FIELD datatype="float" name="t10_arms_winding_a30_loose_weighted_fraction"/>
+<FIELD datatype="float" name="t10_arms_winding_a30_loose_debiased"/>
+<FIELD datatype="short" name="t10_arms_winding_a30_loose_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t11_arms_number_a31_1_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t11_arms_number_a31_1_weight"/>
+<FIELD datatype="float" name="t11_arms_number_a31_1_fraction"/>
+<FIELD datatype="float" name="t11_arms_number_a31_1_weighted_fraction"/>
+<FIELD datatype="float" name="t11_arms_number_a31_1_debiased"/>
+<FIELD datatype="short" name="t11_arms_number_a31_1_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t11_arms_number_a32_2_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t11_arms_number_a32_2_weight"/>
+<FIELD datatype="float" name="t11_arms_number_a32_2_fraction"/>
+<FIELD datatype="float" name="t11_arms_number_a32_2_weighted_fraction"/>
+<FIELD datatype="float" name="t11_arms_number_a32_2_debiased"/>
+<FIELD datatype="short" name="t11_arms_number_a32_2_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t11_arms_number_a33_3_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t11_arms_number_a33_3_weight"/>
+<FIELD datatype="float" name="t11_arms_number_a33_3_fraction"/>
+<FIELD datatype="float" name="t11_arms_number_a33_3_weighted_fraction"/>
+<FIELD datatype="float" name="t11_arms_number_a33_3_debiased"/>
+<FIELD datatype="short" name="t11_arms_number_a33_3_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t11_arms_number_a34_4_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t11_arms_number_a34_4_weight"/>
+<FIELD datatype="float" name="t11_arms_number_a34_4_fraction"/>
+<FIELD datatype="float" name="t11_arms_number_a34_4_weighted_fraction"/>
+<FIELD datatype="float" name="t11_arms_number_a34_4_debiased"/>
+<FIELD datatype="short" name="t11_arms_number_a34_4_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t11_arms_number_a36_more_than_4_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t11_arms_number_a36_more_than_4_weight"/>
+<FIELD datatype="float" name="t11_arms_number_a36_more_than_4_fraction"/>
+<FIELD datatype="float" name="t11_arms_number_a36_more_than_4_weighted_fraction"/>
+<FIELD datatype="float" name="t11_arms_number_a36_more_than_4_debiased"/>
+<FIELD datatype="short" name="t11_arms_number_a36_more_than_4_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="t11_arms_number_a37_cant_tell_count">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="t11_arms_number_a37_cant_tell_weight"/>
+<FIELD datatype="float" name="t11_arms_number_a37_cant_tell_fraction"/>
+<FIELD datatype="float" name="t11_arms_number_a37_cant_tell_weighted_fraction"/>
+<FIELD datatype="float" name="t11_arms_number_a37_cant_tell_debiased"/>
+<FIELD datatype="short" name="t11_arms_number_a37_cant_tell_flag">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="long" name="OBJID_1">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="short" name="RUN">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="RERUN">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="CAMCOL">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="FIELD">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="OBJ">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="double" name="RA_2"/>
+<FIELD datatype="double" name="DEC_2"/>
+<FIELD datatype="float" name="PETROR50_R"/>
+<FIELD datatype="float" name="PETROR90_R"/>
+<FIELD datatype="float" name="PETROMAG_U"/>
+<FIELD datatype="float" name="PETROMAG_G"/>
+<FIELD datatype="float" name="PETROMAG_R"/>
+<FIELD datatype="float" name="PETROMAG_I"/>
+<FIELD datatype="float" name="PETROMAG_Z"/>
+<FIELD datatype="float" name="PETROMAGERR_U"/>
+<FIELD datatype="float" name="PETROMAGERR_G"/>
+<FIELD datatype="float" name="PETROMAGERR_R"/>
+<FIELD datatype="float" name="PETROMAGERR_I"/>
+<FIELD datatype="float" name="PETROMAGERR_Z"/>
+<FIELD datatype="float" name="PSFMAG_R"/>
+<FIELD datatype="float" name="FIBERMAG_R"/>
+<FIELD datatype="float" name="DEVMAG_R"/>
+<FIELD datatype="float" name="DEVMAGERR_R"/>
+<FIELD datatype="float" name="EXPMAG_R"/>
+<FIELD datatype="float" name="EXPMAGERR_R"/>
+<FIELD datatype="float" name="FRACDEV_R"/>
+<FIELD datatype="double" name="MU50_R"/>
+<FIELD datatype="float" name="EXTINCTION_U"/>
+<FIELD datatype="float" name="EXTINCTION_G"/>
+<FIELD datatype="float" name="EXTINCTION_R"/>
+<FIELD datatype="float" name="EXTINCTION_I"/>
+<FIELD datatype="float" name="EXTINCTION_Z"/>
+<FIELD datatype="float" name="ROWC_U"/>
+<FIELD datatype="float" name="COLC_U"/>
+<FIELD datatype="float" name="ROWC_G"/>
+<FIELD datatype="float" name="COLC_G"/>
+<FIELD datatype="float" name="ROWC_R"/>
+<FIELD datatype="float" name="COLC_R"/>
+<FIELD datatype="float" name="ROWC_I"/>
+<FIELD datatype="float" name="COLC_I"/>
+<FIELD datatype="float" name="ROWC_Z"/>
+<FIELD datatype="float" name="COLC_Z"/>
+<FIELD datatype="double" name="CMODELMAG_R"/>
+<FIELD datatype="double" name="CMODELMAGERR_R"/>
+<FIELD datatype="float" name="REDSHIFT_1"/>
+<FIELD datatype="float" name="REDSHIFTERR_1"/>
+<FIELD datatype="float" name="PETROMAG_MU"/>
+<FIELD datatype="float" name="PETROMAG_MG"/>
+<FIELD datatype="float" name="PETROMAG_MR"/>
+<FIELD datatype="float" name="PETROMAG_MI"/>
+<FIELD datatype="float" name="PETROMAG_MZ"/>
+<FIELD datatype="float" name="PETROMAGERR_MU"/>
+<FIELD datatype="float" name="PETROMAGERR_MG"/>
+<FIELD datatype="float" name="PETROMAGERR_MR"/>
+<FIELD datatype="float" name="PETROMAGERR_MI"/>
+<FIELD datatype="float" name="PETROMAGERR_MZ"/>
+<FIELD datatype="float" name="PETROR50_R_KPC"/>
+<FIELD datatype="short" name="REGION">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="PETROR50_R_KPC_SIMPLE_BIN">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="PETROMAG_MR_SIMPLE_BIN">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="REDSHIFT_SIMPLE_BIN">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="WVT_BIN">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="U-R">
+<DESCRIPTION>(PETROMAG_MU-PETROMAG_MR)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="long" name="OBJID_2">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="double" name="U"/>
+<FIELD datatype="double" name="G"/>
+<FIELD datatype="double" name="R"/>
+<FIELD datatype="double" name="I"/>
+<FIELD datatype="double" name="Z"/>
+<FIELD datatype="double" name="UERR"/>
+<FIELD datatype="double" name="GERR"/>
+<FIELD datatype="double" name="RERR"/>
+<FIELD datatype="double" name="IERR"/>
+<FIELD datatype="double" name="ZERR"/>
+<FIELD datatype="double" name="R50_ARCSEC"/>
+<FIELD datatype="double" name="R90_ARCSEC"/>
+<FIELD datatype="double" name="REDSHIFT_2"/>
+<FIELD datatype="double" name="REDSHIFTERR_2"/>
+<FIELD datatype="double" name="REDSHIFTCONF"/>
+<FIELD datatype="long" name="FLAGS">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="int" name="STATUS">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="short" name="INSIDEMASK">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="int" name="PRIMTARGET">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="short" name="CALIBSTATUS_U">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="double" name="RA"/>
+<FIELD datatype="double" name="DEC"/>
+<FIELD datatype="long" name="BEST">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="float" name="MU"/>
+<FIELD datatype="float" name="MG"/>
+<FIELD datatype="float" name="MR"/>
+<FIELD datatype="float" name="MI"/>
+<FIELD datatype="float" name="MZ"/>
+<FIELD datatype="float" name="MUERR"/>
+<FIELD datatype="float" name="MGERR"/>
+<FIELD datatype="float" name="MRERR"/>
+<FIELD datatype="float" name="MIERR"/>
+<FIELD datatype="float" name="MZERR"/>
+<FIELD datatype="float" name="R50_KPC"/>
+<FIELD datatype="short" name="R50_KPC_FUKUGITA_BIN">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="MR_FUKUGITA_BIN">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="REDSHIFT_FUKUGITA_BIN">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="R50_KPC_MOSES_BIN">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="MR_MOSES_BIN">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="REDSHIFT_MOSES_BIN">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="R50_KPC_ZOO_BIN">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="MR_ZOO_BIN">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="REDSHIFT_ZOO_BIN">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="long" name="OBJID_CSUW">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="short" name="STATUS_CSUW">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="NOBS_CSUW">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="NEXP_CSUW">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="SUMWEIGHTS_CSUW"/>
+<FIELD datatype="float" name="HISTO1_CSUW"/>
+<FIELD datatype="float" name="HISTO2_CSUW"/>
+<FIELD datatype="float" name="HISTO3_CSUW"/>
+<FIELD datatype="float" name="HISTO4_CSUW"/>
+<FIELD datatype="float" name="HISTO5_CSUW"/>
+<FIELD datatype="float" name="HISTO6_CSUW"/>
+<FIELD datatype="float" name="P_EL_CSUW"/>
+<FIELD datatype="float" name="P_SP_CSUW"/>
+<FIELD datatype="float" name="P_DK_CSUW"/>
+<FIELD datatype="float" name="P_MG_CSUW"/>
+<FIELD datatype="long" name="OBJID_CSDW">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="short" name="STATUS_CSDW">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="NOBS_CSDW">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="NEXP_CSDW">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="SUMWEIGHTS_CSDW"/>
+<FIELD datatype="float" name="HISTO1_CSDW"/>
+<FIELD datatype="float" name="HISTO2_CSDW"/>
+<FIELD datatype="float" name="HISTO3_CSDW"/>
+<FIELD datatype="float" name="HISTO4_CSDW"/>
+<FIELD datatype="float" name="HISTO5_CSDW"/>
+<FIELD datatype="float" name="HISTO6_CSDW"/>
+<FIELD datatype="float" name="P_EL_CSDW"/>
+<FIELD datatype="float" name="P_SP_CSDW"/>
+<FIELD datatype="float" name="P_DK_CSDW"/>
+<FIELD datatype="float" name="P_MG_CSDW"/>
+<FIELD datatype="int" name="P_EL_FUKUGITA">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="int" name="P_SP_FUKUGITA">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="int" name="P_DK_FUKUGITA">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="int" name="P_MG_FUKUGITA">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="int" name="P_EL_MOSES">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="int" name="P_SP_MOSES">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="int" name="P_DK_MOSES">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="int" name="P_MG_MOSES">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="float" name="C4_CLUSTERID"/>
+<FIELD datatype="float" name="C4_REDSHIFT"/>
+<FIELD datatype="float" name="C4_RA"/>
+<FIELD datatype="float" name="C4_DEC"/>
+<FIELD datatype="float" name="C4_MASS"/>
+<FIELD datatype="float" name="C4_VELDISP"/>
+<FIELD datatype="float" name="C4_RVIR"/>
+<FIELD datatype="float" name="IVAN_DENSITY"/>
+<FIELD datatype="float" name="IVAN_MIN_DENSITY"/>
+<FIELD datatype="float" name="IVAN_MAX_DENSITY"/>
+<FIELD datatype="long" name="OBJID_QUALITY">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="double" name="PSFWIDTH_R"/>
+<FIELD datatype="int" name="PSFNSTAR_R">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="double" name="SKY_R"/>
+<FIELD datatype="double" name="SKYERR_R"/>
+<FIELD datatype="long" name="OBJID_RELEASES">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="int" name="INDR6PLATE">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="int" name="INDR5PLATE">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="int" name="INDR4PLATE">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="int" name="INDR6TILE">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="int" name="INDR5TILE">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="int" name="INDR4TILE">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="int" name="INDR6PLATETILE">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="int" name="INDR5PLATETILE">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="int" name="INDR4PLATETILE">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="float" name="COMOVING_DISTANCE"/>
+<FIELD datatype="int" name="C4_CLOSEST_CLUSTERID">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="float" name="C4_CLOSEST_REDSHIFT"/>
+<FIELD datatype="float" name="C4_CLOSEST_MASS"/>
+<FIELD datatype="float" name="C4_CLOSEST_VELDISP"/>
+<FIELD datatype="float" name="C4_CLOSEST_RVIR"/>
+<FIELD datatype="float" name="C4_CLOSEST_RA"/>
+<FIELD datatype="float" name="C4_CLOSEST_DEC"/>
+<FIELD datatype="float" name="C4_CLOSEST_DISTANCE"/>
+<FIELD datatype="short" name="C4_CLOSEST_MEMBER">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="int" name="C4_NORMCLOSEST_CLUSTERID">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="float" name="C4_NORMCLOSEST_REDSHIFT"/>
+<FIELD datatype="float" name="C4_NORMCLOSEST_MASS"/>
+<FIELD datatype="float" name="C4_NORMCLOSEST_VELDISP"/>
+<FIELD datatype="float" name="C4_NORMCLOSEST_RVIR"/>
+<FIELD datatype="float" name="C4_NORMCLOSEST_RA"/>
+<FIELD datatype="float" name="C4_NORMCLOSEST_DEC"/>
+<FIELD datatype="float" name="C4_NORMCLOSEST_DISTANCE"/>
+<FIELD datatype="short" name="C4_NORMCLOSEST_MEMBER">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="CORR_WEIGHTS_CSUW"/>
+<FIELD datatype="float" name="RATIO_BIN_WEIGHTS_CSUW"/>
+<FIELD datatype="float" name="P_EL_CORR_WEIGHTS_CSUW"/>
+<FIELD datatype="float" name="P_SP_CORR_WEIGHTS_CSUW"/>
+<FIELD datatype="float" name="CORR_COUNTS_CSUW"/>
+<FIELD datatype="float" name="RATIO_BIN_COUNTS_CSUW"/>
+<FIELD datatype="float" name="P_EL_CORR_COUNTS_CSUW"/>
+<FIELD datatype="float" name="P_SP_CORR_COUNTS_CSUW"/>
+<FIELD datatype="float" name="CORR_COUNTS_CSDW"/>
+<FIELD datatype="float" name="RATIO_BIN_COUNTS_CSDW"/>
+<FIELD datatype="float" name="P_EL_CORR_COUNTS_CSDW"/>
+<FIELD datatype="float" name="P_SP_CORR_COUNTS_CSDW"/>
+<FIELD datatype="float" name="ZMIN"/>
+<FIELD datatype="float" name="ZMAX"/>
+<FIELD datatype="float" name="RELOBSVOL"/>
+<FIELD datatype="float" name="NVOTE"/>
+<FIELD datatype="float" name="P_EL_UW"/>
+<FIELD datatype="float" name="CW_SPCLASS"/>
+<FIELD datatype="float" name="ACW_SPCLASS"/>
+<FIELD datatype="float" name="EDGEON_SPCLASS"/>
+<FIELD datatype="float" name="P_CW_UW"/>
+<FIELD datatype="float" name="P_ACW_UW"/>
+<FIELD datatype="float" name="P_EDGEON_UW"/>
+<FIELD datatype="float" name="P_DK_UW"/>
+<FIELD datatype="float" name="P_MG_UW"/>
+<FIELD datatype="long" name="OBJID_MODEL">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="double" name="U_MODEL"/>
+<FIELD datatype="double" name="G_MODEL"/>
+<FIELD datatype="double" name="R_MODEL"/>
+<FIELD datatype="double" name="I_MODEL"/>
+<FIELD datatype="double" name="Z_MODEL"/>
+<FIELD datatype="double" name="UERR_MODEL"/>
+<FIELD datatype="double" name="GERR_MODEL"/>
+<FIELD datatype="double" name="RERR_MODEL"/>
+<FIELD datatype="double" name="IERR_MODEL"/>
+<FIELD datatype="double" name="ZERR_MODEL"/>
+<FIELD datatype="double" name="REDSHIFT_MODEL"/>
+<FIELD datatype="float" name="MU_MODEL"/>
+<FIELD datatype="float" name="MG_MODEL"/>
+<FIELD datatype="float" name="MR_MODEL"/>
+<FIELD datatype="float" name="MI_MODEL"/>
+<FIELD datatype="float" name="MZ_MODEL"/>
+<FIELD datatype="float" name="MUERR_MODEL"/>
+<FIELD datatype="float" name="MGERR_MODEL"/>
+<FIELD datatype="float" name="MRERR_MODEL"/>
+<FIELD datatype="float" name="MIERR_MODEL"/>
+<FIELD datatype="float" name="MZERR_MODEL"/>
+<FIELD datatype="float" name="CUR"/>
+<FIELD datatype="float" name="LOGMSTAR_BALDRY06"/>
+<FIELD datatype="float" name="REDNESS_BALDRY06"/>
+<FIELD arraysize="45" datatype="char" name="jpeg_url">
+<DESCRIPTION>((concat("http://s3.amazonaws.com/zoo2", equals(sample, "original")?"/":"_extra/", toString(asset_id),".jpg")))</DESCRIPTION>
+</FIELD>
+<FIELD datatype="long" name="dr7objid_2">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="float" name="sfr_total_avg"/>
+<FIELD datatype="float" name="ssfr_total_avg"/>
+<!-- Dummy VOTable - no DATA element -->
+</TABLE>
+</RESOURCE>
+</VOTABLE>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional table                            NAXIS1  =                 1973 / width of table in bytes                        NAXIS2  =                   32 / number of rows in table                        PCOUNT  =                    0 / size of special data area                      GCOUNT  =                    1 / one data group                                 TFIELDS =                  476 / number of columns                              EXTNAME = 'Joined  '           / table name                                     TTYPE1  = 'dr8objid'           / label for column 1                             TFORM1  = 'K       '           / format for column 1                            TNULL1  = -9223372036854775808 / blank value for column 1                       TTYPE2  = 'dr7objid_1'         / label for column 2                             TFORM2  = 'K       '           / format for column 2                            TNULL2  = -9223372036854775808 / blank value for column 2                       TTYPE3  = 'ra_1    '           / label for column 3                             TFORM3  = 'E       '           / format for column 3                            TTYPE4  = 'dec_1   '           / label for column 4                             TFORM4  = 'E       '           / format for column 4                            TTYPE5  = 'rastring'           / label for column 5                             TFORM5  = '11A     '           / format for column 5                            TTYPE6  = 'decstring'          / label for column 6                             TFORM6  = '11A     '           / format for column 6                            TTYPE7  = 'sample  '           / label for column 7                             TFORM7  = '20A     '           / format for column 7                            TTYPE8  = 'gz2class'           / label for column 8                             TFORM8  = '20A     '           / format for column 8                            TTYPE9  = 'total_classifications' / label for column 9                          TFORM9  = 'I       '           / format for column 9                            TNULL9  =               -32768 / blank value for column 9                       TTYPE10 = 'total_votes'        / label for column 10                            TFORM10 = 'I       '           / format for column 10                           TNULL10 =               -32768 / blank value for column 10                      TTYPE11 = 't01_smooth_or_features_a01_smooth_count' / label for column 11       TFORM11 = 'I       '           / format for column 11                           TNULL11 =               -32768 / blank value for column 11                      TTYPE12 = 't01_smooth_or_features_a01_smooth_weight' / label for column 12      TFORM12 = 'E       '           / format for column 12                           TTYPE13 = 't01_smooth_or_features_a01_smooth_fraction' / label for column 13    TFORM13 = 'E       '           / format for column 13                           TTYPE14 = 't01_smooth_or_features_a01_smooth_weighted_fraction' / label for coluTFORM14 = 'E       '           / format for column 14                           TTYPE15 = 't01_smooth_or_features_a01_smooth_debiased' / label for column 15    TFORM15 = 'E       '           / format for column 15                           TTYPE16 = 't01_smooth_or_features_a01_smooth_flag' / label for column 16        TFORM16 = 'I       '           / format for column 16                           TNULL16 =               -32768 / blank value for column 16                      TTYPE17 = 't01_smooth_or_features_a02_features_or_disk_count' / label for columnTFORM17 = 'I       '           / format for column 17                           TNULL17 =               -32768 / blank value for column 17                      TTYPE18 = 't01_smooth_or_features_a02_features_or_disk_weight' / label for columTFORM18 = 'E       '           / format for column 18                           TTYPE19 = 't01_smooth_or_features_a02_features_or_disk_fraction' / label for colTFORM19 = 'E       '           / format for column 19                           TTYPE20 = 't01_smooth_or_features_a02_features_or_disk_weighted_fraction' / labeTFORM20 = 'E       '           / format for column 20                           TTYPE21 = 't01_smooth_or_features_a02_features_or_disk_debiased' / label for colTFORM21 = 'E       '           / format for column 21                           TTYPE22 = 't01_smooth_or_features_a02_features_or_disk_flag' / label for column TFORM22 = 'I       '           / format for column 22                           TNULL22 =               -32768 / blank value for column 22                      TTYPE23 = 't01_smooth_or_features_a03_star_or_artifact_count' / label for columnTFORM23 = 'I       '           / format for column 23                           TNULL23 =               -32768 / blank value for column 23                      TTYPE24 = 't01_smooth_or_features_a03_star_or_artifact_weight' / label for columTFORM24 = 'E       '           / format for column 24                           TTYPE25 = 't01_smooth_or_features_a03_star_or_artifact_fraction' / label for colTFORM25 = 'E       '           / format for column 25                           TTYPE26 = 't01_smooth_or_features_a03_star_or_artifact_weighted_fraction' / labeTFORM26 = 'E       '           / format for column 26                           TTYPE27 = 't01_smooth_or_features_a03_star_or_artifact_debiased' / label for colTFORM27 = 'E       '           / format for column 27                           TTYPE28 = 't01_smooth_or_features_a03_star_or_artifact_flag' / label for column TFORM28 = 'I       '           / format for column 28                           TNULL28 =               -32768 / blank value for column 28                      TTYPE29 = 't02_edgeon_a04_yes_count' / label for column 29                      TFORM29 = 'I       '           / format for column 29                           TNULL29 =               -32768 / blank value for column 29                      TTYPE30 = 't02_edgeon_a04_yes_weight' / label for column 30                     TFORM30 = 'E       '           / format for column 30                           TTYPE31 = 't02_edgeon_a04_yes_fraction' / label for column 31                   TFORM31 = 'E       '           / format for column 31                           TTYPE32 = 't02_edgeon_a04_yes_weighted_fraction' / label for column 32          TFORM32 = 'E       '           / format for column 32                           TTYPE33 = 't02_edgeon_a04_yes_debiased' / label for column 33                   TFORM33 = 'E       '           / format for column 33                           TTYPE34 = 't02_edgeon_a04_yes_flag' / label for column 34                       TFORM34 = 'I       '           / format for column 34                           TNULL34 =               -32768 / blank value for column 34                      TTYPE35 = 't02_edgeon_a05_no_count' / label for column 35                       TFORM35 = 'I       '           / format for column 35                           TNULL35 =               -32768 / blank value for column 35                      TTYPE36 = 't02_edgeon_a05_no_weight' / label for column 36                      TFORM36 = 'E       '           / format for column 36                           TTYPE37 = 't02_edgeon_a05_no_fraction' / label for column 37                    TFORM37 = 'E       '           / format for column 37                           TTYPE38 = 't02_edgeon_a05_no_weighted_fraction' / label for column 38           TFORM38 = 'E       '           / format for column 38                           TTYPE39 = 't02_edgeon_a05_no_debiased' / label for column 39                    TFORM39 = 'E       '           / format for column 39                           TTYPE40 = 't02_edgeon_a05_no_flag' / label for column 40                        TFORM40 = 'I       '           / format for column 40                           TNULL40 =               -32768 / blank value for column 40                      TTYPE41 = 't03_bar_a06_bar_count' / label for column 41                         TFORM41 = 'I       '           / format for column 41                           TNULL41 =               -32768 / blank value for column 41                      TTYPE42 = 't03_bar_a06_bar_weight' / label for column 42                        TFORM42 = 'E       '           / format for column 42                           TTYPE43 = 't03_bar_a06_bar_fraction' / label for column 43                      TFORM43 = 'E       '           / format for column 43                           TTYPE44 = 't03_bar_a06_bar_weighted_fraction' / label for column 44             TFORM44 = 'E       '           / format for column 44                           TTYPE45 = 't03_bar_a06_bar_debiased' / label for column 45                      TFORM45 = 'E       '           / format for column 45                           TTYPE46 = 't03_bar_a06_bar_flag' / label for column 46                          TFORM46 = 'I       '           / format for column 46                           TNULL46 =               -32768 / blank value for column 46                      TTYPE47 = 't03_bar_a07_no_bar_count' / label for column 47                      TFORM47 = 'I       '           / format for column 47                           TNULL47 =               -32768 / blank value for column 47                      TTYPE48 = 't03_bar_a07_no_bar_weight' / label for column 48                     TFORM48 = 'E       '           / format for column 48                           TTYPE49 = 't03_bar_a07_no_bar_fraction' / label for column 49                   TFORM49 = 'E       '           / format for column 49                           TTYPE50 = 't03_bar_a07_no_bar_weighted_fraction' / label for column 50          TFORM50 = 'E       '           / format for column 50                           TTYPE51 = 't03_bar_a07_no_bar_debiased' / label for column 51                   TFORM51 = 'E       '           / format for column 51                           TTYPE52 = 't03_bar_a07_no_bar_flag' / label for column 52                       TFORM52 = 'I       '           / format for column 52                           TNULL52 =               -32768 / blank value for column 52                      TTYPE53 = 't04_spiral_a08_spiral_count' / label for column 53                   TFORM53 = 'I       '           / format for column 53                           TNULL53 =               -32768 / blank value for column 53                      TTYPE54 = 't04_spiral_a08_spiral_weight' / label for column 54                  TFORM54 = 'E       '           / format for column 54                           TTYPE55 = 't04_spiral_a08_spiral_fraction' / label for column 55                TFORM55 = 'E       '           / format for column 55                           TTYPE56 = 't04_spiral_a08_spiral_weighted_fraction' / label for column 56       TFORM56 = 'E       '           / format for column 56                           TTYPE57 = 't04_spiral_a08_spiral_debiased' / label for column 57                TFORM57 = 'E       '           / format for column 57                           TTYPE58 = 't04_spiral_a08_spiral_flag' / label for column 58                    TFORM58 = 'I       '           / format for column 58                           TNULL58 =               -32768 / blank value for column 58                      TTYPE59 = 't04_spiral_a09_no_spiral_count' / label for column 59                TFORM59 = 'I       '           / format for column 59                           TNULL59 =               -32768 / blank value for column 59                      TTYPE60 = 't04_spiral_a09_no_spiral_weight' / label for column 60               TFORM60 = 'E       '           / format for column 60                           TTYPE61 = 't04_spiral_a09_no_spiral_fraction' / label for column 61             TFORM61 = 'E       '           / format for column 61                           TTYPE62 = 't04_spiral_a09_no_spiral_weighted_fraction' / label for column 62    TFORM62 = 'E       '           / format for column 62                           TTYPE63 = 't04_spiral_a09_no_spiral_debiased' / label for column 63             TFORM63 = 'E       '           / format for column 63                           TTYPE64 = 't04_spiral_a09_no_spiral_flag' / label for column 64                 TFORM64 = 'I       '           / format for column 64                           TNULL64 =               -32768 / blank value for column 64                      TTYPE65 = 't05_bulge_prominence_a10_no_bulge_count' / label for column 65       TFORM65 = 'I       '           / format for column 65                           TNULL65 =               -32768 / blank value for column 65                      TTYPE66 = 't05_bulge_prominence_a10_no_bulge_weight' / label for column 66      TFORM66 = 'E       '           / format for column 66                           TTYPE67 = 't05_bulge_prominence_a10_no_bulge_fraction' / label for column 67    TFORM67 = 'E       '           / format for column 67                           TTYPE68 = 't05_bulge_prominence_a10_no_bulge_weighted_fraction' / label for coluTFORM68 = 'E       '           / format for column 68                           TTYPE69 = 't05_bulge_prominence_a10_no_bulge_debiased' / label for column 69    TFORM69 = 'E       '           / format for column 69                           TTYPE70 = 't05_bulge_prominence_a10_no_bulge_flag' / label for column 70        TFORM70 = 'I       '           / format for column 70                           TNULL70 =               -32768 / blank value for column 70                      TTYPE71 = 't05_bulge_prominence_a11_just_noticeable_count' / label for column 71TFORM71 = 'I       '           / format for column 71                           TNULL71 =               -32768 / blank value for column 71                      TTYPE72 = 't05_bulge_prominence_a11_just_noticeable_weight' / label for column 7TFORM72 = 'E       '           / format for column 72                           TTYPE73 = 't05_bulge_prominence_a11_just_noticeable_fraction' / label for columnTFORM73 = 'E       '           / format for column 73                           TTYPE74 = 't05_bulge_prominence_a11_just_noticeable_weighted_fraction' / label fTFORM74 = 'E       '           / format for column 74                           TTYPE75 = 't05_bulge_prominence_a11_just_noticeable_debiased' / label for columnTFORM75 = 'E       '           / format for column 75                           TTYPE76 = 't05_bulge_prominence_a11_just_noticeable_flag' / label for column 76 TFORM76 = 'I       '           / format for column 76                           TNULL76 =               -32768 / blank value for column 76                      TTYPE77 = 't05_bulge_prominence_a12_obvious_count' / label for column 77        TFORM77 = 'I       '           / format for column 77                           TNULL77 =               -32768 / blank value for column 77                      TTYPE78 = 't05_bulge_prominence_a12_obvious_weight' / label for column 78       TFORM78 = 'E       '           / format for column 78                           TTYPE79 = 't05_bulge_prominence_a12_obvious_fraction' / label for column 79     TFORM79 = 'E       '           / format for column 79                           TTYPE80 = 't05_bulge_prominence_a12_obvious_weighted_fraction' / label for columTFORM80 = 'E       '           / format for column 80                           TTYPE81 = 't05_bulge_prominence_a12_obvious_debiased' / label for column 81     TFORM81 = 'E       '           / format for column 81                           TTYPE82 = 't05_bulge_prominence_a12_obvious_flag' / label for column 82         TFORM82 = 'I       '           / format for column 82                           TNULL82 =               -32768 / blank value for column 82                      TTYPE83 = 't05_bulge_prominence_a13_dominant_count' / label for column 83       TFORM83 = 'I       '           / format for column 83                           TNULL83 =               -32768 / blank value for column 83                      TTYPE84 = 't05_bulge_prominence_a13_dominant_weight' / label for column 84      TFORM84 = 'E       '           / format for column 84                           TTYPE85 = 't05_bulge_prominence_a13_dominant_fraction' / label for column 85    TFORM85 = 'E       '           / format for column 85                           TTYPE86 = 't05_bulge_prominence_a13_dominant_weighted_fraction' / label for coluTFORM86 = 'E       '           / format for column 86                           TTYPE87 = 't05_bulge_prominence_a13_dominant_debiased' / label for column 87    TFORM87 = 'E       '           / format for column 87                           TTYPE88 = 't05_bulge_prominence_a13_dominant_flag' / label for column 88        TFORM88 = 'I       '           / format for column 88                           TNULL88 =               -32768 / blank value for column 88                      TTYPE89 = 't06_odd_a14_yes_count' / label for column 89                         TFORM89 = 'I       '           / format for column 89                           TNULL89 =               -32768 / blank value for column 89                      TTYPE90 = 't06_odd_a14_yes_weight' / label for column 90                        TFORM90 = 'E       '           / format for column 90                           TTYPE91 = 't06_odd_a14_yes_fraction' / label for column 91                      TFORM91 = 'E       '           / format for column 91                           TTYPE92 = 't06_odd_a14_yes_weighted_fraction' / label for column 92             TFORM92 = 'E       '           / format for column 92                           TTYPE93 = 't06_odd_a14_yes_debiased' / label for column 93                      TFORM93 = 'E       '           / format for column 93                           TTYPE94 = 't06_odd_a14_yes_flag' / label for column 94                          TFORM94 = 'I       '           / format for column 94                           TNULL94 =               -32768 / blank value for column 94                      TTYPE95 = 't06_odd_a15_no_count' / label for column 95                          TFORM95 = 'I       '           / format for column 95                           TNULL95 =               -32768 / blank value for column 95                      TTYPE96 = 't06_odd_a15_no_weight' / label for column 96                         TFORM96 = 'E       '           / format for column 96                           TTYPE97 = 't06_odd_a15_no_fraction' / label for column 97                       TFORM97 = 'E       '           / format for column 97                           TTYPE98 = 't06_odd_a15_no_weighted_fraction' / label for column 98              TFORM98 = 'E       '           / format for column 98                           TTYPE99 = 't06_odd_a15_no_debiased' / label for column 99                       TFORM99 = 'E       '           / format for column 99                           TTYPE100= 't06_odd_a15_no_flag' / label for column 100                          TFORM100= 'I       '           / format for column 100                          TNULL100=               -32768 / blank value for column 100                     TTYPE101= 't07_rounded_a16_completely_round_count' / label for column 101       TFORM101= 'I       '           / format for column 101                          TNULL101=               -32768 / blank value for column 101                     TTYPE102= 't07_rounded_a16_completely_round_weight' / label for column 102      TFORM102= 'E       '           / format for column 102                          TTYPE103= 't07_rounded_a16_completely_round_fraction' / label for column 103    TFORM103= 'E       '           / format for column 103                          TTYPE104= 't07_rounded_a16_completely_round_weighted_fraction' / label for columTFORM104= 'E       '           / format for column 104                          TTYPE105= 't07_rounded_a16_completely_round_debiased' / label for column 105    TFORM105= 'E       '           / format for column 105                          TTYPE106= 't07_rounded_a16_completely_round_flag' / label for column 106        TFORM106= 'I       '           / format for column 106                          TNULL106=               -32768 / blank value for column 106                     TTYPE107= 't07_rounded_a17_in_between_count' / label for column 107             TFORM107= 'I       '           / format for column 107                          TNULL107=               -32768 / blank value for column 107                     TTYPE108= 't07_rounded_a17_in_between_weight' / label for column 108            TFORM108= 'E       '           / format for column 108                          TTYPE109= 't07_rounded_a17_in_between_fraction' / label for column 109          TFORM109= 'E       '           / format for column 109                          TTYPE110= 't07_rounded_a17_in_between_weighted_fraction' / label for column 110 TFORM110= 'E       '           / format for column 110                          TTYPE111= 't07_rounded_a17_in_between_debiased' / label for column 111          TFORM111= 'E       '           / format for column 111                          TTYPE112= 't07_rounded_a17_in_between_flag' / label for column 112              TFORM112= 'I       '           / format for column 112                          TNULL112=               -32768 / blank value for column 112                     TTYPE113= 't07_rounded_a18_cigar_shaped_count' / label for column 113           TFORM113= 'I       '           / format for column 113                          TNULL113=               -32768 / blank value for column 113                     TTYPE114= 't07_rounded_a18_cigar_shaped_weight' / label for column 114          TFORM114= 'E       '           / format for column 114                          TTYPE115= 't07_rounded_a18_cigar_shaped_fraction' / label for column 115        TFORM115= 'E       '           / format for column 115                          TTYPE116= 't07_rounded_a18_cigar_shaped_weighted_fraction' / label for column 11TFORM116= 'E       '           / format for column 116                          TTYPE117= 't07_rounded_a18_cigar_shaped_debiased' / label for column 117        TFORM117= 'E       '           / format for column 117                          TTYPE118= 't07_rounded_a18_cigar_shaped_flag' / label for column 118            TFORM118= 'I       '           / format for column 118                          TNULL118=               -32768 / blank value for column 118                     TTYPE119= 't08_odd_feature_a19_ring_count' / label for column 119               TFORM119= 'I       '           / format for column 119                          TNULL119=               -32768 / blank value for column 119                     TTYPE120= 't08_odd_feature_a19_ring_weight' / label for column 120              TFORM120= 'E       '           / format for column 120                          TTYPE121= 't08_odd_feature_a19_ring_fraction' / label for column 121            TFORM121= 'E       '           / format for column 121                          TTYPE122= 't08_odd_feature_a19_ring_weighted_fraction' / label for column 122   TFORM122= 'E       '           / format for column 122                          TTYPE123= 't08_odd_feature_a19_ring_debiased' / label for column 123            TFORM123= 'E       '           / format for column 123                          TTYPE124= 't08_odd_feature_a19_ring_flag' / label for column 124                TFORM124= 'I       '           / format for column 124                          TNULL124=               -32768 / blank value for column 124                     TTYPE125= 't08_odd_feature_a20_lens_or_arc_count' / label for column 125        TFORM125= 'I       '           / format for column 125                          TNULL125=               -32768 / blank value for column 125                     TTYPE126= 't08_odd_feature_a20_lens_or_arc_weight' / label for column 126       TFORM126= 'E       '           / format for column 126                          TTYPE127= 't08_odd_feature_a20_lens_or_arc_fraction' / label for column 127     TFORM127= 'E       '           / format for column 127                          TTYPE128= 't08_odd_feature_a20_lens_or_arc_weighted_fraction' / label for columnTFORM128= 'E       '           / format for column 128                          TTYPE129= 't08_odd_feature_a20_lens_or_arc_debiased' / label for column 129     TFORM129= 'E       '           / format for column 129                          TTYPE130= 't08_odd_feature_a20_lens_or_arc_flag' / label for column 130         TFORM130= 'I       '           / format for column 130                          TNULL130=               -32768 / blank value for column 130                     TTYPE131= 't08_odd_feature_a21_disturbed_count' / label for column 131          TFORM131= 'I       '           / format for column 131                          TNULL131=               -32768 / blank value for column 131                     TTYPE132= 't08_odd_feature_a21_disturbed_weight' / label for column 132         TFORM132= 'E       '           / format for column 132                          TTYPE133= 't08_odd_feature_a21_disturbed_fraction' / label for column 133       TFORM133= 'E       '           / format for column 133                          TTYPE134= 't08_odd_feature_a21_disturbed_weighted_fraction' / label for column 1TFORM134= 'E       '           / format for column 134                          TTYPE135= 't08_odd_feature_a21_disturbed_debiased' / label for column 135       TFORM135= 'E       '           / format for column 135                          TTYPE136= 't08_odd_feature_a21_disturbed_flag' / label for column 136           TFORM136= 'I       '           / format for column 136                          TNULL136=               -32768 / blank value for column 136                     TTYPE137= 't08_odd_feature_a22_irregular_count' / label for column 137          TFORM137= 'I       '           / format for column 137                          TNULL137=               -32768 / blank value for column 137                     TTYPE138= 't08_odd_feature_a22_irregular_weight' / label for column 138         TFORM138= 'E       '           / format for column 138                          TTYPE139= 't08_odd_feature_a22_irregular_fraction' / label for column 139       TFORM139= 'E       '           / format for column 139                          TTYPE140= 't08_odd_feature_a22_irregular_weighted_fraction' / label for column 1TFORM140= 'E       '           / format for column 140                          TTYPE141= 't08_odd_feature_a22_irregular_debiased' / label for column 141       TFORM141= 'E       '           / format for column 141                          TTYPE142= 't08_odd_feature_a22_irregular_flag' / label for column 142           TFORM142= 'I       '           / format for column 142                          TNULL142=               -32768 / blank value for column 142                     TTYPE143= 't08_odd_feature_a23_other_count' / label for column 143              TFORM143= 'I       '           / format for column 143                          TNULL143=               -32768 / blank value for column 143                     TTYPE144= 't08_odd_feature_a23_other_weight' / label for column 144             TFORM144= 'E       '           / format for column 144                          TTYPE145= 't08_odd_feature_a23_other_fraction' / label for column 145           TFORM145= 'E       '           / format for column 145                          TTYPE146= 't08_odd_feature_a23_other_weighted_fraction' / label for column 146  TFORM146= 'E       '           / format for column 146                          TTYPE147= 't08_odd_feature_a23_other_debiased' / label for column 147           TFORM147= 'E       '           / format for column 147                          TTYPE148= 't08_odd_feature_a23_other_flag' / label for column 148               TFORM148= 'I       '           / format for column 148                          TNULL148=               -32768 / blank value for column 148                     TTYPE149= 't08_odd_feature_a24_merger_count' / label for column 149             TFORM149= 'I       '           / format for column 149                          TNULL149=               -32768 / blank value for column 149                     TTYPE150= 't08_odd_feature_a24_merger_weight' / label for column 150            TFORM150= 'E       '           / format for column 150                          TTYPE151= 't08_odd_feature_a24_merger_fraction' / label for column 151          TFORM151= 'E       '           / format for column 151                          TTYPE152= 't08_odd_feature_a24_merger_weighted_fraction' / label for column 152 TFORM152= 'E       '           / format for column 152                          TTYPE153= 't08_odd_feature_a24_merger_debiased' / label for column 153          TFORM153= 'E       '           / format for column 153                          TTYPE154= 't08_odd_feature_a24_merger_flag' / label for column 154              TFORM154= 'I       '           / format for column 154                          TNULL154=               -32768 / blank value for column 154                     TTYPE155= 't08_odd_feature_a38_dust_lane_count' / label for column 155          TFORM155= 'I       '           / format for column 155                          TNULL155=               -32768 / blank value for column 155                     TTYPE156= 't08_odd_feature_a38_dust_lane_weight' / label for column 156         TFORM156= 'E       '           / format for column 156                          TTYPE157= 't08_odd_feature_a38_dust_lane_fraction' / label for column 157       TFORM157= 'E       '           / format for column 157                          TTYPE158= 't08_odd_feature_a38_dust_lane_weighted_fraction' / label for column 1TFORM158= 'E       '           / format for column 158                          TTYPE159= 't08_odd_feature_a38_dust_lane_debiased' / label for column 159       TFORM159= 'E       '           / format for column 159                          TTYPE160= 't08_odd_feature_a38_dust_lane_flag' / label for column 160           TFORM160= 'I       '           / format for column 160                          TNULL160=               -32768 / blank value for column 160                     TTYPE161= 't09_bulge_shape_a25_rounded_count' / label for column 161            TFORM161= 'I       '           / format for column 161                          TNULL161=               -32768 / blank value for column 161                     TTYPE162= 't09_bulge_shape_a25_rounded_weight' / label for column 162           TFORM162= 'E       '           / format for column 162                          TTYPE163= 't09_bulge_shape_a25_rounded_fraction' / label for column 163         TFORM163= 'E       '           / format for column 163                          TTYPE164= 't09_bulge_shape_a25_rounded_weighted_fraction' / label for column 164TFORM164= 'E       '           / format for column 164                          TTYPE165= 't09_bulge_shape_a25_rounded_debiased' / label for column 165         TFORM165= 'E       '           / format for column 165                          TTYPE166= 't09_bulge_shape_a25_rounded_flag' / label for column 166             TFORM166= 'I       '           / format for column 166                          TNULL166=               -32768 / blank value for column 166                     TTYPE167= 't09_bulge_shape_a26_boxy_count' / label for column 167               TFORM167= 'I       '           / format for column 167                          TNULL167=               -32768 / blank value for column 167                     TTYPE168= 't09_bulge_shape_a26_boxy_weight' / label for column 168              TFORM168= 'E       '           / format for column 168                          TTYPE169= 't09_bulge_shape_a26_boxy_fraction' / label for column 169            TFORM169= 'E       '           / format for column 169                          TTYPE170= 't09_bulge_shape_a26_boxy_weighted_fraction' / label for column 170   TFORM170= 'E       '           / format for column 170                          TTYPE171= 't09_bulge_shape_a26_boxy_debiased' / label for column 171            TFORM171= 'E       '           / format for column 171                          TTYPE172= 't09_bulge_shape_a26_boxy_flag' / label for column 172                TFORM172= 'I       '           / format for column 172                          TNULL172=               -32768 / blank value for column 172                     TTYPE173= 't09_bulge_shape_a27_no_bulge_count' / label for column 173           TFORM173= 'I       '           / format for column 173                          TNULL173=               -32768 / blank value for column 173                     TTYPE174= 't09_bulge_shape_a27_no_bulge_weight' / label for column 174          TFORM174= 'E       '           / format for column 174                          TTYPE175= 't09_bulge_shape_a27_no_bulge_fraction' / label for column 175        TFORM175= 'E       '           / format for column 175                          TTYPE176= 't09_bulge_shape_a27_no_bulge_weighted_fraction' / label for column 17TFORM176= 'E       '           / format for column 176                          TTYPE177= 't09_bulge_shape_a27_no_bulge_debiased' / label for column 177        TFORM177= 'E       '           / format for column 177                          TTYPE178= 't09_bulge_shape_a27_no_bulge_flag' / label for column 178            TFORM178= 'I       '           / format for column 178                          TNULL178=               -32768 / blank value for column 178                     TTYPE179= 't10_arms_winding_a28_tight_count' / label for column 179             TFORM179= 'I       '           / format for column 179                          TNULL179=               -32768 / blank value for column 179                     TTYPE180= 't10_arms_winding_a28_tight_weight' / label for column 180            TFORM180= 'E       '           / format for column 180                          TTYPE181= 't10_arms_winding_a28_tight_fraction' / label for column 181          TFORM181= 'E       '           / format for column 181                          TTYPE182= 't10_arms_winding_a28_tight_weighted_fraction' / label for column 182 TFORM182= 'E       '           / format for column 182                          TTYPE183= 't10_arms_winding_a28_tight_debiased' / label for column 183          TFORM183= 'E       '           / format for column 183                          TTYPE184= 't10_arms_winding_a28_tight_flag' / label for column 184              TFORM184= 'I       '           / format for column 184                          TNULL184=               -32768 / blank value for column 184                     TTYPE185= 't10_arms_winding_a29_medium_count' / label for column 185            TFORM185= 'I       '           / format for column 185                          TNULL185=               -32768 / blank value for column 185                     TTYPE186= 't10_arms_winding_a29_medium_weight' / label for column 186           TFORM186= 'E       '           / format for column 186                          TTYPE187= 't10_arms_winding_a29_medium_fraction' / label for column 187         TFORM187= 'E       '           / format for column 187                          TTYPE188= 't10_arms_winding_a29_medium_weighted_fraction' / label for column 188TFORM188= 'E       '           / format for column 188                          TTYPE189= 't10_arms_winding_a29_medium_debiased' / label for column 189         TFORM189= 'E       '           / format for column 189                          TTYPE190= 't10_arms_winding_a29_medium_flag' / label for column 190             TFORM190= 'I       '           / format for column 190                          TNULL190=               -32768 / blank value for column 190                     TTYPE191= 't10_arms_winding_a30_loose_count' / label for column 191             TFORM191= 'I       '           / format for column 191                          TNULL191=               -32768 / blank value for column 191                     TTYPE192= 't10_arms_winding_a30_loose_weight' / label for column 192            TFORM192= 'E       '           / format for column 192                          TTYPE193= 't10_arms_winding_a30_loose_fraction' / label for column 193          TFORM193= 'E       '           / format for column 193                          TTYPE194= 't10_arms_winding_a30_loose_weighted_fraction' / label for column 194 TFORM194= 'E       '           / format for column 194                          TTYPE195= 't10_arms_winding_a30_loose_debiased' / label for column 195          TFORM195= 'E       '           / format for column 195                          TTYPE196= 't10_arms_winding_a30_loose_flag' / label for column 196              TFORM196= 'I       '           / format for column 196                          TNULL196=               -32768 / blank value for column 196                     TTYPE197= 't11_arms_number_a31_1_count' / label for column 197                  TFORM197= 'I       '           / format for column 197                          TNULL197=               -32768 / blank value for column 197                     TTYPE198= 't11_arms_number_a31_1_weight' / label for column 198                 TFORM198= 'E       '           / format for column 198                          TTYPE199= 't11_arms_number_a31_1_fraction' / label for column 199               TFORM199= 'E       '           / format for column 199                          TTYPE200= 't11_arms_number_a31_1_weighted_fraction' / label for column 200      TFORM200= 'E       '           / format for column 200                          TTYPE201= 't11_arms_number_a31_1_debiased' / label for column 201               TFORM201= 'E       '           / format for column 201                          TTYPE202= 't11_arms_number_a31_1_flag' / label for column 202                   TFORM202= 'I       '           / format for column 202                          TNULL202=               -32768 / blank value for column 202                     TTYPE203= 't11_arms_number_a32_2_count' / label for column 203                  TFORM203= 'I       '           / format for column 203                          TNULL203=               -32768 / blank value for column 203                     TTYPE204= 't11_arms_number_a32_2_weight' / label for column 204                 TFORM204= 'E       '           / format for column 204                          TTYPE205= 't11_arms_number_a32_2_fraction' / label for column 205               TFORM205= 'E       '           / format for column 205                          TTYPE206= 't11_arms_number_a32_2_weighted_fraction' / label for column 206      TFORM206= 'E       '           / format for column 206                          TTYPE207= 't11_arms_number_a32_2_debiased' / label for column 207               TFORM207= 'E       '           / format for column 207                          TTYPE208= 't11_arms_number_a32_2_flag' / label for column 208                   TFORM208= 'I       '           / format for column 208                          TNULL208=               -32768 / blank value for column 208                     TTYPE209= 't11_arms_number_a33_3_count' / label for column 209                  TFORM209= 'I       '           / format for column 209                          TNULL209=               -32768 / blank value for column 209                     TTYPE210= 't11_arms_number_a33_3_weight' / label for column 210                 TFORM210= 'E       '           / format for column 210                          TTYPE211= 't11_arms_number_a33_3_fraction' / label for column 211               TFORM211= 'E       '           / format for column 211                          TTYPE212= 't11_arms_number_a33_3_weighted_fraction' / label for column 212      TFORM212= 'E       '           / format for column 212                          TTYPE213= 't11_arms_number_a33_3_debiased' / label for column 213               TFORM213= 'E       '           / format for column 213                          TTYPE214= 't11_arms_number_a33_3_flag' / label for column 214                   TFORM214= 'I       '           / format for column 214                          TNULL214=               -32768 / blank value for column 214                     TTYPE215= 't11_arms_number_a34_4_count' / label for column 215                  TFORM215= 'I       '           / format for column 215                          TNULL215=               -32768 / blank value for column 215                     TTYPE216= 't11_arms_number_a34_4_weight' / label for column 216                 TFORM216= 'E       '           / format for column 216                          TTYPE217= 't11_arms_number_a34_4_fraction' / label for column 217               TFORM217= 'E       '           / format for column 217                          TTYPE218= 't11_arms_number_a34_4_weighted_fraction' / label for column 218      TFORM218= 'E       '           / format for column 218                          TTYPE219= 't11_arms_number_a34_4_debiased' / label for column 219               TFORM219= 'E       '           / format for column 219                          TTYPE220= 't11_arms_number_a34_4_flag' / label for column 220                   TFORM220= 'I       '           / format for column 220                          TNULL220=               -32768 / blank value for column 220                     TTYPE221= 't11_arms_number_a36_more_than_4_count' / label for column 221        TFORM221= 'I       '           / format for column 221                          TNULL221=               -32768 / blank value for column 221                     TTYPE222= 't11_arms_number_a36_more_than_4_weight' / label for column 222       TFORM222= 'E       '           / format for column 222                          TTYPE223= 't11_arms_number_a36_more_than_4_fraction' / label for column 223     TFORM223= 'E       '           / format for column 223                          TTYPE224= 't11_arms_number_a36_more_than_4_weighted_fraction' / label for columnTFORM224= 'E       '           / format for column 224                          TTYPE225= 't11_arms_number_a36_more_than_4_debiased' / label for column 225     TFORM225= 'E       '           / format for column 225                          TTYPE226= 't11_arms_number_a36_more_than_4_flag' / label for column 226         TFORM226= 'I       '           / format for column 226                          TNULL226=               -32768 / blank value for column 226                     TTYPE227= 't11_arms_number_a37_cant_tell_count' / label for column 227          TFORM227= 'I       '           / format for column 227                          TNULL227=               -32768 / blank value for column 227                     TTYPE228= 't11_arms_number_a37_cant_tell_weight' / label for column 228         TFORM228= 'E       '           / format for column 228                          TTYPE229= 't11_arms_number_a37_cant_tell_fraction' / label for column 229       TFORM229= 'E       '           / format for column 229                          TTYPE230= 't11_arms_number_a37_cant_tell_weighted_fraction' / label for column 2TFORM230= 'E       '           / format for column 230                          TTYPE231= 't11_arms_number_a37_cant_tell_debiased' / label for column 231       TFORM231= 'E       '           / format for column 231                          TTYPE232= 't11_arms_number_a37_cant_tell_flag' / label for column 232           TFORM232= 'I       '           / format for column 232                          TNULL232=               -32768 / blank value for column 232                     TTYPE233= 'OBJID_1 '           / label for column 233                           TFORM233= 'K       '           / format for column 233                          TNULL233= -9223372036854775808 / blank value for column 233                     TTYPE234= 'RUN     '           / label for column 234                           TFORM234= 'I       '           / format for column 234                          TNULL234=               -32768 / blank value for column 234                     TTYPE235= 'RERUN   '           / label for column 235                           TFORM235= 'I       '           / format for column 235                          TNULL235=               -32768 / blank value for column 235                     TTYPE236= 'CAMCOL  '           / label for column 236                           TFORM236= 'I       '           / format for column 236                          TNULL236=               -32768 / blank value for column 236                     TTYPE237= 'FIELD   '           / label for column 237                           TFORM237= 'I       '           / format for column 237                          TNULL237=               -32768 / blank value for column 237                     TTYPE238= 'OBJ     '           / label for column 238                           TFORM238= 'I       '           / format for column 238                          TNULL238=               -32768 / blank value for column 238                     TTYPE239= 'RA_2    '           / label for column 239                           TFORM239= 'D       '           / format for column 239                          TTYPE240= 'DEC_2   '           / label for column 240                           TFORM240= 'D       '           / format for column 240                          TTYPE241= 'PETROR50_R'         / label for column 241                           TFORM241= 'E       '           / format for column 241                          TTYPE242= 'PETROR90_R'         / label for column 242                           TFORM242= 'E       '           / format for column 242                          TTYPE243= 'PETROMAG_U'         / label for column 243                           TFORM243= 'E       '           / format for column 243                          TTYPE244= 'PETROMAG_G'         / label for column 244                           TFORM244= 'E       '           / format for column 244                          TTYPE245= 'PETROMAG_R'         / label for column 245                           TFORM245= 'E       '           / format for column 245                          TTYPE246= 'PETROMAG_I'         / label for column 246                           TFORM246= 'E       '           / format for column 246                          TTYPE247= 'PETROMAG_Z'         / label for column 247                           TFORM247= 'E       '           / format for column 247                          TTYPE248= 'PETROMAGERR_U'      / label for column 248                           TFORM248= 'E       '           / format for column 248                          TTYPE249= 'PETROMAGERR_G'      / label for column 249                           TFORM249= 'E       '           / format for column 249                          TTYPE250= 'PETROMAGERR_R'      / label for column 250                           TFORM250= 'E       '           / format for column 250                          TTYPE251= 'PETROMAGERR_I'      / label for column 251                           TFORM251= 'E       '           / format for column 251                          TTYPE252= 'PETROMAGERR_Z'      / label for column 252                           TFORM252= 'E       '           / format for column 252                          TTYPE253= 'PSFMAG_R'           / label for column 253                           TFORM253= 'E       '           / format for column 253                          TTYPE254= 'FIBERMAG_R'         / label for column 254                           TFORM254= 'E       '           / format for column 254                          TTYPE255= 'DEVMAG_R'           / label for column 255                           TFORM255= 'E       '           / format for column 255                          TTYPE256= 'DEVMAGERR_R'        / label for column 256                           TFORM256= 'E       '           / format for column 256                          TTYPE257= 'EXPMAG_R'           / label for column 257                           TFORM257= 'E       '           / format for column 257                          TTYPE258= 'EXPMAGERR_R'        / label for column 258                           TFORM258= 'E       '           / format for column 258                          TTYPE259= 'FRACDEV_R'          / label for column 259                           TFORM259= 'E       '           / format for column 259                          TTYPE260= 'MU50_R  '           / label for column 260                           TFORM260= 'D       '           / format for column 260                          TTYPE261= 'EXTINCTION_U'       / label for column 261                           TFORM261= 'E       '           / format for column 261                          TTYPE262= 'EXTINCTION_G'       / label for column 262                           TFORM262= 'E       '           / format for column 262                          TTYPE263= 'EXTINCTION_R'       / label for column 263                           TFORM263= 'E       '           / format for column 263                          TTYPE264= 'EXTINCTION_I'       / label for column 264                           TFORM264= 'E       '           / format for column 264                          TTYPE265= 'EXTINCTION_Z'       / label for column 265                           TFORM265= 'E       '           / format for column 265                          TTYPE266= 'ROWC_U  '           / label for column 266                           TFORM266= 'E       '           / format for column 266                          TTYPE267= 'COLC_U  '           / label for column 267                           TFORM267= 'E       '           / format for column 267                          TTYPE268= 'ROWC_G  '           / label for column 268                           TFORM268= 'E       '           / format for column 268                          TTYPE269= 'COLC_G  '           / label for column 269                           TFORM269= 'E       '           / format for column 269                          TTYPE270= 'ROWC_R  '           / label for column 270                           TFORM270= 'E       '           / format for column 270                          TTYPE271= 'COLC_R  '           / label for column 271                           TFORM271= 'E       '           / format for column 271                          TTYPE272= 'ROWC_I  '           / label for column 272                           TFORM272= 'E       '           / format for column 272                          TTYPE273= 'COLC_I  '           / label for column 273                           TFORM273= 'E       '           / format for column 273                          TTYPE274= 'ROWC_Z  '           / label for column 274                           TFORM274= 'E       '           / format for column 274                          TTYPE275= 'COLC_Z  '           / label for column 275                           TFORM275= 'E       '           / format for column 275                          TTYPE276= 'CMODELMAG_R'        / label for column 276                           TFORM276= 'D       '           / format for column 276                          TTYPE277= 'CMODELMAGERR_R'     / label for column 277                           TFORM277= 'D       '           / format for column 277                          TTYPE278= 'REDSHIFT_1'         / label for column 278                           TFORM278= 'E       '           / format for column 278                          TTYPE279= 'REDSHIFTERR_1'      / label for column 279                           TFORM279= 'E       '           / format for column 279                          TTYPE280= 'PETROMAG_MU'        / label for column 280                           TFORM280= 'E       '           / format for column 280                          TTYPE281= 'PETROMAG_MG'        / label for column 281                           TFORM281= 'E       '           / format for column 281                          TTYPE282= 'PETROMAG_MR'        / label for column 282                           TFORM282= 'E       '           / format for column 282                          TTYPE283= 'PETROMAG_MI'        / label for column 283                           TFORM283= 'E       '           / format for column 283                          TTYPE284= 'PETROMAG_MZ'        / label for column 284                           TFORM284= 'E       '           / format for column 284                          TTYPE285= 'PETROMAGERR_MU'     / label for column 285                           TFORM285= 'E       '           / format for column 285                          TTYPE286= 'PETROMAGERR_MG'     / label for column 286                           TFORM286= 'E       '           / format for column 286                          TTYPE287= 'PETROMAGERR_MR'     / label for column 287                           TFORM287= 'E       '           / format for column 287                          TTYPE288= 'PETROMAGERR_MI'     / label for column 288                           TFORM288= 'E       '           / format for column 288                          TTYPE289= 'PETROMAGERR_MZ'     / label for column 289                           TFORM289= 'E       '           / format for column 289                          TTYPE290= 'PETROR50_R_KPC'     / label for column 290                           TFORM290= 'E       '           / format for column 290                          TTYPE291= 'REGION  '           / label for column 291                           TFORM291= 'I       '           / format for column 291                          TNULL291=               -32768 / blank value for column 291                     TTYPE292= 'PETROR50_R_KPC_SIMPLE_BIN' / label for column 292                    TFORM292= 'I       '           / format for column 292                          TNULL292=               -32768 / blank value for column 292                     TTYPE293= 'PETROMAG_MR_SIMPLE_BIN' / label for column 293                       TFORM293= 'I       '           / format for column 293                          TNULL293=               -32768 / blank value for column 293                     TTYPE294= 'REDSHIFT_SIMPLE_BIN' / label for column 294                          TFORM294= 'I       '           / format for column 294                          TNULL294=               -32768 / blank value for column 294                     TTYPE295= 'WVT_BIN '           / label for column 295                           TFORM295= 'I       '           / format for column 295                          TNULL295=               -32768 / blank value for column 295                     TTYPE296= 'U-R     '           / label for column 296                           TFORM296= 'E       '           / format for column 296                          TCOMM296= '(PETROMAG_MU-PETROMAG_MR)'                                           TTYPE297= 'OBJID_2 '           / label for column 297                           TFORM297= 'K       '           / format for column 297                          TNULL297= -9223372036854775808 / blank value for column 297                     TTYPE298= 'U       '           / label for column 298                           TFORM298= 'D       '           / format for column 298                          TTYPE299= 'G       '           / label for column 299                           TFORM299= 'D       '           / format for column 299                          TTYPE300= 'R       '           / label for column 300                           TFORM300= 'D       '           / format for column 300                          TTYPE301= 'I       '           / label for column 301                           TFORM301= 'D       '           / format for column 301                          TTYPE302= 'Z       '           / label for column 302                           TFORM302= 'D       '           / format for column 302                          TTYPE303= 'UERR    '           / label for column 303                           TFORM303= 'D       '           / format for column 303                          TTYPE304= 'GERR    '           / label for column 304                           TFORM304= 'D       '           / format for column 304                          TTYPE305= 'RERR    '           / label for column 305                           TFORM305= 'D       '           / format for column 305                          TTYPE306= 'IERR    '           / label for column 306                           TFORM306= 'D       '           / format for column 306                          TTYPE307= 'ZERR    '           / label for column 307                           TFORM307= 'D       '           / format for column 307                          TTYPE308= 'R50_ARCSEC'         / label for column 308                           TFORM308= 'D       '           / format for column 308                          TTYPE309= 'R90_ARCSEC'         / label for column 309                           TFORM309= 'D       '           / format for column 309                          TTYPE310= 'REDSHIFT_2'         / label for column 310                           TFORM310= 'D       '           / format for column 310                          TTYPE311= 'REDSHIFTERR_2'      / label for column 311                           TFORM311= 'D       '           / format for column 311                          TTYPE312= 'REDSHIFTCONF'       / label for column 312                           TFORM312= 'D       '           / format for column 312                          TTYPE313= 'FLAGS   '           / label for column 313                           TFORM313= 'K       '           / format for column 313                          TNULL313= -9223372036854775808 / blank value for column 313                     TTYPE314= 'STATUS  '           / label for column 314                           TFORM314= 'J       '           / format for column 314                          TNULL314=          -2147483648 / blank value for column 314                     TTYPE315= 'INSIDEMASK'         / label for column 315                           TFORM315= 'I       '           / format for column 315                          TNULL315=               -32768 / blank value for column 315                     TTYPE316= 'PRIMTARGET'         / label for column 316                           TFORM316= 'J       '           / format for column 316                          TNULL316=          -2147483648 / blank value for column 316                     TTYPE317= 'CALIBSTATUS_U'      / label for column 317                           TFORM317= 'I       '           / format for column 317                          TNULL317=               -32768 / blank value for column 317                     TTYPE318= 'RA      '           / label for column 318                           TFORM318= 'D       '           / format for column 318                          TTYPE319= 'DEC     '           / label for column 319                           TFORM319= 'D       '           / format for column 319                          TTYPE320= 'BEST    '           / label for column 320                           TFORM320= 'K       '           / format for column 320                          TNULL320= -9223372036854775808 / blank value for column 320                     TTYPE321= 'MU      '           / label for column 321                           TFORM321= 'E       '           / format for column 321                          TTYPE322= 'MG      '           / label for column 322                           TFORM322= 'E       '           / format for column 322                          TTYPE323= 'MR      '           / label for column 323                           TFORM323= 'E       '           / format for column 323                          TTYPE324= 'MI      '           / label for column 324                           TFORM324= 'E       '           / format for column 324                          TTYPE325= 'MZ      '           / label for column 325                           TFORM325= 'E       '           / format for column 325                          TTYPE326= 'MUERR   '           / label for column 326                           TFORM326= 'E       '           / format for column 326                          TTYPE327= 'MGERR   '           / label for column 327                           TFORM327= 'E       '           / format for column 327                          TTYPE328= 'MRERR   '           / label for column 328                           TFORM328= 'E       '           / format for column 328                          TTYPE329= 'MIERR   '           / label for column 329                           TFORM329= 'E       '           / format for column 329                          TTYPE330= 'MZERR   '           / label for column 330                           TFORM330= 'E       '           / format for column 330                          TTYPE331= 'R50_KPC '           / label for column 331                           TFORM331= 'E       '           / format for column 331                          TTYPE332= 'R50_KPC_FUKUGITA_BIN' / label for column 332                         TFORM332= 'I       '           / format for column 332                          TNULL332=               -32768 / blank value for column 332                     TTYPE333= 'MR_FUKUGITA_BIN'    / label for column 333                           TFORM333= 'I       '           / format for column 333                          TNULL333=               -32768 / blank value for column 333                     TTYPE334= 'REDSHIFT_FUKUGITA_BIN' / label for column 334                        TFORM334= 'I       '           / format for column 334                          TNULL334=               -32768 / blank value for column 334                     TTYPE335= 'R50_KPC_MOSES_BIN'  / label for column 335                           TFORM335= 'I       '           / format for column 335                          TNULL335=               -32768 / blank value for column 335                     TTYPE336= 'MR_MOSES_BIN'       / label for column 336                           TFORM336= 'I       '           / format for column 336                          TNULL336=               -32768 / blank value for column 336                     TTYPE337= 'REDSHIFT_MOSES_BIN' / label for column 337                           TFORM337= 'I       '           / format for column 337                          TNULL337=               -32768 / blank value for column 337                     TTYPE338= 'R50_KPC_ZOO_BIN'    / label for column 338                           TFORM338= 'I       '           / format for column 338                          TNULL338=               -32768 / blank value for column 338                     TTYPE339= 'MR_ZOO_BIN'         / label for column 339                           TFORM339= 'I       '           / format for column 339                          TNULL339=               -32768 / blank value for column 339                     TTYPE340= 'REDSHIFT_ZOO_BIN'   / label for column 340                           TFORM340= 'I       '           / format for column 340                          TNULL340=               -32768 / blank value for column 340                     TTYPE341= 'OBJID_CSUW'         / label for column 341                           TFORM341= 'K       '           / format for column 341                          TNULL341= -9223372036854775808 / blank value for column 341                     TTYPE342= 'STATUS_CSUW'        / label for column 342                           TFORM342= 'I       '           / format for column 342                          TNULL342=               -32768 / blank value for column 342                     TTYPE343= 'NOBS_CSUW'          / label for column 343                           TFORM343= 'I       '           / format for column 343                          TNULL343=               -32768 / blank value for column 343                     TTYPE344= 'NEXP_CSUW'          / label for column 344                           TFORM344= 'I       '           / format for column 344                          TNULL344=               -32768 / blank value for column 344                     TTYPE345= 'SUMWEIGHTS_CSUW'    / label for column 345                           TFORM345= 'E       '           / format for column 345                          TTYPE346= 'HISTO1_CSUW'        / label for column 346                           TFORM346= 'E       '           / format for column 346                          TTYPE347= 'HISTO2_CSUW'        / label for column 347                           TFORM347= 'E       '           / format for column 347                          TTYPE348= 'HISTO3_CSUW'        / label for column 348                           TFORM348= 'E       '           / format for column 348                          TTYPE349= 'HISTO4_CSUW'        / label for column 349                           TFORM349= 'E       '           / format for column 349                          TTYPE350= 'HISTO5_CSUW'        / label for column 350                           TFORM350= 'E       '           / format for column 350                          TTYPE351= 'HISTO6_CSUW'        / label for column 351                           TFORM351= 'E       '           / format for column 351                          TTYPE352= 'P_EL_CSUW'          / label for column 352                           TFORM352= 'E       '           / format for column 352                          TTYPE353= 'P_SP_CSUW'          / label for column 353                           TFORM353= 'E       '           / format for column 353                          TTYPE354= 'P_DK_CSUW'          / label for column 354                           TFORM354= 'E       '           / format for column 354                          TTYPE355= 'P_MG_CSUW'          / label for column 355                           TFORM355= 'E       '           / format for column 355                          TTYPE356= 'OBJID_CSDW'         / label for column 356                           TFORM356= 'K       '           / format for column 356                          TNULL356= -9223372036854775808 / blank value for column 356                     TTYPE357= 'STATUS_CSDW'        / label for column 357                           TFORM357= 'I       '           / format for column 357                          TNULL357=               -32768 / blank value for column 357                     TTYPE358= 'NOBS_CSDW'          / label for column 358                           TFORM358= 'I       '           / format for column 358                          TNULL358=               -32768 / blank value for column 358                     TTYPE359= 'NEXP_CSDW'          / label for column 359                           TFORM359= 'I       '           / format for column 359                          TNULL359=               -32768 / blank value for column 359                     TTYPE360= 'SUMWEIGHTS_CSDW'    / label for column 360                           TFORM360= 'E       '           / format for column 360                          TTYPE361= 'HISTO1_CSDW'        / label for column 361                           TFORM361= 'E       '           / format for column 361                          TTYPE362= 'HISTO2_CSDW'        / label for column 362                           TFORM362= 'E       '           / format for column 362                          TTYPE363= 'HISTO3_CSDW'        / label for column 363                           TFORM363= 'E       '           / format for column 363                          TTYPE364= 'HISTO4_CSDW'        / label for column 364                           TFORM364= 'E       '           / format for column 364                          TTYPE365= 'HISTO5_CSDW'        / label for column 365                           TFORM365= 'E       '           / format for column 365                          TTYPE366= 'HISTO6_CSDW'        / label for column 366                           TFORM366= 'E       '           / format for column 366                          TTYPE367= 'P_EL_CSDW'          / label for column 367                           TFORM367= 'E       '           / format for column 367                          TTYPE368= 'P_SP_CSDW'          / label for column 368                           TFORM368= 'E       '           / format for column 368                          TTYPE369= 'P_DK_CSDW'          / label for column 369                           TFORM369= 'E       '           / format for column 369                          TTYPE370= 'P_MG_CSDW'          / label for column 370                           TFORM370= 'E       '           / format for column 370                          TTYPE371= 'P_EL_FUKUGITA'      / label for column 371                           TFORM371= 'J       '           / format for column 371                          TNULL371=          -2147483648 / blank value for column 371                     TTYPE372= 'P_SP_FUKUGITA'      / label for column 372                           TFORM372= 'J       '           / format for column 372                          TNULL372=          -2147483648 / blank value for column 372                     TTYPE373= 'P_DK_FUKUGITA'      / label for column 373                           TFORM373= 'J       '           / format for column 373                          TNULL373=          -2147483648 / blank value for column 373                     TTYPE374= 'P_MG_FUKUGITA'      / label for column 374                           TFORM374= 'J       '           / format for column 374                          TNULL374=          -2147483648 / blank value for column 374                     TTYPE375= 'P_EL_MOSES'         / label for column 375                           TFORM375= 'J       '           / format for column 375                          TNULL375=          -2147483648 / blank value for column 375                     TTYPE376= 'P_SP_MOSES'         / label for column 376                           TFORM376= 'J       '           / format for column 376                          TNULL376=          -2147483648 / blank value for column 376                     TTYPE377= 'P_DK_MOSES'         / label for column 377                           TFORM377= 'J       '           / format for column 377                          TNULL377=          -2147483648 / blank value for column 377                     TTYPE378= 'P_MG_MOSES'         / label for column 378                           TFORM378= 'J       '           / format for column 378                          TNULL378=          -2147483648 / blank value for column 378                     TTYPE379= 'C4_CLUSTERID'       / label for column 379                           TFORM379= 'E       '           / format for column 379                          TTYPE380= 'C4_REDSHIFT'        / label for column 380                           TFORM380= 'E       '           / format for column 380                          TTYPE381= 'C4_RA   '           / label for column 381                           TFORM381= 'E       '           / format for column 381                          TTYPE382= 'C4_DEC  '           / label for column 382                           TFORM382= 'E       '           / format for column 382                          TTYPE383= 'C4_MASS '           / label for column 383                           TFORM383= 'E       '           / format for column 383                          TTYPE384= 'C4_VELDISP'         / label for column 384                           TFORM384= 'E       '           / format for column 384                          TTYPE385= 'C4_RVIR '           / label for column 385                           TFORM385= 'E       '           / format for column 385                          TTYPE386= 'IVAN_DENSITY'       / label for column 386                           TFORM386= 'E       '           / format for column 386                          TTYPE387= 'IVAN_MIN_DENSITY'   / label for column 387                           TFORM387= 'E       '           / format for column 387                          TTYPE388= 'IVAN_MAX_DENSITY'   / label for column 388                           TFORM388= 'E       '           / format for column 388                          TTYPE389= 'OBJID_QUALITY'      / label for column 389                           TFORM389= 'K       '           / format for column 389                          TNULL389= -9223372036854775808 / blank value for column 389                     TTYPE390= 'PSFWIDTH_R'         / label for column 390                           TFORM390= 'D       '           / format for column 390                          TTYPE391= 'PSFNSTAR_R'         / label for column 391                           TFORM391= 'J       '           / format for column 391                          TNULL391=          -2147483648 / blank value for column 391                     TTYPE392= 'SKY_R   '           / label for column 392                           TFORM392= 'D       '           / format for column 392                          TTYPE393= 'SKYERR_R'           / label for column 393                           TFORM393= 'D       '           / format for column 393                          TTYPE394= 'OBJID_RELEASES'     / label for column 394                           TFORM394= 'K       '           / format for column 394                          TNULL394= -9223372036854775808 / blank value for column 394                     TTYPE395= 'INDR6PLATE'         / label for column 395                           TFORM395= 'J       '           / format for column 395                          TNULL395=          -2147483648 / blank value for column 395                     TTYPE396= 'INDR5PLATE'         / label for column 396                           TFORM396= 'J       '           / format for column 396                          TNULL396=          -2147483648 / blank value for column 396                     TTYPE397= 'INDR4PLATE'         / label for column 397                           TFORM397= 'J       '           / format for column 397                          TNULL397=          -2147483648 / blank value for column 397                     TTYPE398= 'INDR6TILE'          / label for column 398                           TFORM398= 'J       '           / format for column 398                          TNULL398=          -2147483648 / blank value for column 398                     TTYPE399= 'INDR5TILE'          / label for column 399                           TFORM399= 'J       '           / format for column 399                          TNULL399=          -2147483648 / blank value for column 399                     TTYPE400= 'INDR4TILE'          / label for column 400                           TFORM400= 'J       '           / format for column 400                          TNULL400=          -2147483648 / blank value for column 400                     TTYPE401= 'INDR6PLATETILE'     / label for column 401                           TFORM401= 'J       '           / format for column 401                          TNULL401=          -2147483648 / blank value for column 401                     TTYPE402= 'INDR5PLATETILE'     / label for column 402                           TFORM402= 'J       '           / format for column 402                          TNULL402=          -2147483648 / blank value for column 402                     TTYPE403= 'INDR4PLATETILE'     / label for column 403                           TFORM403= 'J       '           / format for column 403                          TNULL403=          -2147483648 / blank value for column 403                     TTYPE404= 'COMOVING_DISTANCE'  / label for column 404                           TFORM404= 'E       '           / format for column 404                          TTYPE405= 'C4_CLOSEST_CLUSTERID' / label for column 405                         TFORM405= 'J       '           / format for column 405                          TNULL405=          -2147483648 / blank value for column 405                     TTYPE406= 'C4_CLOSEST_REDSHIFT' / label for column 406                          TFORM406= 'E       '           / format for column 406                          TTYPE407= 'C4_CLOSEST_MASS'    / label for column 407                           TFORM407= 'E       '           / format for column 407                          TTYPE408= 'C4_CLOSEST_VELDISP' / label for column 408                           TFORM408= 'E       '           / format for column 408                          TTYPE409= 'C4_CLOSEST_RVIR'    / label for column 409                           TFORM409= 'E       '           / format for column 409                          TTYPE410= 'C4_CLOSEST_RA'      / label for column 410                           TFORM410= 'E       '           / format for column 410                          TTYPE411= 'C4_CLOSEST_DEC'     / label for column 411                           TFORM411= 'E       '           / format for column 411                          TTYPE412= 'C4_CLOSEST_DISTANCE' / label for column 412                          TFORM412= 'E       '           / format for column 412                          TTYPE413= 'C4_CLOSEST_MEMBER'  / label for column 413                           TFORM413= 'I       '           / format for column 413                          TNULL413=               -32768 / blank value for column 413                     TTYPE414= 'C4_NORMCLOSEST_CLUSTERID' / label for column 414                     TFORM414= 'J       '           / format for column 414                          TNULL414=          -2147483648 / blank value for column 414                     TTYPE415= 'C4_NORMCLOSEST_REDSHIFT' / label for column 415                      TFORM415= 'E       '           / format for column 415                          TTYPE416= 'C4_NORMCLOSEST_MASS' / label for column 416                          TFORM416= 'E       '           / format for column 416                          TTYPE417= 'C4_NORMCLOSEST_VELDISP' / label for column 417                       TFORM417= 'E       '           / format for column 417                          TTYPE418= 'C4_NORMCLOSEST_RVIR' / label for column 418                          TFORM418= 'E       '           / format for column 418                          TTYPE419= 'C4_NORMCLOSEST_RA'  / label for column 419                           TFORM419= 'E       '           / format for column 419                          TTYPE420= 'C4_NORMCLOSEST_DEC' / label for column 420                           TFORM420= 'E       '           / format for column 420                          TTYPE421= 'C4_NORMCLOSEST_DISTANCE' / label for column 421                      TFORM421= 'E       '           / format for column 421                          TTYPE422= 'C4_NORMCLOSEST_MEMBER' / label for column 422                        TFORM422= 'I       '           / format for column 422                          TNULL422=               -32768 / blank value for column 422                     TTYPE423= 'CORR_WEIGHTS_CSUW'  / label for column 423                           TFORM423= 'E       '           / format for column 423                          TTYPE424= 'RATIO_BIN_WEIGHTS_CSUW' / label for column 424                       TFORM424= 'E       '           / format for column 424                          TTYPE425= 'P_EL_CORR_WEIGHTS_CSUW' / label for column 425                       TFORM425= 'E       '           / format for column 425                          TTYPE426= 'P_SP_CORR_WEIGHTS_CSUW' / label for column 426                       TFORM426= 'E       '           / format for column 426                          TTYPE427= 'CORR_COUNTS_CSUW'   / label for column 427                           TFORM427= 'E       '           / format for column 427                          TTYPE428= 'RATIO_BIN_COUNTS_CSUW' / label for column 428                        TFORM428= 'E       '           / format for column 428                          TTYPE429= 'P_EL_CORR_COUNTS_CSUW' / label for column 429                        TFORM429= 'E       '           / format for column 429                          TTYPE430= 'P_SP_CORR_COUNTS_CSUW' / label for column 430                        TFORM430= 'E       '           / format for column 430                          TTYPE431= 'CORR_COUNTS_CSDW'   / label for column 431                           TFORM431= 'E       '           / format for column 431                          TTYPE432= 'RATIO_BIN_COUNTS_CSDW' / label for column 432                        TFORM432= 'E       '           / format for column 432                          TTYPE433= 'P_EL_CORR_COUNTS_CSDW' / label for column 433                        TFORM433= 'E       '           / format for column 433                          TTYPE434= 'P_SP_CORR_COUNTS_CSDW' / label for column 434                        TFORM434= 'E       '           / format for column 434                          TTYPE435= 'ZMIN    '           / label for column 435                           TFORM435= 'E       '           / format for column 435                          TTYPE436= 'ZMAX    '           / label for column 436                           TFORM436= 'E       '           / format for column 436                          TTYPE437= 'RELOBSVOL'          / label for column 437                           TFORM437= 'E       '           / format for column 437                          TTYPE438= 'NVOTE   '           / label for column 438                           TFORM438= 'E       '           / format for column 438                          TTYPE439= 'P_EL_UW '           / label for column 439                           TFORM439= 'E       '           / format for column 439                          TTYPE440= 'CW_SPCLASS'         / label for column 440                           TFORM440= 'E       '           / format for column 440                          TTYPE441= 'ACW_SPCLASS'        / label for column 441                           TFORM441= 'E       '           / format for column 441                          TTYPE442= 'EDGEON_SPCLASS'     / label for column 442                           TFORM442= 'E       '           / format for column 442                          TTYPE443= 'P_CW_UW '           / label for column 443                           TFORM443= 'E       '           / format for column 443                          TTYPE444= 'P_ACW_UW'           / label for column 444                           TFORM444= 'E       '           / format for column 444                          TTYPE445= 'P_EDGEON_UW'        / label for column 445                           TFORM445= 'E       '           / format for column 445                          TTYPE446= 'P_DK_UW '           / label for column 446                           TFORM446= 'E       '           / format for column 446                          TTYPE447= 'P_MG_UW '           / label for column 447                           TFORM447= 'E       '           / format for column 447                          TTYPE448= 'OBJID_MODEL'        / label for column 448                           TFORM448= 'K       '           / format for column 448                          TNULL448= -9223372036854775808 / blank value for column 448                     TTYPE449= 'U_MODEL '           / label for column 449                           TFORM449= 'D       '           / format for column 449                          TTYPE450= 'G_MODEL '           / label for column 450                           TFORM450= 'D       '           / format for column 450                          TTYPE451= 'R_MODEL '           / label for column 451                           TFORM451= 'D       '           / format for column 451                          TTYPE452= 'I_MODEL '           / label for column 452                           TFORM452= 'D       '           / format for column 452                          TTYPE453= 'Z_MODEL '           / label for column 453                           TFORM453= 'D       '           / format for column 453                          TTYPE454= 'UERR_MODEL'         / label for column 454                           TFORM454= 'D       '           / format for column 454                          TTYPE455= 'GERR_MODEL'         / label for column 455                           TFORM455= 'D       '           / format for column 455                          TTYPE456= 'RERR_MODEL'         / label for column 456                           TFORM456= 'D       '           / format for column 456                          TTYPE457= 'IERR_MODEL'         / label for column 457                           TFORM457= 'D       '           / format for column 457                          TTYPE458= 'ZERR_MODEL'         / label for column 458                           TFORM458= 'D       '           / format for column 458                          TTYPE459= 'REDSHIFT_MODEL'     / label for column 459                           TFORM459= 'D       '           / format for column 459                          TTYPE460= 'MU_MODEL'           / label for column 460                           TFORM460= 'E       '           / format for column 460                          TTYPE461= 'MG_MODEL'           / label for column 461                           TFORM461= 'E       '           / format for column 461                          TTYPE462= 'MR_MODEL'           / label for column 462                           TFORM462= 'E       '           / format for column 462                          TTYPE463= 'MI_MODEL'           / label for column 463                           TFORM463= 'E       '           / format for column 463                          TTYPE464= 'MZ_MODEL'           / label for column 464                           TFORM464= 'E       '           / format for column 464                          TTYPE465= 'MUERR_MODEL'        / label for column 465                           TFORM465= 'E       '           / format for column 465                          TTYPE466= 'MGERR_MODEL'        / label for column 466                           TFORM466= 'E       '           / format for column 466                          TTYPE467= 'MRERR_MODEL'        / label for column 467                           TFORM467= 'E       '           / format for column 467                          TTYPE468= 'MIERR_MODEL'        / label for column 468                           TFORM468= 'E       '           / format for column 468                          TTYPE469= 'MZERR_MODEL'        / label for column 469                           TFORM469= 'E       '           / format for column 469                          TTYPE470= 'CUR     '           / label for column 470                           TFORM470= 'E       '           / format for column 470                          TTYPE471= 'LOGMSTAR_BALDRY06'  / label for column 471                           TFORM471= 'E       '           / format for column 471                          TTYPE472= 'REDNESS_BALDRY06'   / label for column 472                           TFORM472= 'E       '           / format for column 472                          TTYPE473= 'jpeg_url'           / label for column 473                           TFORM473= '45A     '           / format for column 473                          TTYPE474= 'dr7objid_2'         / label for column 474                           TFORM474= 'K       '           / format for column 474                          TNULL474= -9223372036854775808 / blank value for column 474                     TTYPE475= 'sfr_total_avg'      / label for column 475                           TFORM475= 'E       '           / format for column 475                          TTYPE476= 'ssfr_total_avg'     / label for column 476                           TFORM476= 'E       '           / format for column 476                          DATE-HDU= '2020-06-02T03:01:13' / Date of HDU creation (UTC)                    STILVERS= '3.4     '           / Version of STIL software                       STILCLAS= 'uk.ac.starlink.votable.FitsPlusTableWriter' / STIL Author class      END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             -
+fa Ä(
+fa ¶;ÓÒ¥½½¡g00:00:01.55+00:05:33.3stripe82            Sb2l                 . • $B  ?Hr°?Hr°>İ~9   @à  >¥ã>¥ã?7Ÿ?   @@  =…¸=…¸<ó¥   @€  ?-?-=¬‚   @@  >Û¥ã>Û¥ã?hÁ                       @@  ?€  ?€  ?€     ?€  >ª~ú>ª~ú?§   @   ?*Àƒ?*Àƒ>Òpv                       ?€  >ª~ú>ª~ú> 	î   @   ?*Àƒ?*Àƒ?0 Ê                       @   =@ƒ=@ƒ=ÑÎ   )B$  ?s÷Ï?s÷Ï?aø0  ?€  <å`B<å`B=‚D   Ağ  ?U?}?U?}?C¡   @   >V>V>Pt                       ?€  ?   ?   ?                                              ?€  ?   ?   ?                                              @€  ?€  ?€  ?€                                                                                     ?€  ?€  ?€  ?€                         ?€  ?€  ?€  ?€                                                                                    (
+fa ¶
+f (  ¶?zzT¯Ú£¥¿·´,íÉÇŠ?Æ³F@—-•A4ØAÈ2Aˆ³êA…‘SAƒn§>
+âÏ< 1i<~ ô<„+$<â.ĞA‘"}A­‘Aˆ(_;¨¬ˆAŠ;P;­µÓ?€  @4	Ê'å™
+>1È>ÏW=½¿ =ám=L¸D«®³D*¾D¬{DŒDªÀøDİD«%½D¹ÍD«¦4D¿u@1ß¹?uı›«= ¬9"JÁ“Á ÙóÁ¦­-Á©3ÁªùÓ>iê<³ì°<—d£<›X<ğ^@ÓF    ?  @(
+fa ¶@3™ÍÀ   @1ØÒ    @0şÔ€   @0Ÿå@   @0`üà   ?Á\Yà   ?”-    ?Ô€   ?…d€   ?œEÚ    ?øÖhÀ   @å²    ?´ u€   ?$IR    ?ïüÒ@          fs     @ ?z|dåçR¿·´)•§“       Á“ŸçÁ ÖòÁ¦¬¹Á©7Áªúî>iå<³ì°<—d£<›X<ğ^@ÓG         (
+fa ¶  ; ;Bl  ?6<¿        >a Œ=ŠØó    ?6<¿>a Œ=ŠØó    (
+fa ¶  ; ;B~õT?9*Ì        >`š=kÌ    ?9*Ì>`š=kÌ                                    ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ¾¼í‘¾¼í‘¾¼í‘(
+fa ¶?ò°‡       1>6<Jà   =’ú-à   (
+fa ¶                           C¤RÌ  =§]WDSÇ?¾ C³ÿ\?3¦‹Ax\3    =§]WDSÇ?¾ C³ÿ\?3¦‹AP$  ?ÀÓ*@9ù¢?#ñh>”NNA!ó£Bèº>r.{?[ZAÑ¬WB28ä=âèå?82<Ú¦2=®{?x+‘Bl  ?6<¿        >a Œ        >a Œ=ŠØó    (
+fa ¶@3€w    @1ÈèÀ   @0ía    @06`   @0Bº@   ?®QÀ   ?|d“    ?u‘    ?u…À   ?‰må@   ?´ u€   Á”fÉÁ¡[xÁ§>ÕÁ©ĞÊÁ«÷Û=~,f<GZ®<8E·<9N<‚š¶@À`A'!¯=À http://s3.amazonaws.com/zoo2_extra/278415.jpg(
+fa ¶¿[~Á5£-
+f¡U(
+f¡;üøW?8!ò00:00:01.85+00:43:09.4stripe82_coadd_1    Ei                    < A‚È´?q©ü?q&é?o5á  ?€  =e`B=m‘h=ÿÏ0                                           ?€  ?€  ?€  ?€                         ?€  ?€  ?€  ?€                         ?€  ?€  ?€  ?€     ?€  ?€  ?€  ?€                                                                 @E¢>+>
+=q>zP   Ap  ?U?}?]p¤?\©                      AU‘h?Rñª?På`?G<e   @@  >49X><j>'ò+   ?€  >ª~ú>Ú¬>Ú¬                                                               ?¬‹D?*Àƒ?ñª?ñª                                                                                                                                                                                                                                                                                          (
+f¡
+f ( ?³\r~?ç#ñKİ#?¿Œ@€õ1A¢™WA’›wAŠöÛA‡šªA„áP>Rë<k”b<-é<J*±<âsÖA“,µA’•A‰ıE;Ñ‰ÒA‹Â);ÓÖ?NÚ®@4<9ïJ!n>Ç5=Ö†<=›—I=kõ·='LhD­&9D]ÁD­‚2D]œıD¬ €D][ùD¬ˆ%D]Õ½D­VD]d³@1I«e?ƒ?v[1¿ÒÊà=¨9¬Á ÁŸoÁ¥L„Á¨0Áª€k>SÌ<yû<nV†<‚S<ğÑ˜@ˆG    B  @* (
+f¡@4.[À   @28‚À   @1KK€   @0ä¸    @0‘u`   ?ÊP=`   ?rŒ@   ?…¢ı    ?‰EV    ?œNzÀ   ?÷àq€   @¦    ?µ ‚    ?# µ€   ?ïş¦            fs     @ ?ª¼©2üï?ç#Ï=6       ÁÉÁŸ	OÁ¥MÁ¨/vÁª‚!>S¸<yû<nV†<‚S<ğÑ–@ˆG         (
+f¡  & 2B  ?           >¯(m=×”<=W”6?   >¯(m=×”<=W”6(
+f¡  & 2B"Oq?…g        >±~=¿~Ã=\»7?…g>±~=¿~Ã=\»7                                ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ?Æ Ò?Æ Ò?Æ Ò(
+f¡?ó™èÀ      '>55+    =‘âï    (
+f¡                           C¬a£  =§]WDSÇ?¾ C³ÿ\?3¦‹?¨\ë    =§]WDSÇ?¾ C³ÿ\?3¦‹>r° @V!@@¡>³Ã¼>ò.nA’»âAêèº=“´®?&BCkºAá;<ë¡c?/ğv<ÊWV=®{?yà†B  ?       =W”6>”5æ    =W”6>”5æ=×”<=W”6(
+f¡@4aÀ   @2v    @1,`   @0Ã«€   @0u    ?¶#sà   ?Êõ€   ?z1:    ?{H<@   ?‹Âç@   ?µ ‚    Á‘%‡Á /Á¦EOÁ©2ôÁ«^Æ=µÛ)<Y	ƒ<By]<DÛa<‰şz@(ş@A&Ú‹>Å¾øhttp://s3.amazonaws.com/zoo2_extra/280228.jpg€       À  À  -ı l u)ı l P<\[¾¿w900:00:03.23-01:06:46.8stripe82_coadd_1    Ei                    D AP  ?8Ôş?8Ôş?8Ôş   @€  >cSø>cSø>cSø   ?€  =e`B=e`B=e`B   ?€  >€  >€  >€     @@  ?@  ?@  ?@     @@  ?€  ?€  ?€                         ?€  >ª~ú>ª~ú>ª~ú   @   ?*Àƒ?*Àƒ?*Àƒ   ?€  >ª~ú>ª~ú>ª~ú   @   ?*Àƒ?*Àƒ?*Àƒ                                           @€  >p£×>p£×>p£×   AP  ?C×
+?C×
+?C×
+   ?€  =²-=²-=²-   A0  ?X“u?X“u?X“u  ?€  =²-=²-=²-                                                               @   ?   ?   ?      @   ?   ?   ?                                                                  ?€  ?€  ?€  ?€                                             ?€  ?€  ?€  ?€                                             ?€  ?€  ?€  ?€                                                                                    )ı l Pı )  l P?‹œYèS»ê¿ñÎì1l½@=áÃ@ĞYÓA”llATZAŠhñA‰\‚Aˆœ¤=°fs<›Im<wŸ<Ñé3=¯e–A›cA™7ãA†p	<¦¦AŠ†+<Ëy<
+7@5¨€Vàë	>@„G>¦ç=ÍyÃ=›ÎS=\ïÍD< D³Ø0D‘*D³‚D€QD³š	D^òD³C¤DçXD³L@1O\ÎEÑÚ?‚:3JV<¾<²`¥8Æ–Á„·ŒÁŠÕ¯ÁeÁ=!Á›b=µ·<¯’<”5ë<áT’=°˜«?§5Ş    ~  ?ŠØ0)ı l P@2]     @1‡B@   @13f    @1    @1î    ?¶Î`   ?“i-    ?àÓà   ?š=&`   ?µì²À   @¼8`   @:`   ?–L    ?ÒÂ€   ?î´½€      :    fs     @ ?‹›:`T¿ñÎäÀÑñ       Á„¶ÁŠÔÕÁe[Á=ÁÁš=µ·<¯’<”5ë<áT’=°˜«?§5Ş         )ı l P  9 2Bd  >ò†¼        >³¦->3¦-    >ò†¼>³¦->3¦-    )ı l P  9 2Bz³Á>óy‰        >±Ib>6z1    >óy‰>±Ib>6z1                                    ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ¾’:¾½Ù?³)_)ı l P?öÑã€      6>5ky@   =”o¸    )ı l P                           B¹—£  Ø=*°®W'õ‰D-z^?§/ÔC¯†‡AiçBº;     =5•®X	ŞŸDJ“d@“ƒAd#:¿`šBò'  @},?†5+>¥¿õ>õï
+?€  >ŸIõ>ò†¼>³¦-?€  >•UU>óyˆ>±Ib<#×
+<åÉ=eÃBd  >ò†¼=³¦-    >†¼¢=³¦-    >†¼¢>3¦-    )ı l P@2„bà   @1‚•€   @17À   @1à   @0ğ¼    ?¦v;    ?„İñ€   ?‚yo    ?ˆÀ'`   ?¢Z    ?–L    ÁƒÁ‹ÄÁK}ÁwAÁH_=E}¹<içz<\¦²<€€+=m$?šçpA
+Sù¿Ahttp://s3.amazonaws.com/zoo2_extra/287951.jpg€       À  À  -
+f¡ ‡(
+f¡ <Œ¯á?@Ô00:00:04.12+00:45:08.0stripe82_coadd_1    Ei                    ; Ap  ?U?}?U?}?U?}  @   =ãSø=ãSø=ãSø   ?€  =e`B=e`B=e`B                       @   ?€  ?€  ?€                         @   ?€  ?€  ?€                         @   ?€  ?€  ?€     ?€  ?   ?   ?                          ?€  ?   ?   ?                          ?€  =q©ü=q©ü=q©ü   A€  ?på`?på`?på`  @à  >ï >ï >ï    A   ?r°?r°?r°                       ?€  ?€  ?€  ?€                                                                                                                                                                                                                                                                                                                                                                            (
+f¡ 
+f (  ?‘˜‰#TÃÒ?èò{ˆ¨?Ì)¨@#A§‡£A—ÿAA‰dyA†Æå>Ã>„<İT<†"õ<’ˆñ=şüA•r|A•”>A
+Y;úÌ¥A#< “j?€  @4´AÍĞïê>G¢=×C:=œ [=lÅ–='ßÊBÛÇD”R¤Bá·¯D”CHBËµÑD”]BÒ6´D”WùBÚZD”'‡@1¡Kš¥?Y”œp¦É>S•Ä9FDÁ¡º*Á¯_8Áµ„×Á¸}¦ÁºŸm>ÃØp<ëÅ<,„<§á$= RJ@¬Á9   5 ç  @Uh(
+f¡ @4Ì    @2ä­    @1à   @1â    @0Îq    ?ØgĞ€   ?›¢j€   ?Ä^    ?’Q    ?£_ß€   ?ù…5    @²`   ?Êr¸€   ?(È`   ?ïæ/à          fs     @ ?‘—5H±?èë¸J       Á¡¾Á¯acÁµ…SÁ¸z©Áºœ!>ÃØ8<ëÅ<,„<§á$= RJ@¬Á9   
+ 
+   
+  (
+f¡    Ağ  ?nîğ        =ˆŠ=ˆŠ    ?nîğ=ˆŠ=ˆŠ    (
+f¡    B ùe?nö¾        ="Å= qL    ?nö¾="Å= qL                                    ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ (
+f¡ ?ôÍ       3>5|    =‘ß,@   (
+f¡                            DR˜¾  Ğ=éaÃWê |D÷ß?õ¸CA9œà;ì…CÂdŸ    Â=¥qªX³ãİD©c×@yBˆC\B€!C„kì  ?Ö¸@ÙHH?i¨=["Ô?€  GÃP ?nîğ=ˆŠ?€  GÃP ?nö¾="Å=z—v=®{ÄyÀ Ağ  ?nîğ    =ˆŠ        =ˆŠ    =ˆŠ    (
+f¡ @4ü+@   @2Úƒ`   @1q    @1    @0Âp    ?Èà   ?TÕ€   ?Y”    ?¨¤@   ?‘±?€   ?Êr¸€   Á {Á¯ĞkÁµò£Á¸ÇïÁº×Ä>Eù><Ë<NRi<O5<£Š7@+¼ A3óê>CÔ`http://s3.amazonaws.com/zoo2_extra/280231.jpg€       À  À  -
+f¡ ‹(
+f¡ <¡ÎW?HŠ00:00:04.74+00:46:54.2stripe82            SBc                  , Ì A¸  ?ãT?ãT>†_q   A¨  >ô9X>ô9X?3pß                       ?€  =D›¦=D›¦=>r}   A   ?s¶F?s¶F?uû  A  ?fff?fff?i9¯  @   =ÌÌÍ=ÌÌÍ=±ƒn   @   >€  >€  >¨²š   Ap  ?@  ?@  ?,k:                       AP  ?&ff?&ff?$b¬   @À  >™™š>™™š>Æ@   ?€  =LÌÍ=LÌÍ=˜¸ƒ   ?€  <¼j<¼j<­¸‡   +B,  ?z¬?z¬?y¶^                      A¸  ?€  ?€  ?€                        ?€  ?€  ?€  ?€                                                                                                                             ?€  ?€  ?€  ?€                                             @   >ÌÌÍ>ÌÌÍ>ÜDÙ   @@  ?™š?™š?Ce                                           @@  ?™š?™š?Óñ   ?€  >LÌÍ>LÌÍ>rc                                           ?€  >LÌÍ>LÌÍ>oªß  (
+f¡ 
+f (  ?”9ÊÑõÖ†?éÑ@yí­@…•ÖAÄQA“ËãA„İÆA{RKAt1wAo]´=Äàï;î§;­õ;Å‚»<{JìA9ŸA—HAuTY;ZƒåA{ç“;Zh›>İŒĞ@4Î[†´wj>fş=Õø§=›0˜=kYû=&İüCc,DµçxC@ìDµÓlBú3ÊDµ¦%C eWDµåêCÌDµ¶<@/Ô¶œñ?cV‚Ğ=¤–29"|ÁoÁ¬=&Á²BUÁµ%µÁ·U3=É<J„µ<9G<?M<•ş:@Êˆë   ? "  a@š (
+f¡ @2Uª    @0€™À   @/B˜à   @.hÈ    @-×?`   ?¸œà   ?}Âtà   ?u ¾    ?x°W`   ?i]€   @²ºÀ   @"øŠ    ?´’Æ@   ?$BÏ€   ?ïıo      €   fs     ` ?”8Wª– ?éË/·Ì       ÁjÁ¬@“Á²DbÁµ%ÊÁ·R4=É<J„µ<9G<?M<•ş:@Êˆë         (
+f¡   $ $B  ?8ã        >8ä        ?8ã>8ä        (
+f¡   $ $B²–?:¨%        >Š¯µ        ?:¨%>Š¯µ                                       E =§]C³ÿ\?3¦‹WDSÇ?^=`?D?æ?D?æ?D?æ(
+f¡ ?ôÍ       3>5|    =‘ß,@   (
+f¡                            C¨î  =§]WDSÇ?¾ C³ÿ\?3¦‹@³·‹    =§]WDSÇ?¾ C³ÿ\?3¦‹?ÅE ?Øw^?ªêt?6>ÉÇ•?ä5r?Æ1Œ?İ>ĞEÙ@:ª«?À  >õ¼0?!ç=QKG=®{?GcB  ?8ã=ªª¬=ã7=ªª¬=ªª¬=ã7=ªª¬        (
+f¡ @2p8    @0”5€   @/UAà   @.}    @-Ö£@   ?¥¨ À   ?r"¡À   ?kM€   ?lªX€   ?|pŞ€   ?´’Æ@   Á™`Á«½æÁ±û1Á´õÓÁ·\ô=?©¥<3.J<,²ò<-”¾<Gv®@#ˆA0õ‘=´˜Àhttp://s3.amazonaws.com/zoo2_extra/280232.jpg(
+f¡ ¿9>€Á=Ã•-ı l ´)ı l ¤<¼Ô>¿›±â00:00:05.53-01:12:58.9stripe82_coadd_1    SBc2m                 ‰ 	A  >È1'>È1'>È1'   A`  ?çm?çm?çm                                           A`  ?€  ?€  ?€    A   ?-?-?-   @À  >Û¥ã>Û¥ã>Û¥ã   A0  ?I7L?I7L?I7L   @@  >["Ñ>["Ñ>["Ñ   ?€  =‘hs=‘hs=‘hs   A@  ?[dZ?[dZ?[dZ  ?€  =‘hs=‘hs=‘hs                       @€  >2->2->2-   A˜  ?St¼?St¼?St¼  @   >cSø>cSø>cSø   @à  ?G+?G+?G+                                           ?€  >€  >€  >€     ?€  >€  >€  >€     ?€  >€  >€  >€     ?€  >€  >€  >€                                                                                                         @@  >‹Æ¨>‹Æ¨>‹Æ¨   A   ?:¬?:¬?:¬                       ?€  =º^5=º^5=º^5   @   >èõÃ>èõÃ>èõÃ                                                               @   >èõÃ>èõÃ>èõÃ  )ı l ¤ı )  l ¤?— G2Äxj¿óv>½¶Ú@|HÜ@ü¯:A–®AŒ0A‰=kAˆYA‹S>=
+›<ŠŸ€= ¹>>'­QAœ‹ØAšìnAƒã»<ËÜAˆô<YÌ=¯	@6!«Qºx>Hßw>Ìæ=Ödó=¢‘˜=f†ÉDÂCù …D•üCø‹DN^Cø¨²DhoC÷¬ÄDœCö¿@1T0E©Ã?€ elJA¿=Ô8Ä”Á‰À±Á’œïÁ•¼FÁ•„Á’½Ò>Ò*=
+?­<¡ =%Üv>( ©@Ç4    i  ;?¿¹P)ı l ¤@2£›    @1o    @1	`   @0û§    @1R
+€   ?ÃÏñÀ   ? S`   ?‘Sğ    ?¤'À   ?Äõª    @‰€   @•ç@   ? :‚À   ?ƒò€   ?îÜú         X  fs     @ ?—ŸÌM~¿óv6MXı2       Á‰ÀáÁ’š Á•»$Á•„&Á’¼“>Ò*=
+?­<¡ =%Üv>( ©@Ç4  
+       )ı l ¤   Aà  >6Ûl        ?@ =’I$    >6Ûl?@ =’I$    )ı l ¤   AòE>4´        ??sƒ=œ0v    >4´??sƒ=œ0v                                    ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ¿;ÚQ¿…„@%¯)ı l ¤?öÑã€      6>5ky@   =”o¸    )ı l ¤                           CÅó  Ø=*°®W'õ‰D-z^?§/ÔC¯†‡AiçB€¥     =5•®X	ŞŸDJ“d@“ƒAd#:¿`šB><î  @feƒ>íÄ¶=wñû?\m—?¨Â}=I%>šè?H§v?€  <î#¹>4´??sƒ<' 4=7`$>N¡Aà  >6Ûl    >Ûm¹>¤’J    >Ûm¹>¤’J=’I$    )ı l ¤@2Ÿ:à   @1k|À   @1ğ€   @0Òw    @0Öï€   ?°'{    ?†÷v    ?‚k9@   ?ˆòÎ€   ?¤Ìß    ? :‚À   Á‰¾œÁ’­hÁ•äCÁ–ù3Á–°=‡’Æ<v,{<\Z™<=+_à?ÂZpAÁî¾°1phttp://s3.amazonaws.com/zoo2_extra/287955.jpg€       À  À  -ı l d)ı l x<ã»s?100:00:06.67+00:30:16.8stripe82_coadd_1    Er                    1 A`  ?`  ?`Äœ?`Äœ                      ?øõÃ>   =ùÛ#=ùÛ#                                                                                                                                                                                                           @   >¶È´>¶È´>®~d   	A  ?$›¦?$›¦?-Ù   	A  ?$›¦?$›¦? Î   @   >¶È´>¶È´>ÒnM                                           @@  ?™š?™š?™š   ?€  >LÌÍ>LÌÍ>LÌÍ                       ?€  >LÌÍ>LÌÍ>LÌÍ                                                                                                                                                                                                                                                                                          )ı l xı )  l x?œy—Æ…µâ?à&Š[B?Ìî_@“ëcA£“gA‘ñA‰c÷A†iAƒŠŸ>ŠÕÏ<vù°<&¾N<=ôo<Ú:÷A÷zA‘b%Aˆ‰N;¸´1AŠ¹y;¼.¬?€  @40õÊ‘ÚŞ>—+=Ä–Ù=•:=X;=OÆD&ÊD\_5D'ß–D[ïD%p‘D\ZmD&7äD\ùD'H[D[Ş@1)¿Ë ?w†`Óæ=ßµ9![Á•qÁ¦g©Á¬S±Á¯¿Á±m>‹OA<”0™<iÄV<zÙÿ<é;@L!ˆ    1 	 @: )ı l x@4PrÀ   @2
+å`   @1ëÀ   @0µA    @0gU@   ?ÑZ¹à   ?ß6    ?„×ÉÀ   ?‡¾à   ?›G^à   ?ùËà   @}l`   ?»ñ¶    ?$+cÀ   ?ïş\          fs     @ ?œy†e$Ğ?à&'ıq;­       Á•‚Á¦eÁ¬R³Á¯ÒÁ±ñ>‹O'<”0™<iÄV<zÙÿ<é;@L!ˆ     	 
+  	 
+)ı l x  & &B  ?5å        >¼¥>!¯&    ?5å>¼¥>!¯&    )ı l x  & &B ;®?=q«        >Éè>od    ?=q«>Éè>od                                    ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ )ı l x?õæ8       5>5k    =“aÀ   )ı l x                           Cãã  ğ=ÊøíVğ€WDj¯?šÀ_?š\?s€ªB(@=    å=Ù×wW^±ûDj?µt>@©.¿lç«B ˆh  @Ñ@gd7?º™>]9AOQnAì  >^\>Ã©AWõAïbv>†S>×=7œ=®{ÄyÀ B  ?5å        >¼¥        >¼¥>!¯&    )ı l x@4€   @1ûã    @0ÿ—€   @0™0€   @0Dà   ?º0†`   ?Æ–    ?w…à   ?xòv`   ?‰Œ:@   ?»ñ¶    Á—DcÁ§ ËÁ­4Á°”Á²7Í=Õ’%<Xò<<\<?Ö2<‚ùK@/}°A,Ãw>²×ğhttp://s3.amazonaws.com/zoo2_extra/293022.jpg€       À  À  -ıÀl ˆ)ıÀl ›<ó1`?[ŸÔ00:00:07.12+00:51:28.5stripe82            Sb                   . ¢ $B  ?Hr°?L‹D>¯   A   >2->6E¢?ÁØ   ?‡ï=0 Å<Ä›¦<ªĞ                       A   ?€  ?€  ?€                         A   ?€  ?€  ?€                         A   ?€  ?€  ?€                         @@  >À  >À  >¿?   @@  >À  >À  >ğ9ô   @   >€  >€  >¹ì   @€  =º^5=º^5>-?‚   (B   ?h´9?h´9?Nšg  @€  =ãSø=ãSø> 3D    B   ?c•?c•?W
+*                      ?€  >€  >€  >€                         @   ?   ?   ?      ?€  >€  >€  >€                                                                                                                                                                                                                                                                                                                )ıÀl ›ı )  l ›?f,éïr?ësúƒiV†?ç(ä@µGëA›¢AMA†-[A‚Ë@A€P¿>#^<Ky<*<"Û«<ÀAVLAúA…ÀÁ;£¤€Aˆ$ë;¨¯?€  @4W è>)[=ÌÉ˜=”‡j=a@=´€D+âC‹GğD,´
+C‰2³D)Õ°C‰ƒLD*‰^CŠgJD+·KC‰3Û@0¸ŸË…?ttı­\=§z9&TØÁ–Å³Á¤Á©òÁ¬¬»Á®è6>$P
+<‚b<^6<gõ<ĞÔõ@1“J    7  @b¨)ıÀl ›@3R*    @1    @0³Q    @0K7    @/ÿÀ    ?Ä`kÀ   ?‰o"    ?‚Ã¥@   ?„[u`   ?˜ñà   ?üå€   @¨ı`   ?´ào@   ?$Ê›    ?ïıà         fs     @ ?dÑ'Í.H?ëtë/       Á–ÀæÁ¤ÊÁ©ñ{Á¬­Á®ë>$P<‚b<^6<gõ<ĞÔõ@1“J         )ıÀl ›  / /B<  ?DÉ        >YßN<®LD    ?DÉ>YßN<®LD    )ıÀl ›  / /BL'„?H–Ó        >GÆ[<®òâ    ?H–Ó>GÆ[<®òâ                                   E =§]C³ÿ\?3¦‹WDSÇ?^=`>j~ú>j~ú>j~ú)ıÀl ›?÷+¶       3>4œ^€   =“cŞ    )ıÀl ›                           C«_t  =§]WDSÇ?¾ C³ÿ\?3¦‹?˜yá   =§]WDSÇ?¾ C³ÿ\?3¦‹?‚²! @ì;@9Ò2?Ó>¿7A¤ã‡Aé>¢m?HÖYAæú:B	$’=ùE?M¿=nS=®{?r¿B<  ?DÉ<®LD=.LA>‚»<®LD=.LA>‚»<®LD    )ıÀl ›@3?    @1‰”    @0¥½à   @0;Û`   @/Ú>À   ?µÔ    ?|Ë©    ?ttà   ?uß3à   ?‡EnÀ   ?´ào@   Á”ùaÁ¤VüÁª`
+Á­A´Á¯‡=­Ã”<HF²<7"u<9¼A<wÿ@+5HA*ªÀ>¦ìÀhttp://s3.amazonaws.com/zoo2_extra/294272.jpg)ıÀl ›¿Ÿ·•Á?™-ı@l š)ı@l š=oå¿9;ñ00:00:07.76+00:43:24.9stripe82_coadd_1    Er                    ; A@  ?4¼j?4¼j?v1   @@  >49X>49X>DnX   @   =ñ©ü=ñ©ü=ñ©ü                       @@  ?€  ?€  ?€     ?€  >ª~ú>ª~ú>ª(p   @   ?*Àƒ?*Àƒ?*Şï   ?€  >ª~ú>ª~ú>ª~ú   @   ?*Àƒ?*Àƒ?*Àƒ                       ?€  >ª~ú>ª~ú>ª~ú   ?€  >ª~ú>ª~ú>ª~ú   ?€  >ª~ú>ª~ú>ª~ú   ?€  =‰7L=‰7L=íª   A`  ?nÙ?nÙ?aİ  A@  ?€  ?€  ?€                                                                                                                            ?€  ?€  ?€  ?€                                                                                                         ?€  ?€  ?€  ?€                                                                 ?€  ?€  ?€  ?€                                                                                    )ı@l šı )  l š? ?£ƒş'¿ç' -U@sÅ@•yJAÀ˜A“GåAØÀA‹oA‰>jÍÄ<¼ş™<™Ôd<³­=‹?A›Ã¡A™ÒAŠ0¥<3‘A†Œ<-U„    @5‚LñK}¬>_^M>$Z1=îgm=´ÆI=€+áD1B¾D‘‰£D2“'DúZD/½ D‘ÛD0–¾DàeD1Ã¯DØ2@1°Ñš4P?…ª°}Š$£=àu8ÑxGÁ™üoÁ£¡	Á§İÁ©ÊÁ«l>k»Y<Íüs<®H}<Åx=ŒÀ\@‘5   - < 	 ?Ş	p)ı@l š@3ÿ@   @2?ã    @1œU    @1WAÀ   @1r    ?ÍY¸€   ?—ŸÓ    ?“:Œ€   ?–u¢    ?±gãà   @.x    @¯)@   ?¼î    ?/à   ?î*èà     ’*    fs     @ ? á¢@f¡¿ç'0ĞJœ       Á™ûaÁ£¡ÄÁ§â›Á©üÁ«i¶>k»T<Íüs<®H}<Åx€=ŒÀ\@‘5    	  
+ 	  
+)ı@l š  * 2B(  >Ûm¶        >¶Ûo>[m¶    >Ûm¶>¶Ûo>[m¶    )ı@l š  * 2B1Ûà>â÷à        >¶óë>L(p    >â÷à>¶óë>L(p                                    ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ )ı@l š?öæ@      8>5V    =”S    )ı@l š                           Cäs²  å=Ù×wW^±ûDj?µt>@©.¿lç«B,‘    å=Ù×wW^±ûDj?µt>@©.¿lç«B¼  AƒD?PÍZ=Ú?B AB½>=Ë=è–±?cÛA¨FŸ>0>=^Œ'?S<êú=®{ÄyÀ B(  >Ûm¶>sÏ:    =óÏ:>sÏ:    =óÏ:>[m¶    )ı@l š@3td€   @2<Î    @1’€   @18–€   @1ıÀ   ?º£d    ?Š4ÅÀ   ?…ª°À   ?†XÜ    ? @   ?¼î    ÁšŠXÁ£èÔÁ¨yKÁªÁ¬ğ=Ù	g<…	Õ<nƒS<rW=u’?Şï0A$H¾â)`http://s3.amazonaws.com/zoo2_extra/289262.jpg€       À  À  -
+fa (
+fa „=q	½&4Ğ00:00:07.82+00:02:26.1stripe82            Sc?t                 - AsdZ>¶E¢>µ?}>…	>   AÕ§ğ?™š?ùÛ?Bƒ   ?Š¬=49X<ÌÌÍ<ã¦*   ?€  =t¼=t¼<Ò†6   AÕ§ğ?vÈ´?vÈ´?x«   @-?}=ãSø=ÎÙ=Åş   AÀ  ?c•?f$İ?g>  A§ğ?=²-?<í‘?M¯f  @à  >„›¦>†$İ>Aq0   @-?}=ãSø=ÎÙ>³c   	A  >ª~ú>¬‹D>0Õ   
+A   >½p¤>¿|î>7İ   @   >=p¤>?|î>Jã   @–Ÿ¾=í‘h=å`B>‚p   &BÙ?bMÓ?cSø?V‘Ÿ  ACdZ?]ó¶?[çm?VãI   @   >1'>bN>/`                                                               @   >ÌÌÍ>Ù™š>Ù™š   @-?}?™š?33?33                                                                                                       ?€  ?€  ?€  ?€     	A  >æff>éûç>ÜŞµ   @¶Ÿ¾>™™š>”zá>Ÿø*   @   >€  >‚J>ní   @   =ÌÌÍ=ÎÙ=Ï   @   =ÌÌÍ=ÎÙ=¯o   @@  >™š>¥ã>ÍÆ                       @m?}>LÌÍ>@ƒ>@´g   	A  >æff>éûç>ğU‚  (
+fa „
+f (  „? ®! 7¿¤ÆšË‚@K¡A3ñåA…“AxÜ3ApÚ&Am%¥AjÁ<¨I±;„Åü;x™¤;ŠÏ<OÖÏAëvA‹0¼Al†r;2s\Ar.;,Ÿ©>Awv@4´/™ÏÙ>.Ü^> ©2=º¡›=„P=H¬¦CyŞsDÉTvC}H†DÉ5DCrpÑDÈûœCu¬SDÈÜCy˜ßDÈá@.£Ùn‰?a7xb&í@<Áé¯8ÕåÁ•FÁYÁÁ¡ (Á¢…Á£Ã@<êŞú<0Ç_</;V<1ï3<„Sv?öû    M  )?¿~ (
+fa „@0‡1`   @.ÜF@   @-ì    @-€§    @-'U    ?•	6    ?p˜¿€   ?o4€   ?qYğ    ?‰úÙà   @)t    @&~<    ?˜=5à   ?¼³    ?ï¾–@         fs     @ ? ®K»Ú‹t¿¤Æ@çø        Á•ĞÁUÆÁ¡SÁ¢ˆ†Á£Åm<êŞú<0Ç_</;V<1ï3<„Sv?öû€         (
+fa „   Aø  >g9Ë        ?F1Œ        >g9Ë?F1Œ        (
+fa „   Bnó>m¬Ç        ?D”Ğ        >m¬Ç?D”Ğ                                        ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ¾¿H€¾¿H€¾¿H€(
+fa „?óP`      5>6<ë`   =“    (
+fa „                           BÉ«.  Ø=*°®W'õ‰D-z^?§/ÔC¯†‡AiçB«|æ     =5•®X	ŞŸDJ“d@“ƒAd#:¿`šB†g  ?€  ?Åúÿ>g9Ë?F1Œ?€  @@  >g9Ë?F1Œ?Ü¼@2I%>¶ù?YÒD<°"=ªÅŠ?o2Aø  >g9Ë?¥(=!>%)I?¥(=!>%)I        (
+fa „@0µt    @/G    @.h    @-’İ    @-à   ?“Õ€   ?g(3`   ?e“ôÀ   ?g ñ@   ?y.ÆÀ   ?˜=5à   Á“–FÁœ[IÁ r;Á¢JşÁ¤
+—<ß­l<*B<)m«<*-S<@T?Í¿PA“İ¾Íº0http://s3.amazonaws.com/zoo2_extra/278417.jpg(
+fa „½ƒªlÁ=¯-
+f¡ ›(
+f¡ Ÿ=,¦â?"`Ô00:00:10.12+00:38:03.4stripe82            Ei                   .  (B   ?^¸R?co?$Éš   @@  =…¸=‰7L>À¦ú   @¡Ë=…¸=<j=…Í                       @@  ?€  ?€  ?€     ?€  >ª~ú>ª~ú?¼À   @   ?*Àƒ?*Àƒ>ÖzN   ?€  >ª~ú>ª~ú?>¿   @   ?*Àƒ?*Àƒ>Ïmp                       ?€  >ª~ú>ª~ú>åñ   ?€  >ª~ú>ª~ú>ÎV¨   ?€  >ª~ú>ª~ú>
+ëé   ?€  <¼j<¼j="   *B(  ?z¬?z¬?mæ  @   >   >   >3o   #B  ?`  ?`  ?]¹ï                      ?€  ?€  ?€  ?€                                                                                                                                                                                         ?€  ?€  ?€  ?€                                                                                                                                                 ?€  ?€  ?€  ?€    (
+f¡ Ÿ
+f (  Ÿ?¥”ÜE­ã?äL€ùÏ?ğg4@“‘ÉAš‰}AJÌA‡Î@A„ÌDA‚Nö=Ö4n<-Ìq<
+}<%ı<Ôj2A‘NÅAûíA†ZJ;¨pÄAˆ•;­!?s@4Vı¯t %>‘Ú=ĞTÒ=—i=e%ã="xC¨§˜Bå)tCª(Bä&«C¤œÏBâ\îC¦K1Bå§{C¨6ÓBâ=@0Î\ê
+?tEVß1d=]¦T9N›sÁmÚÁšÙ?Á ‘Á£*Á¥ZV=Ú <nÙÅ<Rl¡<hš«<ãª’?ı    N  @	 (
+f¡ Ÿ@3-•à   @1¯5    @0æÓÀ   @0‹j    @0?š    ?ºÆÀ   ?…¹    ?€O    ?„£    ?šF@   ?şæ€   @r9    ?«´Ê€   ?)Ón`   ?ï] `            fs     @ ?¥”3)½~Ä?äL
+!r-       ÁnÍÁšÙÖÁ ‘GÁ£(wÁ¥[=Ú<nÙÅ<Rl¡<hš«<ãª’?ı         (
+f¡ Ÿ  + +B,  ?Dw        >VSX<¾‚ø    ?Dw>VSX<¾‚ø    (
+f¡ Ÿ  + +B@|?F6J        >U‰;<Œìî    ?F6J>U‰;<Œìî                                   ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ¿·Š	¿ÊqŞ¿$tT(
+f¡ Ÿ?ôÍ       3>5|    =‘ß,@   (
+f¡ Ÿ                           Cdç  Ó=vHwWw!Då?»Ğ|@ëÊX¾YµéB°    Ó=vHwWw!Då?»Ğ|@ëÊX¾YµéBÎç  ?º¹l@#í{?3@¤>A“@cy‘A2v'? £>îò§@Ü¼A2I%>±Æ£?óI<šÁœ=¦¶7?^İB,  ?Dw=>‚û<¾‚ø>â==>‚û<¾‚ø>â=<¾‚ø    (
+f¡ Ÿ@2ê–    @1}Ä€   @0¸R€   @0]rà   @0f`   ?¥¿à€   ?{Ux    ?u€   ?vŞ]    ?ˆÔ    ?«´Ê€   Á‘T~ÁœVÎÁ¡ısÁ¤•¼Á¦†==@S<Dø¾<88<;¥t<€½¦@G¨A!u¨¼¼Ÿ http://s3.amazonaws.com/zoo2_extra/280233.jpg(
+f¡ Ÿ¿:úÁ,ã“-ıÀl )ıÀl Ÿ=F?ƒîm00:00:11.61+01:01:50.6stripe82_coadd_1    Er                    & A@  ?lIº?lIº?lIº                      ?€  =²-=²-=²-                                                                                                                                                                                                           ?€  =©ûç=©ûç=©ûç   A0  ?jÀƒ?jÀƒ?jÀƒ  	A  ?@  ?@  ?@     @   >+>+>+   ?€  =©ûç=©ûç=©ûç                       ?€  ?€  ?€  ?€                                                                                                                                                                                                                                                                                                                                                        )ıÀl Ÿı )  l Ÿ?¨ÃÅ’õ$?ğ}ÔÌËu4@'™@®/A <şA“’AŒ”ÜA‰W©A‡E>—L&<¶I<€Vı<¢U#=_‘(A–R~A–‡©A‹,<xA«³<xë?E¯Ì@5(µXâz¹>ºd=ÁÙ:=Œ˜[=U7Ó=,DU‰¨DæüÍDVıÎDæ»³DT6]Dæ»`DTãåDæÚbDV]Dæ«´@1r£>õÉP?{Wç·h=ÑØ9şÁ–u’Á¢âÁ§×­Áª5^Á¬NŞ>—±c<ÇÙ*<˜A´<µÕ=cK£@zêV   ' < 	 @Ø)ıÀl Ÿ@3æAÀ   @2IÅ    @1€û@   @1‚@   @0Ø¬À   ?Òé„À   ?–É"€   ?
+ß    ?”J¤`   ?«ò%    @ ¤ó    @Åâ€   ?º;à   ?#Â@   ?ïöî€     @    fs     @ ?¨ÃT—?ğ}ÙÒ;Q,       Á–xºÁ¢Á§ØFÁª6ëÁ¬P>—±Z<ÇÙ*<˜A´<µÕ=cK£@zêW      
+   
+)ıÀl Ÿ   Aà  ?$’J        >’I%=’I$    ?$’J>’I%=’I$    )ıÀl Ÿ   Aø¬Ê?%±‰        >“j=†
+     ?%±‰>“j=†
+                                     ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ )ıÀl Ÿ?÷+¶       3>4œ^€   =“cŞ    )ıÀl Ÿ                           CÖA)  ğ=ÊøíVğ€WDj¯?šÀ_?š\?s€ªA
+    ğ=ÊøíVğ€WDj¯?šÀ_?š\?s€ªA”<  Aİ#?¿Ë>:OZ?-3«B./i@EÑ=H%y?D«¬B šÊ@Gq=…8Q?E?6<é“==®{ÄyÀ Aà  ?$’J    =I&>€      =I&>€  =’I$    )ıÀl Ÿ@4AE`   @2.à   @1P@   @0î@@   @0ª`   ?ÇÆÀ   ?‡Ã`   ?€C    ?‚¯    ?–Ûh@   ?º;à   Á”#Á£ÅèÁ©[ÂÁ«Ğ&Á­¹„>?hK<zõm<Q5<Zc·<È_=@*,øA(ñ>³†@http://s3.amazonaws.com/zoo2_extra/294273.jpg€       À  À  -ı@l ^)ı@l ]=F:p¿$Û00:00:11.61+00:38:38.3stripe82_coadd_1    Ser                   H @À  >’n˜>’n˜>¢í   AP  ?vÉ?vÉ?á   @   =Â\=Â\=Â\   AP  ?€  ?€  ?€                                                                                                                                                                                                            A˜  ?€  ?€  ?€                                            @À  ?€  ?€  ?€                                                                                                                                                A0  ?X“u?X“u?X“u  @   >²->²->²-                                                                                                                                                                                                          )ı@l ]ı )  l ]?¨Ç(H¦¿ä›vù†”.@›@ĞPÉA¤œ A”Ñ¢AŠú>A†¿˜Aƒ½¤?/­.=N¸=oğ=Š=€Î/A”¨³A”¬=AŠ%3;ù‘øAŒ‰…;ÿÃ?€  @4ä5m¥Z>UEò>ì¦=ã¡=¬š¼=tÁåDUQşDëÚ%DWDëYlDT,ıDëv@DUÈDëSCDV#˜DëD@1D¦_œ¢¼?2>üu>>ø96ÜvÁšÓÙÁ©_—Á°u_Á³éŠÁ¶<p?/ã=Æb=s=‹Æ=‚lß@ŸwH   1 &  @-0)ı@l ]@4^`   @2s€   @1B    @0Â4€   @0hÆ    ?åõ¥À   ?±É×    ?­ñ¾    ?±Cbà   ?°Åà   @ #S`   @
+    ?Áñ¿    ?&ÛÀ   ?ïóÀ          fs     ` ?¨Æ½Fİy*¿ä›wuŠ       ÁšÔ‰Á©^BÁ°zxÁ³êÁ¶8y?/âú=Æb=s=‹Æ=‚lß@ŸwI    	   	  )ı@l ]  7 7B\  >‹¢ê        ?5†û    <”ò
+>‹¢ê?5†û    <”ò
+)ı@l ]  7 7Blä>‰¬)        ?7l    <oyJ>‰¬)?7l    <oyJ                                ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ )ı@l ]?öæ@      8>5V    =”S    )ı@l ]                           D>²  å=Ù×wW^±ûDj?µt>@©.¿lç«C=Ò    Ğ=éaÃWê |D÷ß?õ¸CA9œà;ì…BÊù®  @…T¹@ˆ°y=¬Š?dı‘BoB<]<#˜È?w*ôA~FBKEÑ<¼â¤?u4==z=®{ÄyÀ B\  >‹¢ê    =_k?'J    =_k?'J    <”ò
+)ı@l ]@4Š_à   @2ci    @1'l    @0¥À   @05oà   ?ÍûÀÀ   ?1	    ?2>À   ?yØÉ    ?ğˆ    ?Áñ¿    Á™¡HÁª{Á±‘8ÁµÀÁ¸…>pşb<‘î<Mòå<A»«<‘ê@?€A0Îá?Öğhttp://s3.amazonaws.com/zoo2_extra/289260.jpg€       À  À  -
+fÁ ¾(
+fÁ ‰=Z?¬?bÇ00:00:12.79+01:07:12.7stripe82            Sb2t                 %! @@  =¥ãT=¥ãT>'
+   "B  ?kC–?kC–?kC–                      ?€  <í‘h<í‘h=_   !B  ?x“u?x“u?w¹Œ  @à  >Y‡>Y‡>	c   AĞ  ?Iº^?Iº^?^È©  !B  ?€  ?€  ?€                        @   =yÛ#=yÛ#=¨)   A   ?"Ñ?"Ñ>´¤   
+A   >›"Ñ>›"Ñ>í´Z   ?€  <õÂ<õÂ=ƒŒÌ   A0  >“÷Ï>“÷Ï>••   AØ  ?6?6?2–Ì                       @@  ?€  ?€  ?€                         ?€  =º^5=º^5=º^5                       @€  >º^5>º^5>º^5   @   >èõÃ>èõÃ>èõÃ   ?€  =º^5=º^5=º^5                                           ?€  ?€  ?€  ?€                                             A°  ?*Àƒ?*Àƒ?O»   @À  >:^5>:^5>XÓş   @   >¥ã>¥ã>Sˆw                       A0  >ª~ú>ª~ú>øŠš   @à  >Y‡>Y‡>'b   @   >¥ã>¥ã=ÍgI   @À  >:^5>:^5=Ò£   @€  =÷ÎÙ=÷ÎÙ>,\  (
+fÁ ‰
+f (  ‰?«Gõ
+j?ñìXéP;,AQÜAƒ#…A‚aAmŠ¯Afk7Ab$A`ßŸ=,ó;ÍÄ•;7Ø;¼q<pS³A0€A–A`¾D;#AÂAf‰ˆ;ö>˜@5™G?A>#=ä4=¥ƒj={ì=1÷«CÚîD3Cİ¦õD31C×&D2V[CØ£D2æ—CÚó½D2Ì@,°PZEX-?`0Ù?=<Ê¥á94­ØÁ˜æxÁ£Ã»Á¦¹İÁ¨¼`Á©Ã="[¡<Aw<5¸Ş<<ë¿<‘nR@Šá•   + ?  1?İ6P(
+fÁ ‰@0*E    @-xt@   @,£ÁÀ   @,!è    @,Ià   ?¡…`   ?y¸’    ?s¦û    ?wƒî    ?
+v`   @!j;€   @0dp    ?™T¼    ?&•»    ?ïêò`        fs     ` ?«FæõŒv³?ñì\N–µº       Á˜ëÁ£ÂÀÁ¦»Á¨½zÁ©z="[¡<Aw<5¸Ş<<ë¿<‘nR@Šá”         (
+fÁ ‰   Aà  =I&        ?m¶İ    =I&=I&?m¶İ    =I&(
+fÁ ‰   Aì…=ı/        ?msó    = ÃŸ=ı/?msó    = ÃŸ                                ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ¾š¹õ¿=?ªŸ¾(
+fÁ ‰?ö
+´`      0>5HÙ€   =’¨Y`   (
+fÁ ‰                           BÒ³¬  Ø=*°®W'õ‰D-z^?§/ÔC¯†‡AiçB¢.O     =5•®X	ŞŸDJ“d@“ƒAd#:¿`šB€Íû  ?€  =_HY=I&?m¶İ?€  <|Á=I&?m¶İ?€  <|Á=ı/?msó<ÛXä=®{ÄyÀ Aà  =I&?m¶İ        ?m¶İ            =I&(
+fÁ ‰@0-1€   @-²=    @,§‹    @,    @+­Ê@   ?ãà   ?dèÜ@   ?c¡À   ?eH9    ?wßÀ   ?™T¼    Á˜ÆÁ¢Ù.Á¦ÀÁ©$ŒÁª€‹<Èÿè<)Å<(zW<)GV<<C?ß— A#gg¾ÒşHhttp://s3.amazonaws.com/zoo2_extra/281270.jpg(
+fÁ ‰=´’†Á"U(-ı l ‡)ı l j=ea‘¿›W|00:00:13.44-01:12:49.0stripe82            SBc2l                *, @À  >n˜>t¼=ƒá„   #B
+Óø?U?}?Tıô?{V  ?€  <Ä›¦<Ä›¦;ÛhŸ                       #B
+Óø?€  ?€  ?€    AÅ§ğ?6È´?6E¢?$ö   
+A   >’n˜>“t¼>´Î‚   Aõ§ğ?bĞå?b\?F.I   @€  =éxÕ=ë…>l¬7   @ÖŸ¾>LÌÍ>E¡Ë>.§§   AĞ  ?>5???¾w?7Wb   ?€  <í‘h<í‘h=Pƒé   ?€  <í‘h<í‘h=]ó0   	AOß>aG®>["Ñ>†O4    B   ?G®?I7L?<,                       @À  ?€  ?€  ?€                                                                                                         @   ?V?ñª?ñª   @m?}>ãSø>Ú¬>Ú¬                                                                                   @€  >“>¸>,   A0  >µÂ>·KÇ>².Ø   A{Oß?“?o?#å                       AÍ§ğ?VÈ´?VE¢?YÍ!                                                              @   >$İ/>&éy>¯   )ı l jı )  l j?¬¬2"‘û@¿ójïÅZh@‚#‹A²A’.A‰?uA„± A‚[œA€ø9=¼;=b»>,Ëu=•†=Lc´A˜{˜A—'’A€!w;Îg6A„sn;ÇL=,İF@5 ã­>Fš%>!+=Óø= » =cë¦Df©JDÅPDh?ZD6@De$
+D™ÿDf‰DÅDgCÅD–…@0†øxÓo?wK[Q ¢š= Ü9$Ş`Á•=Á¦yÁªÜCÁ«œ„Á­m=À„.=gU>-=–|ø=Ptr@Àh’   < 4  j?Äp`)ı l j@2@   @1Æ    @0{Şà   @07`    @0ì€   ?·ƒg`   ?¡W`   ?Å™n    ?²¢ĞÀ   ?©Œv€   @Dq`   @!–Oà   ?´Û€   ?$›Ì    ?ïæO`        0  fs     @ ?¬¬æ‚S¿ójè9¹x       Á”LÁ¦v/ÁªÛTÁ«œÁ­l?=À„.=gU>-=–|ø=Ptr@Àh’     
+   
+ )ı l j   AÈ  =õÂ        ?W
+==#×
+    =õÂ?W
+==#×
+    )ı l j   AÉßı=ı^X        ?V’=#J:    =ı^X?V’=#J:                                   ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ¾úáH¿=Òò?¦»™)ı l j?öÑã€      6>5ky@   =”o¸    )ı l j                           C¤f#  =§]WDSÇ?¾ C³ÿ\?3¦‹A“Àã    =§]WDSÇ?¾ C³ÿ\?3¦‹A¦É-  @
+Í>6/9=x•?eèl?áÚ<ÓÜ±=•¨=?bÕO?€  <ÓÜ±=ı^X?V’=
+Z•=®{?oÂ‘AÈ  =õÂ?#×
+    >LÌÍ?#×
+    >LÌÍ=#×
+    )ı l j@2B4@   @1™à   @0t    @0    @/İ€   ?¨ #À   ?€¹“@   ?xéƒ`   ?|¤á    ?“¹m€   ?´Û€   Á|¤Á¦º”ÁªòÖÁ¬ÊÔÁ®rX=Q¬H<Sˆ4<?Ã’<GíŸ<±Êÿ?×c A&!h¿Mxhttp://s3.amazonaws.com/zoo2_extra/287952.jpg)ı l j>µ~jÁ!·-
+f¡ §(
+f¡ ¬=lOÛ?'DN00:00:13.85+00:39:12.2stripe82_coadd_1    Ei                    @ Ap  ?Iûç?Iûç?Iûç   @@  >!ÊÁ>!ÊÁ>!ÊÁ   ?€  =Y‡=Y‡=Y‡                       @@  ?€  ?€  ?€                         @@  ?€  ?€  ?€                         @@  ?€  ?€  ?€                                             @   ?*Àƒ?*Àƒ?*Àƒ   ?€  >ª~ú>ª~ú>ª~ú                       A  ?€  ?€  ?€                        A`  ?nÙ?nÙ?nÙ  ?€  =‰7L=‰7L=‰7L                                                                                                                                                                                                                                                                                                                                                                                              (
+f¡ ¬
+f (  ¬?­‰UÔÑ?äè(‰Œ?ù;¯@°ÌKAš¶fA[vAŠ8A†ÅºA„Ÿ®=à½ô<ƒùù<^õP<w‚=×yA”'A“˜Aˆ²¯;ÁXøA‹h¤;Åÿ§?~aò@4³jøÃ>g =Õù”=›1E=k[ =&Ş¶CïEC†Cğ¹*CÙCë8˜CTŞCìâYC%ÏCîâ+CH%@1Î~h2€?xˆ!ø“=Ô!À9!VIÁ›„ÌÁ¥wÁªIÁ­ÂÁ¯Ì=äv¿<›U <ŠW‘<”:	=£Ğ@m*   % 5 	 ?ñ—Ğ(
+f¡ ¬@33(`   @1ğÃà   @1.Ã    @0ÊÀ   @0‰Q@   ?¼¾€   ??    ?‹Şª    ?â@   ?¡ºï    ?ÿ'uà   @‰`   ?º„8    ?$*É    ?ïæ           fs     @ ?­ˆÑ‰²Ä¹?äèys›¤       Á›€•Á¥v·ÁªZÁ­8Á¯È=ävÅ<›U <ŠW‘<”:	=£Ğ@m*     
+ 
+  
+ 
+(
+f¡ ¬  & 2B  ?           >×”5=W”6<×”6?   >×”5=W”6<×”6(
+f¡ ¬  & 2B)&Q? \ä        >ÖÒF=W_°<Øÿ? \ä>ÖÒF=W_°<Øÿ                                ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ (
+f¡ ¬?ôÍ       3>5|    =‘ß,@   (
+f¡ ¬                           CØˆN  ğ=ÊøíVğ€WDj¯?šÀ_?š\?s€ªA¡ş    ğ=ÊøíVğ€WDj¯?šÀ_?š\?s€ªA»«p  @½÷g@—Œ>&P‚?8òB)±äA#Os<Şb?RIBP¡A0ˆ‰<·WJ?SX„=Ö=®{ÄyÀ B  ?   <×”6=W”6>¯(m<×”6=W”6>¯(m=W”6<×”6(
+f¡ ¬@3BŠ    @1Òrà   @1ò    @0›ë    @0Nh    ?¬û?@   ?€'»€   ?x+    ?z“6À   ?ù    ?º„8    Á›v±Á¦—†Á¬DÁ®§qÁ°ò¾=uë–<P­ç<></<CMš<[@¬˜A)oî¾}`0http://s3.amazonaws.com/zoo2_extra/280234.jpg€       À  À  -
+f¡ ­(
+f¡ ³={Ó5?,®­00:00:14.76+00:40:28.3stripe82            Er                   0   ,B.ff?jÀƒ?j~ú? E‡   @€  =©ûç=¬1?Gn                                           @€  ?€  ?€  ?€                         @€  ?€  ?€  ?€     ?€  >€  >€  >q;   @@  ?@  ?@  ?DÈ                       @   ?   ?   > Ü   @   ?   ?   ?0û«                       ?ÌÌÍ=,1=C–=<Ë=   .B8  ?u?}?wKÇ?t$K  'Bff?bĞå?b\?^ù~  @   =éxÕ=ë…>&÷è                                           ?ÌÌÍ?€  ?€  ?€                                                                                                                                                                     ?€  ?€  ?€  ?€                                             ?€  ?€  ?€  ?€                                                                                                        (
+f¡ ³
+f (  ³?¯zf£xº?å•Õ¤â¢ø@fw£@èòA–š†AŒÇˆA††Aƒk¤A5~=ØÚ<b}Ö<0dw<\ËY=?7A™ã	A—z<A± ;É–2A†D;Ãw»=¥¢;@5—ÔREx˜>œM=Ù8‹=‹ô=ní =)f¿D #ICğ<àD õCğöCünÆCï{Cş%ÜCğS=D 	ƒCï…¾@0³˜,UZœ?u‘¤·!Üé=§{9c"ÁšĞÁ¤AÂÁ©BÁ¬àÁ®=Üf¯<‹Å<p¾“<‰xº=ÄJ@±}İ   7 8  P?ìp(
+f¡ ³@2­€   @1}ä    @0¼ûÀ   @0^c    @0ò`   ?»»@   ?ŒOºÀ   ?†à   ?‹™k    ?¢§æà   @Îô`   @@À   ?´ïb    ?!d@   ?ïş @          fs     @ ?¯yóï.}Ÿ?å•ÍâÉTÄ       ÁšÔÔÁ¤AÁ©‘(Á¬gÁ®–=Üf¬<‹Å<p¾“<‰xº=ÄJ@±}İ         (
+f¡ ³   2Ağ  ?ˆŠ        >İİà=ˆŠ    ?ˆŠ>İİà=ˆŠ    (
+f¡ ³   2A÷ñ,?
+.â        >Û`Í=f    ?
+.â>Û`Í=f                                   E =§]C³ÿ\?3¦‹WDSÇ?^=`?Xb?Xb?Xb(
+f¡ ³?ôÍ       3>5|    =‘ß,@   (
+f¡ ³                           C«×Ì  =§]WDSÇ?¾ C³ÿ\?3¦‹>úˆá   =§]WDSÇ?¾ C³ÿ\?3¦‹>êÇJ @í>¶¯¿>[Ò?<íF@©·ƒ=Œ³É>> Ê?C’U@äDD=ˆˆ‰>Zn?L¯_= ®=®{?rÿƒAğ  ?ˆŠ=ˆˆ‰>LÌÍ>*ª­=ˆˆ‰>LÌÍ>*ª­=ˆŠ    (
+f¡ ³@2Ñº€   @1ve`   @0® €   @0Ph    @0’À   ?­™i€   ?†”    ?xn÷€   ?|„à   ?ì‚    ?´ïb    ÁšMÁ¤”öÁª<Á¬–ÛÁ®Ãe=z’ô<N¿ø<>Æ¥<F•<?@ /xA'÷²¾Ähhttp://s3.amazonaws.com/zoo2_extra/280235.jpg(
+f¡ ³¼¡ Á*-#-
+f Ô(
+f ±=²¤Ş>\;»00:00:20.93+00:12:54.3stripe82            Sc?t                 7 Aâ?éy?`B>C|   AÈ  >èõÃ>ì1?t0Ú  ?€  <“t¼<“t¼;œY†                       AÈ  ?€  ?€  ?€    @@  =õÂ=õÂ=ê:¨   A°  ?aG®?aG®?bg­  A€  ?#×
+?#×
+?Ûö   	A  >¸Qì>¸Qì>Ü¥d   @à  >\)>\)>5+`   Ap  ?™š?™š?K=   @   =£×
+=£×
+>L   ?€  =#×
+=#×
+=W   @È1>¸=ï²>nb   /B<  ?^¸R?bJ?\÷Î  AÊ?e¡Ë?dİ/?hĞV  @@  =Òñª=Ù‡=×Ü                       @Pb?-?¸?¸                       ?€  >n˜>#×
+>#×
+   @   >’n˜>£×
+>£×
+                                                                                                                           A   ?   ?   ?È   @   >Ÿ¾w>Ÿ¾w>ŠÀi   @@  >@ƒ>@ƒ>¬w   ?€  =}ó¶=}ó¶=C   ?€  =}ó¶=}ó¶=BĞ   @   >   >   >*o   ?€  =}ó¶=}ó¶=âi   ?€  =}ó¶=}ó¶=Â£5   
+A   ?   ?   ? 	÷  (
+f ±
+f (  ±?¶T›¸­°ş?Ë‡wmŸÀ¥@\Æ@ßß¯A“tˆA‰§bA†PÃA„ÕAƒÖñ=Ğer<4‹<êÎ<‹›Å=’&2A™‘A–£A‚=;×scA†;Ç;ÑHÃ=Ó¬5@5yEÖUaP>%"Z=ó"=°?ú=…¥==ƒD:\dBóõÄD;]şBë|gD8 ÖBé€6D9_¾BéšîD:wrBé"T@0·.À,ÓÈ?v‚E¤©€–=®í–9&p9Á£|Á§^üÁª(ÍÁª¶çÁ«’=Ôc<sÏè<^Á*<¡Ş`=“”T@°Öú   7 6  R?¸U(
+f ±@2E€   @1§à   @0´!    @0‰Ó€   @0o@   ?º®@   ?†‘Ñ`   ?‚İYÀ   ?‘sx    ?²DÆ@   @˜Ã    @ûõà   ?µİ²À   ?$Î    ?ïÈ¡`           fs     @ ?¶T¸ÕıhN?Ë‡”'Ä®$       Á¦Á§^mÁª(•Áª¸&Á«’Q=Ôc<sÏè<^Á*<¡Ş`=“”T@°Öú     
+   
+ (
+f ±   Aè  >=É        ?\°        >=É?\°        (
+f ±   B ^r>+-        ?[õ5        >+-?[õ5                                       ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ (
+f ±?ó$)à      +>5Nå    =’¤.à   (
+f ±                           C³Tz  }=©7œTú ÜCñÇ?A'C³¢Ñ¿BAuÒ    =§]WDSÇ?¾ C³ÿ\?3¦‹A)µ³  @o´°>¦Ó='Îù?uƒ?î½Š=F#=¡Íõ?kÆA?€  =AºĞ>+-?[õ5=í=®{ÄyÀ Aè  >=É==Ë?9a=ÓÜ´==Ë?9a=ÓÜ´        (
+f ±@2R    @1 &    @0±€   @0iæ    @0A.    ?§Ñ–À   ?ƒğX    ?z)    ?~>)À   ?™I«@   ?µİ²À   Á˜qÁ§M*ÁªŒ‹Á«º^Á­R~=Ojw<dª<BgÕ<K©<ÚBß?¿A A#áı¿-•¤http://s3.amazonaws.com/zoo2_extra/279394.jpg(
+f ±?vÊÁz9-
+fA ™(
+fA ª=×½¾Û+r00:00:25.28+00:25:41.0stripe82_coadd_1    Er(m)                 3 
+A   ?*Àƒ?5?}?+3   @   >1'>hs>@»   @¾w>LÌÍ>™š>w`                       @   ?€  ?€  ?€                         @   ?€  ?€  ?€                         @   ?€  ?€  ?€                                             ?€  ?   ?   >ıŞT   ?€  ?   ?   ?Ö   @À  ?   ?   ?F   @À  ?   ?   >ÖÕß   A   ?LÌÍ?LÌÍ?E_d   @   >LÌÍ>LÌÍ>š¡                                                                                                       ?€  >+>+>+   @   ?U?}?U?}?U?}                                                                                                                                                                                                                                                                     (
+fA ª
+f (  ª?º÷q¼şm¿Ûe¸åº/@	ò×@ÚÈVA °ÔA“ËAŠëæA‡ÜA„>¤“<êÑ<ƒŒ<ˆ<å=/.´A•²A•	ñAŠì«;âMéAw;ê4ç?€  @5@
+ë>P&“>'Á=Ş)x=¨un=nàïDc[„DíúDd§6Dí¡ Da¼&DíYfDbßDíR DckRDí`"@1]•_œC?|I½É©8>º9.møÁœ$Á§í^Á®l£Á±…Á³æŒ>¤o<ø²§<šø<<ø†=3èò@^<   1 +  @E (
+fA ª@3á0@   @2Rú    @1AoÀ   @0Ï$à   @0sK`   ?Ô‚`   ?Z#    ?q‚    ?‘œ    ?¥åÖ€   @>Zà   @Y
+À   ?ÀWS    ?%Í¿    ?ïü“`          fs     @ ?º÷Y7Èh0¿Ûe–àH–       Áœ(bÁ§îÀÁ®kàÁ±~;Á³åÂ>¤oy<ø²§<šø<<ø†=3èñ@^<    	   	  (
+fA ª  8 8B`  ?[m¸        =I&=Ûm½    ?[m¸=I&=Ûm½    (
+fA ª  8 8BvÎÑ?_Àİ        <ò]u=Åa·    ?_Àİ<ò]u=Åa·                                    ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ (
+fA ª?óƒ       )>5–“    =’iF    (
+fA ª                           D«¬  å=Ù×wW^±ûDj?µt>@©.¿lç«BÁ·    Ğ=éaÃWê |D÷ß?õ¸CA9œà;ì…B—Ø  @³Wc@a§?<pÔ=÷E÷Aäé;Aã>Üó¸>SŸöAâóA¼¢>÷µ>Ai=(ïz=®{ÄyÀ B`  ?[m¸        =I&        =I&=Ûm½    (
+fA ª@4oË@   @2f¼    @1AŠ    @0Æ‚    @0iã`   ?ÇÙ¥    ?ˆ«€   ?|I½    ?y®,    ?3-    ?ÀWS    Á—ûÁ§…«Á®—‹Á±òtÁ´[Ê>@O<|Í"<G–<A`ì<•I5@4ßèA.¯9>Ì‰ http://s3.amazonaws.com/zoo2_extra/277541.jpg€       À  À  -ı l )ı l =àƒ?ò00:00:26.31+00:35:50.8stripe82            Ei                   * ‚ &B  ?g®?g®?¥Ë   @   =D›¦=D›¦>Ë   @   =D›¦=D›¦=    ?€  ?   ?   >Ór{   ?€  ?   ?   ?1~   ?€  ?€  ?€  ?€                                             ?€  ?€  ?€  ?€                                                                 ?€  ?€  ?€  ?€     @€  =ÌÌÍ=ÌÌÍ>,tä   $B  ?fff?fff?N({                      !B  ?^5??^5??Ky:   @   >+>+>b°                       ?€  >€  >€  >€     ?€  >€  >€  >T™   ?€  >€  >€  >u„   ?€  >€  >€  >–b­                                                                                   ?€  ?€  ?€  ?€                                                                                                                                                                                        )ı l ı )  l ?¼qè$Â?ãBÖiX´@*R@¤¦A™'AXŞA‡=ÚAƒ™dAU=åéó<PÃQ<tê<%âî<Ôš]A’^ˆA‘¸5A…:$;ÄA‡|;ÂÄæ>á"@4‚	#ºwÄ>@A=È=‘l)=\‰ù=]hD°RÇD×®iD°èiD×o”D¯¥ÕD×˜RD°ÚD×¾×D°™CD×lK@0ÍiXg?qEŸb*j1=ÔÁ":wĞmÁÁ§Ó Á­ŸZÁ°~Á²á=éŒ»<„°r<YÄè<i(<ã×g@èÀ   ' - 	 @R)ı l @3ˆÀ   @1²N    @0Õ—à   @0e`   @0 ìÀ   ?¼½>`   ?Šj    ?î@   ?„¼]À   ?š“K    @ ÅJ@   @´À   ?º˜$@   ?Nú    ?ïµ?€           fs     @ ?¼àG±d?ãQ(·n       Á
+µÁ§Ò—Á­ÃÁ°}}Á²}=éŒÈ<„°r<YÄè<i(<ã×g@è¿     	 
+  	 
+)ı l    AĞ  ?'bw        >lNÃ=ìNÃ    ?'bw>lNÃ=ìNÃ    )ı l    Aä ö?)õÔ        >do=è6€    ?)õÔ>do=è6€                                    ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ )ı l ?õæ8       5>5k    =“aÀ   )ı l                            CÙ&õ  ğ=ÊøíVğ€WDj¯?šÀ_?š\?s€ªAª4ë    ğ=ÊøíVğ€WDj¯?šÀ_?š\?s€ªAÅ·'  @v‹@=P¡>Éâ¥>åAóV½A§(l=«íj? °'B,™*AÃr=‚æç?"5=!‡í=®{ÄyÀ AĞ  ?'bw        >lNÃ        >lNÃ=ìNÃ    )ı l @3U;    @1¹b@   @0İ^`   @0lbÀ   @0"Ø    ?®íÚ    ?€	Á@   ?xXœÀ   ?xQa    ?ŒgÀ   ?º˜$@   Á› Á§¨àÁ­jÇÁ°2²Á²tÖ=‚U‹<P²<>˜ç<>Š <Œ¾@UA,O'¾#ºhttp://s3.amazonaws.com/zoo2_extra/293023.jpg)ı l ½ Á.5-
+fA (
+fA °=î»%¾åx00:00:27.98+00:26:53.5stripe82            Ei                   * Œ &B]/?g®?mV?=	   @@  =‘hs=—P>Yb   <“t¼<Ä›¦                               @@  ?€  ?€  ?€                         @@  ?€  ?€  ?€     @   ?*Àƒ?*Àƒ?[IÅ   ?€  >ª~ú>ª~ú>%;                       @   ?*Àƒ?*Àƒ?!    ?€  >ª~ú>ª~ú>½÷¿                       @eÒò=È´9=´9X>.ö   %B  ?féy?ixÕ?M­  @à  >A‰7>C•>†¥İ   Aìº^?O²?O ?:Ÿ“                                                               ?€  >€  >V>V                       @   ?   ?—?—                       ?KÇ>€  >(õÃ>(õÃ                                                                                   @   ?€  ?€  ?€                         ?€  ?   ?   ?                                                                                      ?€  ?   ?   ?     (
+fA °
+f (  °?½×d«PPO¿Ü¯vı¸R?Ö@@’¼AûA°A‡A„#âA`.>ÒI<2Db<´ù<&<ªfA‘GA.çA†B:; =ûAˆ‘Ô;¢|§?Oùø@4p¤Ê>TÔs>™$=ã'ú=¬>â=t?¤D|â™D×‹D~!ŒDÖÄLD{FDÖ‚¯D| …DÖxjD|÷	DÖˆ
+@0Ô»Ï!Â?qJUı0İ©=¡¹s9 jTÁ•;=Á¢úÁ¨:ÆÁ«*nÁ­{¶>J<r"<SyD<SÁ2<½©@¾³    ;  @üH(
+fA °@3i•€   @1¼º    @0×    @0o    @0·`   ?ÁúI    ?†HŒ@   ?€¶Ÿ    ?€ÄÓÀ   ?•LÁ    ?úÃh    @A€   ?´7.`   ?$J€   ?ïıí`          fs     @ ?½×RÏÈ“#¿Ü¯
+"ZY       Á•G¿Á¢	fÁ¨:Á«%öÁ­{A>JŒ<r"<SyD<SÁ2<½©@¾³         (
+fA °  < <Bp  ?Q        =ªª¬=ÌÌÍ    ?Q=ªª¬=ÌÌÍ    (
+fA °  < <B‚?UÜ>        =Ÿêd=±3¨    ?UÜ>=Ÿêd=±3¨                                   ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ¾ÿb·¾ÿb·¾ÿb·(
+fA °?óƒ       )>5–“    =’iF    (
+fA °                           C¦ş  =§]WDSÇ?¾ C³ÿ\?3¦‹ASø    =§]WDSÇ?¾ C³ÿ\?3¦‹Apc  ?„/@1Y?P­=¯2@ˆW‘AÜ  ?$eq>cŒú@‘†‡AÕF?'x>e<î®Ù=®{?u³RBp  ?Q    <ˆˆŠ=ˆˆ‰    <ˆˆŠ=ˆˆ‰=ÌÌÍ    (
+fA °@3_Ú    @13à   @0«Åà   @0@`   @/â‡€   ?²ä
+À   ?{8@   ?t¿@   ?r¥‘    ?…y0    ?´7.`   Á•¹+Á£zmÁ©œƒÁ¬—ˆÁ®Øn=œ˜Å<Etß<6a<4Ò<md;@ÀA(À,>:Æ http://s3.amazonaws.com/zoo2_extra/277542.jpg(
+fA °¿·Á4è)-ı m )ı m L>Àe¿›C¸00:00:30.88-01:12:46.8stripe82            SBb2m(r)             -R @   =ãSø=ãSø=ºø   (B   ?c•?c•?k²¶                      ?€  <ÌÌÍ<ÌÌÍ<àùÄ   'B  ?y™š?y™š?yÈ›  Aè  ?>vÉ?>vÉ?1Xç   
+A   >ƒo>ƒo>›íE   Aè  ?>vÉ?>vÉ?
+O   
+A   >ƒo>ƒo>ñzç   ?€  <Ôıô<Ôıô=Gğ-   A`  >·ÎÙ>·ÎÙ>›k7   A°  ?bN?bN?Ìj   @   =På`=På`=mª…   AØ  ?™š?™š?#C   A  >ÌÌÍ>ÌÌÍ>è=   ?€  >LÌÍ>LÌÍ>LÌÍ   @€  ?LÌÍ?LÌÍ?LÌÍ                       Aˆ  ?!G®?!G®?!G®   ?€  =P=P=P   @@  =ãSø=ãSø=ãSø                       @   >=p¤>=p¤>=p¤   ?€  =P=P=P                       ?€  ?€  ?€  ?€                                             @€  >Oß>Oß>­"   Ap  ?Z?Z?g   
+A   >°£×>°£×>ªÃy   ?€  =C–=C–=y¬   A  ?ùÛ?ùÛ?/ ¨   ?€  =C–=C–<÷É   ?€  =C–=C–<Î¡   ?€  =C–=C–=	À¶   @à  >vÈ´>vÈ´>?¼  )ı m Lı )  m L?Àx¬
+àY¿óhvÿeÑ@@¦'ÄA`û3A‘æƒA‡"ÀAärA~ÙÙAzÒ;=ÜÕô<€ëá<8;<dFç=%	DA‘Ğ•A’ZAqİ;©QçA„ª¾;´¡?€  @5ÏıÆ>I¶°>kA=×J§=£?Ç=g}ÈC^}ØD]‚Cd¬D”ˆCXDûC[ÆºDZïC`ÀZD@0.;Ÿ¢äÍ?u*<İ˜ºÂ=š~>95ÿEÁ›Á¨`®Á¬ÁŞÁ®«Á°<Ë=àšÁ<˜¿8<v‹‰<Œ~f=*/@íÓ‘   J 0  w?âdğ)ı m L@2
+¥`   @0¿œÀ   @0!Î@   @/²|    @/=‰    ?»š¾€   ?|    ?‡`À   ?ŒˆÜà   ?¤¡(€   @Äø€   @,f`   ?³OÇÀ   ?&¿è    ?ïÜ|à          fs     @ ?ÀwÜ‰îù?¿óhrmÎ™s       Á™­Á¨^"Á¬À³Á®ÛÁ°<F=àšÂ<˜¿8<v‹‰<Œ~f=*/@íÓ‘     	   	 )ı m L  & &B  ><¡­        ?Jó<×”6    ><¡­?Jó<×”6    )ı m L  & &B›>2³        ?LZ¿<ßæ    >2³?LZ¿<ßæ                                   ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ¾ğ°ò¿8“u?©ù)ı m L?÷‰à      9>5d?à   =”t    )ı m L                           CÁ  6=–Û6U¯UwC¦1?BŸ_?ğPH¿MéòADd    6=–Û6U¯UwC¦1?BŸ_?ğPH¿MéòA¯A  ?ÃR»><>IZ?WÎ¹?€  7'Å¬><¡­?Jó?€  7'Å¬>2³?LZ¿=à=®{?iRB  ><¡­?5å    =¡¯)?5å    =¡¯)<×”6    )ı m L@2QU`   @0Ğå    @0{    @/\êà   @.È`   ?«yŒ    ?œP    ?u*<à   ?vêP    ?‹#i    ?³OÇÀ   Áœâ•Á¨'Á­„eÁ°AÁ²f1=j’_<Nõ<8kœ<;¼Ã<‡ş×@€A+2Ÿ¾Døhttp://s3.amazonaws.com/zoo2_extra/287957.jpg)ı m L>Q¼\Á)NÄ-ıÀm C)ıÀm ;>JÃ?[‚00:00:34.76+00:51:26.8stripe82            SBc                  + ~ "B  ?J~ú?St¼>ğQ5   @@  =\)=•>ÿÚ   @…ÊÁ>\)=Ğå`=‹a\   ?€  >ª~ú>ª~ú>…x   @   ?*Àƒ?*Àƒ?<˜)   ?€  ?   ?   ?:CÈ   ?€  ?   ?   >‰F                       @   ?€  ?€  ?€                         ?€  ?   ?   ?W·                       ?€  ?   ?   >¿]   @   =]/=]/=Á    #B  ?r-?r-?c·k  A   >p£×>p£×>o·Q   AĞ  ?C×
+?C×
+?0LÖ                                                               ?€  ?   ?   ?      ?€  ?   ?   ?                                                                  ?€  ?€  ?€  ?€                                                                                                                                                                                                                                )ıÀm ;ı )  m ;?Â‰XXÜ?ëpA[”ü&?ïÉ®@¼†¢A™|<Aô&AˆHSA„™Aa=úÉ< I<i/¬<tÓ-<öMÖA\ğA‘@’A‡İ;¼ÇAŠu°;ÂG‰?€  @4dÓWö.Ë>-=å˜«=¦…¿=|‰±=3pC¹1C‰8<C¼JC‡¤C¶}C‡tôC·ô)Cˆ4CºPrC‡.æ@0û¡_Fç?w˜àR‹=ÖÅ	9(’ÁœÊ(Á¦ŸŸÁ¬ø¯Á°ÛÁ²¾B=ş÷<³Ğ<~Ã<“Kq=É:@f˜   $ / 	 @t8)ıÀm ;@3	]    @1áÏ€   @0ôk    @0ƒ2    @0$e€   ?¿Y#`   ?”)    ?%õ€   ?še    ?ÉºÀ   ?ıù5À   @Ô@   ?ºØ¡    ?#¥@   ?ïÿ?        P    fs     @ ?Â‰>v_á?ëpE–bÄÇ       ÁœÃiÁ¦Ÿ:Á¬ø8Á°°Á²Â=şı<³Ğ<~Ã<“Kq=É:@f˜     	 
+  	 
+)ıÀm ;   Aø  ?F1Œ        >g9Ë        ?F1Œ>g9Ë        )ıÀm ;   Bš¿?IEo        >ZêL        ?IEo>ZêL                                        ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ )ıÀm ;?÷ à      />4Ÿ    =“o    )ıÀm ;                           CÛ(S  ğ=ÊøíVğ€WDj¯?šÀ_?š\?s€ªAÆkI    ğ=ÊøíVğ€WDj¯?šÀ_?š\?s€ªAçÛ„  @v‹@=P¡>ñF?rÛAóV½A§(l=Ïv?f9B,™*AÃr= ×a?kå=Á¸=®{ÄyÀ Aø  ?F1Œ        >g9Ë        >g9Ë        )ıÀm ;@3™r    @1ÜH    @0ç@   @0y¶`   @0$’    ?µŒµ€   ?3Ä    ?w˜à@   ?xŞnà   ?ŠéÊà   ?ºØ¡    Á™ñAÁ§MÁ­IÍÁ°7jÁ²•E=±:I<U÷Î<=†<?¬<‡GJ@Ä`A,Y$=	œÀhttp://s3.amazonaws.com/zoo2_extra/294275.jpg)ıÀm ;¿/2ŞÁ8äO-
+fa ‚(
+fa P>'¼¼[fÎ00:00:39.31+00:00:48.2stripe82            Sb                   - ­ AÀ  ?r°?©ü>O¢j   Ap->¶E¢>¶E¢?GV   @KdZ=ãSø=™™š=5š;   @ÀZ>àA‰>ÌÌÍ>ˆ»a   	A  ?ß;?™š?:Áà   ?€  =ãSø=ãSø>
+á   A   ?c•?c•?\Ñ\   @@  >ª~ú>ª~ú>óø   @À  ?*Àƒ?*Àƒ?#¸                       @@  >ª~ú>ª~ú>£×)   @À  ?*Àƒ?*Àƒ?.Ø                       @àZ>LÌÍ>8Qì>yŸü    B   ?LÌÍ?Që…?8Ü‘                       @À  >€  >€  >8Õ`   A  ?@  ?@  ?UUæ  <49X>   ;o;ı|   ?€  >   >n˜>I%   @   ?   ?6‡+?6X}                       ?€  >   >n˜>¬O                                           @À  ?[dZ?|î?<´                       <49X>n˜;o;COÍ                       ?€  >ª~ú>ª~ú>Ó>ó   @   ?*Àƒ?*Àƒ?™                       @   ?*Àƒ?*Àƒ?ÔÌ                                                               ?€  >ª~ú>ª~ú>æ¬k  (
+fa P
+f (  P?Ä÷ì©¶ó¿‹lÙÈì@'B@øBÔAšJ‹AŠiÏA‚PuA} +Ax‚˜>0†9<r<”V<’4n<½í
+A›AL©A€É ;‰AƒÈ›;Œ>Ş?Qf!@4^RÚ¦i>"ùä=ïÕ$=­òT=ƒæ =;	B¤$Dè>¢Bªu=Dè7B•HDçßÔB›6>Dç¿'B£[DçÄn@0(PäÖ:á?mü”¹îÌŒ=¢¿‹96ÅÁ—×ŠÁ¦ÁGÁ­t4Á°†SÁ²¢Ê>1¸Ş<’&ó<©t<§—K<Î×#@z¿‰   ' .  G@,åP(
+fa P@3 I@   @1/y    @04+à   @/’¾€   @.øæà   ?ÆÇ    ?BAÀ   ?’ŠÀ`   ?’FÀ   ?—½¡@   @âˆ@   @Z€   ?´Wñ`   ?&Ã    ?ïû	            fs     ` ?Ä÷ˆGô~¿‹l“¥Ÿõ       Á—Ú	Á¦¿·Á­u™Á°‡ÒÁ²£A>1¸Ü<’&ó<©t<§—K<Î×#@z¿‰     	   	 (
+fa P  $ 2B  >ÕUV        ?8ä<ã:    >ÕUV?8ä<ã:    (
+fa P  $ 2B­¹>Ï*        ?U<ìr    >Ï*?U<ìr                                   ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ¾Zu¾Zu¾Zu(
+fa P?ôy`       '>6=À   =“¹*`   (
+fa P                           C§  =§]WDSÇ?¾ C³ÿ\?3¦‹A$2    =§]WDSÇ?¾ C³ÿ\?3¦‹A7/È  @4ÕÔ@
+Û¼>SÔr?BœÊAĞ2@¶wÔ=¨Æ?`}õA#òß@¹UU=„ÈA?dr*= :=®{?f±ßB  >ÕUV=ã7    >ã7=ã7    >ã7<ã:    (
+fa P@2óGà   @0÷Gà   @0B`   @/.ı    @.‡2À   ?®z    ?{Q£    ?q"‚À   ?qiU    ?‚ˆã    ?´Wñ`   Á™D‘Á¨~­Á¯ zÁ²£Á´m=€œ<Dğ9<1™.<2A<\ù”@-ßHA-™‰>öhttp://s3.amazonaws.com/zoo2_extra/278418.jpg(
+fa P¿‹òÁAö6-ı m i)ı m j>*wĞ¿˜z†00:00:39.95-01:11:28.5stripe82_coadd_1    Ei                    N A¸  ?u?}?u?}?wi¢  ?€  =,1=,1=q;2                                           ?€  ?€  ?€  ?€                         ?€  ?€  ?€  ?€                         ?€  ?€  ?€  ?€                         ?€  ?€  ?€  ?€                                             @@  >   >   =ÓG{   A¨  ?`  ?`  ?f¹                      A  ?Hr°?Hr°?Hr°   @   >^5?>^5?>^5?   ?€  >ª~ú>ª~ú>ª~ú   ?€  >ª~ú>ª~ú>ª~ú                                           ?€  >ª~ú>ª~ú>ª~ú                                                                                                                                                                                                                                                                                          )ı m jı )  m j?ÅOÄMø0~¿ó7œ@wÇ@­MA™/AZ›A‰TA…pºAƒ!=ßDY<“ì<O‡È<YRĞ=3¦A”À1A” (A†kH;ËL÷A‰V;É®>ˆH@4ÙnË˜uJ>K]5>¢$=Ù=¤•º=ib¬Dh.D5¦]D*QD5DıÓD5|“DîÇD4ÚÕD,D4§]@1¡ÃÊV_?r»4½`½¤=¯l­9-ïÁ™‚›Á¢àÌÁ¨W¼Á«)Á­I=ãj<¨Pá<„4s<ˆù=?@c5ú   # ;  ?íR)ı m j@2òú    @1Æ<    @1°`   @0™À   @0U˜à   ?»è‹    ?’a€   ?‰ğù    ?‹*Z    ?¡¦tÀ   @®øà   @£	    ?µí•    ?%³½à   ?ïÉŸ         x  fs     @ ?ÅO–:"ê¿ó3fœÂÑ       Á™‚Á¢Ş†Á¨V˜Á«(ÅÁ­HÜ=ãj<¨Pá<„4s<ˆù=?@c5ú         )ı m j  4 4BP  ?‹        >‰Ø=‰Ù<‰Ù?‹>‰Ø=‰Ù<‰Ù)ı m j  4 4B^óz?g@        >Ÿñ=›<OM†?g@>Ÿñ=›<OM†                                ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ )ı m j?÷‰à      9>5d?à   =”t    )ı m j                           C³Ô   }=©7œTú ÜCñÇ?A'C³¢Ñ¿BAZMã    =§]WDSÇ?¾ C³ÿ\?3¦‹A²ù  @®?-y>€À?A›±k?õÂ=¶Â]?5KÌA÷ww@ˆ‰=m ½?>Wä<ğ(º=®{ÄyÀ BP  ?‹=‰Ù=‰Ù>lNÃ=‰Ù=‰Ù>lNÃ=‰Ù<‰Ù)ı m j@3@È    @1Ø®    @1È    @0œ    @0UÖà   ?¯ÃØà   ?ƒgÔ`   ?y"5    ?yáŒ€   ?ù    ?µí•    Á—£Á¢r\Á¨!öÁ«¨Á­Qa=…‚Ò<aµ‰<@9Ğ<AÎc<”ôé@öàA'ƒ|¾VñÀhttp://s3.amazonaws.com/zoo2_extra/287958.jpg€       À  À  -ı€m )ı€m §>+“_> If00:00:40.21+00:09:23.5stripe82_coadd_1    Er                    . AP  ?]ó¶?]ó¶?]ó¶  ?€  =‰7L=‰7L=‰7L   ?€  =‰7L=‰7L=‰7L                       ?€  ?€  ?€  ?€                         ?€  ?€  ?€  ?€                         ?€  ?€  ?€  ?€                         ?€  ?€  ?€  ?€                                                                 A`  ?€  ?€  ?€    AP  ?€  ?€  ?€                                                                                                                                                                                                                                                                                                                                                                                                                                       )ı€m §ı )  m §?År{Gû?ÄÌ­BBñ@2½A
+ãAÈ<øA”›ÈA‹MÁAˆA…`AV]ƒ=ZÎ<±ò<ÃM\=«(+A—-ƒA—”A‹A?<ÒşA€<3?€  @5¡~×“>,|˜=ıÓÿ=¸ë=‹˜n=Eó&D$6D¿…°DlUD¿SDÍÏD¿cD¦D¿GDÉáD¿Á@1h'ß›Ön?‚:_½î”>G‹78á´2Á¤)Á°s³Á¶±Á·±‰Áº-kGÃO€=Ä<Ã €<ÓÉ§=¬a»Aò"   Y ç  @MP)ı€m §@8İ    @2t    @1R¿À   @0ş„    @0§8    @*Ë°`   ?£YÀ   ?–#@   ?˜i«€   ?µe`   @C7    @!\`@   ?Èñfà   ?6†@   ?ïÿÖ             fs     @ ?År„à¦?Äò&¨—       Á¤&Á°sÁ¶Á·³¾Áº.~GÃO€=Ä<Ã €<ÓÉ§=¬a»Aò"   	      )ı€m §   AØ  ?=¡0        =ã7>´#    ?=¡0=ã7>´#    )ı€m §   Aê'à?D”ò        =Ü¹=ÿCº    ?D”ò=Ü¹=ÿCº                                    ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ )ı€m §?õº1À      >4şwÀ   =”]R`   )ı€m §                           DG1ï  Ğ=éaÃWê |D÷ß?õ¸CA9œà;ì…C¬¶    Ğ=éaÃWê |D÷ß?õ¸CA9œà;ì…Cw‚›  ?€  @[Q?=¡0=ã7@ì:A¢  ?'r>?Åº@¡G®A¨  ?	”>ş=-ü=®{ÄyÀ AØ  ?=¡0    =´'=—´%    =´'=—´%>´#    )ı€m §@4f    @2mG@   @1Q/€   @0Ö    @0|>À   ?Î7%    ?­º@   ?‚:_À   ?‚†ö`   ?˜TÎÀ   ?Èñfà   Á¢LÁÁ°ÇŠÁ¶³wÁ¹õÁ¼D§>rÉ@<–ãË<[V<\ï@<Ó0p@#5°A4=kd€http://s3.amazonaws.com/zoo2_extra/291800.jpg€       À  À  -ıÀm E)ıÀm @>+×Š?q[00:00:40.28+00:56:34.1stripe82_coadd_1    Er                    = Ap  ?Iûç?Iûç?9
+¸   @   =×
+==×
+==í$½   @   =×
+==×
+==×AX                       @   ?€  ?€  ?€                         @   ?€  ?€  ?€                         @   ?€  ?€  ?€                                             ?€  ?   ?   ?      ?€  ?   ?   ?      @   =ñ©ü=ñ©ü>HË7   Ap  ?aÊÁ?aÊÁ?Mo  	A  ?™š?™š?p‚   @À  >ÌÌÍ>ÌÌÍ>ÌÌÍ                       ?€  ?   ?   ?      ?€  ?   ?   ?                                                                                                                                                                                                                                                                                                                                                         )ıÀm @ı )  m @?Å{mÊöo?î+^ó«]ç@ h@Ñá™A »ˆA’{ÎA‹ÖA‡ëA…”õ>¨CH<½ùú<„Õ<—H=IĞrA”¿A•^AŠ>¹;ş¥oA1Ô<İ?€  @5"$í2>Š«=Ö-&=›V¬=k“º='îDÑìDƒ*¤D^;D‚ËÍDÍD‚ÙøD2D‚şDasD‚È@1G×œ`?Ô­Üb¬H=ÔğØ9NxÁ–¾1Á£õ Á©¤†Á¬*øÁ®Ä>¨¢V<Îã)<›lg<¬	½=Mîú@‡¦å   * 7 	 @2¨)ıÀm @@3ò°à   @24dÀ   @1P,€   @0îw@   @0§Î`   ?Õi    ?—¿?@   ?‚š    ?’é    ?©:@   @Ä    @<3    ?º    ? ©Ï    ?ïÿÑà          fs     @ ?Å{OÁ…?î+bOÅ{=       Á–ÀvÁ£öûÁ©¥ÙÁ¬,XÁ®>¨¢K<Îã)<›lg<¬	½=Mîú@‡¦ä      
+   
+)ıÀm @   Aà  ?d’J        =Ûm½        ?d’J=Ûm½        )ıÀm @   Aï?f=        =Ï6        ?f==Ï6                                        ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ )ıÀm @?÷ à      />4Ÿ    =“o    )ıÀm @                           CÙVq  ğ=ÊøíVğ€WDj¯?šÀ_?š\?s€ªAªd:    ğ=ÊøíVğ€WDj¯?šÀ_?š\?s€ªAÆ’3  Aœ\?·œ>ıÕ?A¼?2?zè>…æÎ?=¡B·Ò}?zO¥=´€‘?ioï=Cû=®{ÄyÀ Aà  ?d’J=Ûm½        =Ûm½                )ıÀm @@3ä    @2”À   @14M    @0Ñx    @0z    ?Àz£À   ?‡;é@   ?Ô­à   ?™    ?•õÎ    ?º    Á—P_Á¤¹õÁªEÁ­%jÁ¯WT>tŸ<wÆ^<O<X2<ÁØY@ï0A)§A=¢õ http://s3.amazonaws.com/zoo2_extra/294276.jpg€       À  À  -ı€m ©)ı€m ¨>,²<àm&00:00:40.44+00:01:38.6stripe82_coadd_1    Ei                   
+ # @À  ?™š?*~ú?*~ú   @   >LÌÍ>cSø>cSø   ?ë…>LÌÍ=çl‹=çl‹                       @   ?€  ?€  ?€                         @   ?€  ?€  ?€                         @   ?€  ?€  ?€                         ?€  ?   ?   ?      ?€  ?   ?   ?                          @@  >À  >À  >À     @   ?   ?   ?                          @À  ?€  ?€  ?€                         ?€  >ª~ú>ª~ú>ª~ú                       ?€  >ª~ú>ª~ú>ª~ú                       ?€  >ª~ú>ª~ú>ª~ú                                                                                                                                                                                                                                                                                          )ı€m ¨ı )  m ¨?Å‘ Ï-z7?œ.ªb?ª+e@ZÙ	A¢EA• §A8PA‰‰XA‡‡>q7<¯¤<J­ç<nSÎ=4ßA“—®A“ÔQAŒV@;î0A ;îÒû?>êÑ@4D,óEN>‚=ä×Å=¥ùÖ={µ‚=2vÿDBìC³£3DšüC±&…DåC²³DÎüC²''DŠC±*2@1”²< ÌA?wı).½:²=Ø§a9!?Á•ıäÁ¡ÿ€Á¨vÁ«1Á­([>r2D<¥fJ<‚OX<›2=9u	@$è.    ; 	 @)ı€m ¨@4P`   @2ƒœà   @1’f€   @1!à`   @0Ø1À   ?Î&â€   ?‘õô€   ?‰U¼à   ?ÊyÀ   ?¦›ã@   ?õEl    @[!    ?»ì    ?"Ä'à   ?ïşX`         fs     @ ?Å‘-bœ‘Ã?œ[Y       Á•ÿ€Á¡ş{Á¨tÁ«ŒÁ­$ú>r23<¥fJ<‚OX<›2=9u
+@$è.      
+   
+)ı€m ¨   2Ağ  >îîğ        ?   =ˆŠ    >îîğ?   =ˆŠ    )ı€m ¨   2B…Ñ>óq        >û—h=¼}    >óq>û—h=¼}                                    ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ )ı€m ¨?õº1À      >4şwÀ   =”]R`   )ı€m ¨                           Cİ  ğ=ÊøíVğ€WDj¯?šÀ_?š\?s€ªAéI™    ğ=ÊøíVğ€WDj¯?šÀ_?š\?s€ªBŞu  @-6L@\’e>€íÅ?5]FBwÇB·  <h¡x?lÌšB´5åBÖ  <-ñŠ?mp<í+=®{ÄyÀ Ağ  >îîğ        ?           ?   =ˆŠ    )ı€m ¨@49å    @2eûÀ   @1v$`   @1_    @0ÄÌ    ?ÀÈ    ?…bû    ?}Æà   ?}†     ?”»f    ?»ì    Á•aÁ¢ïËÁ¨âFÁ«¯úÁ­Z>£<lãŞ<J<I÷G<¸ı@w(A( ¼>3³Ğhttp://s3.amazonaws.com/zoo2_extra/291801.jpg€       À  À  -
+f! …(
+f! G>07û¿t–700:00:41.30+00:57:19.5stripe82_coadd_1    Er                    L AP  ?vÉ?#o?#o   @xÕ>s¶F>]/>]/   @@  >n˜>‡+>‡+   >×P>LÌÍ=Â\=Â\   @€  ?LÌÍ?g®?g®                       @€  ?€  ?€  ?€                         @€  ?€  ?€  ?€                                             @€  ?€  ?€  ?€                         @   >†§ğ>ŠÀƒ>ŠÀƒ   AV¼j?<¬?:Ÿ¾?:Ÿ¾   @à  ?	º^?	º^?	º^   @À  >ì‹D>ì‹D>ì‹D                                           ?€  >LÌÍ>LÌÍ>LÌÍ   ?€  >LÌÍ>LÌÍ>LÌÍ                       @   >ÌÌÍ>ÌÌÍ>ÌÌÍ   ?€  >LÌÍ>LÌÍ>LÌÍ                       >×P?€                                                                                                                                                                                                                                        (
+f! G
+f (  G?ÆğÊ‚ğ‹¿î’ÖKÑª@ŸAcUA¬ôêA–É´AŒ¥6Aˆ`cA†å“?œ=zn=#º=' Ì=ŒıA–‚A–å4A•”<KúAñÜ<	´³?€  @5rñh4C<>A2]>&ş=Î3’=œ[7=]·—C6ÁDgİC X§Df»fCDfWTCDeİCVDeà[@1²²š)€?€©>¡(>AòÜ9HVyÁš-Á®|ŸÁ´ˆ'Á·®ŒÁ¸	?œì—=}rP=(=,=Šf@ï¢F   J ç  @RÔH(
+f! G@5n±à   @2µşÀ   @1z²    @0ør€   @0Î¼    ?óƒ€   ?¯CÀ   ?¤`7@   ?¤ä€   ?±    @óÓà   @ Ìj    ?È>[€   ?)
+Ï    ?ï÷š`     €    fs     @ ?ÆáíF•‘¿î’ÖúŠ>k       Áš,±Á®{ğÁ´‰ïÁ·¯ïÁ¸?œí1=}rP=(=,=Šf@ï¢F   	      (
+f! G     B   ?8          =€  =À  >   ?8  =€  =À  >   (
+f! G     B
+Lì?;{ù        =i$=²-=ı‰÷?;{ù=i$=²-=ı‰÷                                ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ (
+f! G?ö-z       '>5¤Œ€   =“
+Ò    (
+f! G                           DAßs  Ğ=éaÃWê |D÷ß?õ¸CA9œà;ì…C¡çÃ    Ğ=éaÃWê |D÷ß?õ¸CA9œà;ì…ChHP  ?úXÊ@c˜?- §=ÅN5@°H–AX  ?Œ7>qá@¬+Aa$’?u>R’=m]=®{ÄyÀ B   ?8  =       =   =       =   =À  >   (
+f! G@4é€   @2äª€   @1˜º€   @1Íà   @0Á¯@   ?Ëçç`   ?‘À]    ?€©`   ?€wç@   ?“5 à   ?È>[€   Á¤4Á­OıÁ³è­Á¶ÑôÁ¹M5>`¦¹<£ò·<S7 <R={<®".@*#ÈA3h>2®http://s3.amazonaws.com/zoo2_extra/276528.jpg€       À  À  -
+f¡ ƒ(
+f¡ ><[<?,JA00:00:44.15+00:40:22.8stripe82            Er                   , ” $B  ?Qhs?W
+=?‘S   @À  >C–>\)>½šº   ?Tıô=8Qì<›¥ã<Ç¿   ?€  >+>+>O   @   ?U?}?U?}?^ºI                       @   ?€  ?€  ?€     ?€  >LÌÍ>LÌÍ>Â€ã   @€  ?LÌÍ?LÌÍ?¹c                       @   >ÌÌÍ>ÌÌÍ>ÖŠÌ   @   >ÌÌÍ>ÌÌÍ>Òğ«   ?€  >LÌÍ>LÌÍ>&qp   @   =D›¦=D›¦=„wõ   (B   ?s¶F?s¶F?kÚ  #B  ?xÔş?xÔş?y”Ò  ?€  <å`B<å`B<•                                                                                                       @   ?€  ?€  ?€                                             ?€  ?€  ?€  ?€                                             ?€  ?€  ?€  ?€                                                                                                                                                 ?€  ?€  ?€  ?€    (
+f¡ 
+f (  ?Ç‹g|»èN?å‰H{@M]A¶AHA‚eùAx‘Ar{{Anu•=?Æ;˜
+Å;uN;’Ws<=•AŒpA‹ZMAtğ;@’ïAy[;?É>ÈĞµ@4SY±Ym>\Õ=ØÛ&=H7=n†F=)éC„‘ÿCéd™C†OCé!EC€¨§Cèƒ@C‚/«Cé>âC„G«Cèl;@.âºï?`û9°§Ô=€8…9!?3Á}`Á©…UÁ®Ş>Á±FqÁ³å=P‰ş<4!<.÷ë<3oÉ<z‘Ñ@wS^   & *  Q@ğ(
+f¡ @1Î`   @01Á    @.è·    @.1g    @-¹M`   ?§øÁ    ?sX    ?n³©À   ?rJî`   ?‡²£@   @	£    @ öÁ€   ?°    ?$'æ`   ?ïı¿@         fs     ` ?Ç‹mf< ?å‰<°ÉJÅ       ÁŠÁ©„‹Á®ŞtÁ±GŞÁ³ğ=P‰ı<4!<.÷ë<3oÉ<z‘Ñ@wS]         (
+f¡    AØ  ?v„¾        =´'        ?v„¾=´'        (
+f¡    Aæb?yD¤        <×k¢        ?yD¤<×k¢                                       ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ¾âZî¾âZî¾âZî(
+f¡ ?ö!à      ->5Q    =‘À[€   (
+f¡                            C„'‹  ¯=BHT2š!D>ñº?<®@Tlv<ˆˆAo¶@    ã=…/VÏS$DK3?–mx@…¬†¾ä^AÌt  @†ã@VÍ?l1ê=p°@¬£´A:  ?T&>/÷i@ÔTTA0ğñ?YĞ>œÆ=-5 =®{?_çuAØ  ?v„¾        =´'        =´'        (
+f¡ @1éN    @0D à   @/ç@   @.S¯    @-Ë>    ?˜€Ãà   ?løà   ?gàØà   ?i    ?x«Û    ?°    Áœ®¥Á¨õ‰Á®r/Á°Ä@Á²Â£<ÿz¦<-ÈK<*¨„<+©¾<?Cß@PA-LS¾:«Phttp://s3.amazonaws.com/zoo2_extra/280236.jpg(
+f¡ ¿É¯Á5tæ-
+fA /(
+fA />@«C¾ÿ–o00:00:45.16+00:29:57.1stripe82_coadd_1    Sd2m                  # @@  >Û¥ã>Û¥ã>­™   @@  >Û¥ã>Û¥ã>çŠì   ?€  >n˜>n˜>I%                       @@  ?€  ?€  ?€                         @@  ?€  ?€  ?€     @@  ?€  ?€  ?€                         ?€  >ª~ú>ª~ú>ª~ú   ?€  >ª~ú>ª~ú>ª~ú                       ?€  >ª~ú>ª~ú>ª~ú   ?€  >+>+>­-   @   ?U?}?U?}?W0                       @@  ?€  ?€  ?€                                                                                     ?€  ?€  ?€  ?€                                                                                                                                                 @   ?*Àƒ?*Àƒ?*Àƒ   ?€  >ª~ú>ª~ú>ª~ú                       @@  ?€  ?€  ?€                                                                                    (
+fA /
+f (  /?È "µ6®¿ßóÔµ¤g@£G@ˆA—ûÒAÖrAŒÁUAŠêòAŠë=ç¯­<€ö™<Š•<À`Õ=r¾A›I¤A™=»AˆÄÙ<uôAŒLµ<µê=
+sÔ@5Œµ)ã>]ö	>#Q=ìæê=³¢¸=~ºPC–—DJC™1DDœÍÄC“}rDœŒ²C•œDœyûC–ÓùDœ†Î@1„êv°f{?€Bs¥²áS=ØyÄ8F­¦Áz’Á¥–kÁ§á¨Á¨ušÁ©/—=ëIŞ<˜ÈV< ü<Ñ?=ŸÆ±@˜§    / < 	 ?–q`(
+fA /@2Ç€   @1ÑÓ€   @1zI    @1GÈ    @11Á    ?¼õõ    ?Ó    ?‘R¢    ?˜    ?³ÎWÀ   @´hà   @Â‘    ?»8€   ?Õ´À   ?ï9G@           fs     @ ?È
+9+Û¿ßóİÅŒú       Á}æÁ¥”Á§ŞÛÁ¨wÜÁ©2=ëIØ<˜ÈV< ü<Ñ?=ŸÆ¯@˜§     	  
+ 	  
+(
+fA /  B BB„  >I²m        ?"èº=º.Œ=›&Ê>I²m?"èº=º.Œ=›&Ê(
+fA /  B BBt7>Frü        ?$`ø=´Ä:=›N>Frü?$`ø=´Ä:=›N                                ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ (
+fA /?õ=ı       (>5–Âà   =’3—à   (
+fA /                           CÜÚ·  ğ=ÊøíVğ€WDj¯?šÀ_?š\?s€ªAïĞ    ğ=ÊøíVğ€WDj¯?šÀ_?š\?s€ªB
+”‹  AƒD?PÍZ<ü†ó?E¾ğAB½>=Ë=Åİ?EXœA¨FŸ>0><e?I–Ê<éé¶=®{ÄyÀ B„  >I²m<ø>>ğ| >¢æ<ø>>ğ| >¢æ=º.Œ=›&Ê(
+fA /@2·Ÿ    @1ÆX@   @1k¶    @1 ª`   @1½    ?©ãhÀ   ?€«9@   ?½@   ?÷Ò    ? 'é€   ?»8€   ÁŸ
+~Á¦.Á¨Â}Á©BFÁªZæ=^º<S?²<Ub¹<Yõƒ=–»?›ğAŒ¦¿WO$http://s3.amazonaws.com/zoo2_extra/277543.jpg€       À  À  -ı€m »)ı€m Ñ>E¥Ğ=…£±00:00:46.32+00:03:54.9stripe82            Er                   ) y #B  ?ZŸ¾?`  ?9M¢   @   =H´9=LÌÍ=Ô¥…   @Ahs=È´9=›¥ã=M²   ?€  ?   ?   ?      ?€  ?   ?   ?                          ?€  ?€  ?€  ?€                         ?€  ?€  ?€  ?€                                             ?€  ?€  ?€  ?€                         @   =]/=]/=    #B  ?r-?r-?iV¸  Ağ  ?[dZ?[dZ?b¨  @   >n˜>n˜=Áèé                                           ?€  ?   ?   ?                                              ?€  ?   ?   ?                                              ?€  ?€  ?€  ?€                                                                                                                                                                                                                                )ı€m Ñı )  m Ñ?È´¹ğıË?°´vØyÿ@%j@ò“A—MXA‰ùA‚ IA}“Ax%7=ı”<<{O<O)<Fà<¼Ñ	AŒ«àAŒ©SA³>;ƒÓÍA„©ô;‰•?€  @4ãbdª‹>]:=Ş¾¡=¡=u a=-µ‡DJD/¥ÄDKPLD.›ÅDH»ÚD/ZDI†ÍD/]DJ°RD.‘Î@06g¿¢µÆ?pzy ø=Ù]O9,4ãÁ ³ÿÁ­#Á³!®ÁµâÁ¸> p<•ÿó<„		<€‡°<ÍÒy@ã   ,   	 (@mx)ı€m Ñ@2Ã,    @1#@   @0/T    @/“Å    @.ï    ?¿²‡€   ?iá€   ?‰ã%    ?ˆÂœ    ?—š!    @D­@   @C’`   ?»+©à   ?%†œ`   ?ïüÎ            fs     ` ?È´È¬ÉÅ?°´®ÚÇí       Á ·œÁ­JÁ³#ÄÁµà€Á¸ª> p<•ÿó<„		<€‡°<ÍÒy@ã      
+   
+)ı€m Ñ  & &B  ?^PØ        =×”<<×”6    ?^PØ=×”<<×”6    )ı€m Ñ  & &B"ıO?cNñ        =¯Ò<ÖÙ‘    ?cNñ=¯Ò<ÖÙ‘                                    ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ ÄyÀ )ı€m Ñ?õº1À      >4şwÀ   =”]R`   )ı€m Ñ                           Cİ¼÷  ğ=ÊøíVğ€WDj¯?šÀ_?š\?s€ªAóş    ğ=ÊøíVğ€WDj¯?šÀ_?š\?s€ªBĞ  ?Ïõ	@¶¸5?P™x>!ÒD@ªÃsBX  ?¤->·t@czoBZ  ?:m?>rë…=[¬=®{ÄyÀ B  ?^PØ<×”6<×”6=W”6<×”6<×”6=W”6<×”6    )ı€m Ñ@3§    @1Éà   @0!²À   @/kâà   @.Â[    ?°àì    ?w »    ?pzy    ?pŠó    ?ƒ_¹€   ?»+©à   Á¿ÚÁ­~dÁ³¤²Á¶’ZÁ¸İ=û<<'l<0š	<0²­<aˆğ@'&ÀA1×q>ÆPhttp://s3.amazonaws.com/zoo2_extra/291805.jpg)ı€m Ñ¿^YJÁAÔª                                                                                                                                                                                                                                
