@@ -1,4 +1,4 @@
-source_directory = 'original/'
+source_directory = 'data_dir/'
 full_sample = 'full_sample.fits'
 
 question_dictionary = 'questions.pickle'
