@@ -70,8 +70,8 @@ def voronoi_binning(R50, Mr,n_rect_bins=500, n_per_voronoi_bin=5000,save=False):
     rect_bin_voronoi_bin = (np.zeros(np.product(rect_bin_val.shape), np.int)
 			    - 1)
     rect_bin_voronoi_bin[ok_bin] = binNum
-    rect_bin_count = np.zeros_like(rect_bin_voronoi_bin)
-    rect_bin_count[ok_bin] = count
+    #rect_bin_count = np.zeros_like(rect_bin_voronoi_bin)
+    #rect_bin_count[ok_bin] = count
     
     rect_vbins_table = Table(data=[R50_bin_coords, Mr_bin_coords,
                              rect_bin_voronoi_bin],
@@ -109,7 +109,9 @@ def redshift_binning(data,voronoi_bins,min_gals=100,coarse=False):
         #n_zbins = 5
         z = redshift[inbin]
         z = np.sort(z)
-        bin_edges = np.linspace(0, len(z)-1, n_zbins+1, dtype=np.int)
+        # LSK added round to fix non-int sizes
+        # LSK added int to convert np.float64 to int
+        bin_edges = np.linspace(0, int(len(z)-1), int(round(n_zbins+1)), dtype=np.int)
         z_edges = z[bin_edges]
         z_edges[0] = 0
         z_edges[-1] = 1
