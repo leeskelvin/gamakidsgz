@@ -1,21 +1,21 @@
-# Outputs
+# Outputs (gz_gama_2018-02-25)
 
-## gz_gama_2018-02-25_alpha
+## alpha
 
 Final raw output from GZ (2,002,527 rows).
 
-## gz_gama_2018-02-25_binned
+## binned
 
 Consolidated outputs by object (49,866 rows).
 
-## gz_gama_2018-02-25_cleaned
+## cleaned
 
 Application of user weighting to cleaned dataset (49,866 rows).
 
-## gz_gama_2018-02-25_debiased
+## debiased
 
 Application of Hart et al. debiasing procedure (49,866 rows).
 
-## gz_gama_2018-02-25_user_weights
+## user_weights
 
 Anonymised user weights.
