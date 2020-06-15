@@ -1,0 +1,22 @@
+﻿# formatted document at: 
+# https://docs.google.com/document/d/1H21ti6j8ECl7s0QwfHqd8Dva0_BXXlyfUTYKwbLXJvU/edit?usp=sharing
+
+New images for Galaxy Zoo! GAMA-KiDS
+
+Hello Zooniverse citizen scientists! We’re extremely excited to announce the release of a new dataset on Galaxy Zoo. For the past several months we’ve been working with scientific collaborators from the Galaxy And Mass Assembly Survey and the VST Kilo-Degree Survey. This blog post will give you a few details about these surveys, the new data set, and what we hope to achieve with Galaxy Zoo classifications.
+
+[GAMA_logo_red_small.png]The Galaxy And Mass Assembly (GAMA) Survey is an international project to exploit the latest generation of ground and space-based survey facilities. Its aim is to study cosmology and galaxy formation and evolution from scales of thousands up to millions of light years across. The science goals include furthering our understanding of how the mass of stars within galaxies builds up over time, how and when do galaxies form their stars, how are those previous questions related to a galaxy's environment, and at what epoch did star-formation and mass-build-up dominate? Visual morphologies from Galaxy Zoo will allow us to explore if, how, when, and where galaxies transition from one type into another, what impact this has on the formation of stars, and to look for new types of unique and interesting galaxies.
+
+[kidslogo_small.jpg]The observations are from the Kilo-Degree Survey (KiDS) on the 2.6m VLT Survey Telescope (VST) located at the ESO Paranal Observatory in Chile. KiDS is a large optical imaging survey in the Southern sky designed to tackle some of the most fundamental questions of cosmology and galaxy formation of today. At the heart of KiDS lies the 300 million pixel camera OmegaCAM. Its instantaneous field of view is a full square degree and was designed to provide extremely accurate measurements of the intrinsic shapes of faint, small galaxies.
+
+[vst_at_sunset.jpg]
+The 2.6m VLT Survey Telescope (VST), located at the ESO Paranal Observatory in Chile, is carrying out observations for the Kilo-Degree Survey (KiDS).
+
+The scientific teams behind GAMA and KiDS have been working closely to put together this new set of images. Galaxies have been selected from a catalogue produced by the GAMA Survey and images have been constructed based on observations from KiDS. While some of these galaxies have already been looked at by Galaxy Zoo citizen scientists before using their Sloan images, the improvement in the resolution and depth of KiDS images over Sloan imaging is remarkable. With this new GAMA-KiDS data set we hope to be able to study the very faintest structures within galaxies, as well as more accurately classify features which may have been missed before. Take a look at the image below to see how much clearer the new images are!
+
+[gamazoo.png]
+Left: SDSS images of galaxies G107214, G298570 and G551505.
+Right: GAMA-KiDS images of the same galaxies.
+
+We’re really excited about getting classifications for these new images, and we hope you are too! We’re more than happy to talk about any interesting galaxies you may come across and to answer any questions you may have. Until then, enjoy, and thank you for your help!
+
