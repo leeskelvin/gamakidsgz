@@ -1,3 +1,3 @@
-# sci2020-gamakidsgz
+# Debiasing
 
-Morphological Classification of Galaxy Images from the GAMA-KiDS Survey Using Galaxy Zoo
+Application of Hart et al. debiasing procedure.
