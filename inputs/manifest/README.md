@@ -1,4 +1,4 @@
-# manifest
+# Manifest
 
 Files in this directory describe the initial sample definition and construct the input file 'gamazoo.csv' which was entered into the Galaxy Zoo database. This manifest marks the beginning of collaborative efforts between GAMA, KiDS and Galaxy Zoo as outlined in our MoU document here: http://www.gama-survey.org/internal/doc/misc/2016-04-20_GAMA_KiDS_GZ_MoU.pdf.
 
