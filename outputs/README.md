@@ -16,6 +16,12 @@ Application of user weighting to cleaned dataset (49,866 rows).
 
 Application of Hart et al. debiasing procedure (49,866 rows).
 
+## extra
+
+A conveneince catalogue containing GAMA physical quantities (49,866 rows).
+
+A combination of ../inputs/manifest/gamazoo_extra.fits.gz and ../inputs/sample/sample-trim.fits.gz
+
 ## user_weights
 
 Anonymised user weights.
