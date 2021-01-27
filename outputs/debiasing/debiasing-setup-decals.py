@@ -60,7 +60,7 @@ cols[0], cols[1] = cols[1], cols[0]
 # questions further up the tree than the question you are currently debiasing.
 
 # List of questions in order :
-q = ['smooth-or-featured',  # T00: smooth, features or star/artefact
+q = ['smooth-or-featured',  # T00: smooth, features or star/artifact
      'disk-edge-on',        # T01: edge on?
      'bar',                 # T02: bar?
      'has-spiral-arms',     # T03: spiral?
@@ -86,29 +86,29 @@ a = [['smooth', 'featured-or-disk', 'artifact'],                    # T00
      ]
 
 # question labels
-lbl_q = ['features',            # T00
-         'edge-on',             # T01
-         'bar',                 # T02
-         'spiral arm',          # T03
-         'bulge prominence',    # T04
-         'spiral winding',      # T05
-         'spiral arms',         # T06
-         'bulge shape',         # T07
-         'roundedness',         # T08
-         'mergers',             # T09
+lbl_q = ['smooth, featured, or artifact?',   # T00
+         'edge-on disk?',                    # T01
+         'barred?',                          # T02
+         'spiral arm pattern?',              # T03
+         'bulge size?',                      # T04
+         'spiral arm winding?',              # T05
+         'spiral arm number?',               # T06
+         'edge-on bulge shape?',             # T07
+         'smooth roundedness?',              # T08
+         'merging activity?',                # T09
          ]
 
 # answer labels
-lbl_a = [['smooth', 'featured', 'star/artefact'],       # T00
+lbl_a = [['smooth', 'featured', 'star/artifact'],       # T00
          ['edge-on', 'face-on/inclined'],               # T01
-         ['unbarred', 'weak bar', 'strong_bar'],        # T02
+         ['unbarred', 'weak bar', 'strong bar'],        # T02
          ['no spiral arms', 'spiral arms'],             # T03
          ['no bulge', 'small bulge', 'moderate bulge',
           'obvious bulge', 'dominant bulge'],           # T04
          ['tight spiral', 'moderate spiral',
           'loose spiral'],                              # T05
          ['1 arm', '2 arms', '3 arms', '4 arms',
-          '5+ arms', 'cant tell'],                      # T06
+          '5+ arms', "can't tell"],                     # T06
          ['rounded bulge', 'boxy bulge', 'no bulge'],   # T07
          ['circular', 'in-between', 'cigar shaped'],    # T08
          ['no merger', 'minor disturbance',
@@ -134,8 +134,8 @@ req_a = [None,          # T00
          [1, 1],        # T02
          [1, 1],        # T03
          [1, 1],        # T04
-         [1, 1, 0],     # T05
-         [1, 1, 0],     # T06
+         [1, 1, 1],     # T05
+         [1, 1, 1],     # T06
          [1, 0],        # T07
          [0],           # T08
          None,          # T09

@@ -60,7 +60,7 @@ cols[0], cols[1] = cols[1], cols[0]
 # questions further up the tree than the question you are currently debiasing.
 
 # List of questions in order :
-q = ['features',        # T00: smooth, features or star/artefact
+q = ['features',        # T00: smooth, features or star/artifact
      'edgeon',          # T01: edge on?
      'bar',             # T02: bar?
      'spiral',          # T03: spiral?
