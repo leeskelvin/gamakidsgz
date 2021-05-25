@@ -1,0 +1,29 @@
+GKGZMorphologyDMU
+2021-05-25
+Lee Kelvin <lkelvin@astro.princeton.edu>
+
+This DMU provides visual morphological classifications for ~50,000 GAMA
+galaxies in the redshift range 0.002 < z < 0.15. Three-colour postage stamps
+based on g+r band imaging from the KiDS survey are generated and visually
+classified by more than 20,000 unique citizen scientists using the Galaxy Zoo
+platform.
+
+The GAMA-KiDS Galaxy Zoo (GKGZ) decision tree is closely related to other GZ4
+decision trees already in use, with minor modifications made to better
+facilitate ongoing GAMA science goals. A visual representation of the GKGZ
+decision tree can be found here:
+https://data.galaxyzoo.org/gz_trees/gz_trees.html.
+
+This DMU provides a total of 7 catalogues, each representing a different stage
+in the data processing pipeline. For scientific purposes, the final catalogue
+(GKGZFinalv01) should be preferred. In summary:
+
+    GKGZAlphav01 - raw classification data retrieved from the GZ platform
+    GKGZBinnedv01 - binned per-galaxy raw data
+    GKGZUserWeightsv01 - user/classifier weights, consistencies and agreements
+    GKGZCleanedv01 - application of user weights to clean the binned dataset
+    GKGZDebiasedv01 - application of debiasing, to remove redshift effects
+    GKGZExtrav01 - ancilliary data, for sample definition and object lookup
+    GKGZFinalv01 - science catalogue; GKGZDebiasedv01 with additional columns
+
+Further information may be found in Kelvin et al. (in prep.)
