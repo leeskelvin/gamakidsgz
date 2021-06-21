@@ -1,0 +1,68 @@
+# GKGZMorphologyDMU
+# GKGZBinned
+# v01
+# 2021-05-25
+# Lee Kelvin <lkelvin@astro.princeton.edu>
+#
+# This table provides binned GAMA-KiDS Galaxy Zoo classification results. To 
+# construct this table, alpha (raw) level results are concatenated per-galaxy. 
+# The retirement number for each galaxy was set at 40, i.e., each galaxy aims 
+# for at least 40 distinct classifiers. The _total columns show the total 
+# number of classifiers answering a question; _frac shows the answer fraction.
+#
+# parameter                         column unit       UCD              description
+CATAID                              1      -          meta.id          GAMA CATAID
+zooniverse_id                       2      -          meta.id          Zooniverse ID
+subject_id                          3      -          meta.id          galaxy zoo ID
+features_bin_total                  4      -          -                smooth, featured or star/artifact: binned (raw) vote total
+edgeon_bin_total                    5      -          -                edge-on disk: binned (raw) vote total
+bar_bin_total                       6      -          -                barred: binned (raw) vote total
+spiral_bin_total                    7      -          -                spiral arm pattern: binned (raw) vote total
+bulge_bin_total                     8      -          -                bulge prominence: binned (raw) vote total
+spiralwinding_bin_total             9      -          -                spiral arm winding: binned (raw) vote total
+spiralnumber_bin_total              10     -          -                spiral arm number: binned (raw) vote total
+bulgeshape_bin_total                11     -          -                central bulge: binned (raw) vote total
+round_bin_total                     12     -          -                roundedness: binned (raw) vote total
+mergers_bin_total                   13     -          -                merging/tidal debris: binned (raw) vote total
+oddtype_bin_total                   14     -          -                odd features: binned (raw) vote total
+discuss_bin_total                   15     -          -                further discussion: binned (raw) vote total
+features_smooth_bin_frac            16     -          arith.ratio      smooth, featured or star/artifact: binned (raw) smooth vote fraction
+features_features_bin_frac          17     -          arith.ratio      smooth, featured or star/artifact: binned (raw) featured vote fraction
+features_star_or_artifact_bin_frac  18     -          arith.ratio      smooth, featured or star/artifact: binned (raw) star/artifact vote fraction
+edgeon_yes_bin_frac                 19     -          arith.ratio      edge-on disk: binned (raw) yes vote fraction
+edgeon_no_bin_frac                  20     -          arith.ratio      edge-on disk: binned (raw) no vote fraction
+bar_bar_bin_frac                    21     -          arith.ratio      barred: binned (raw) barred vote fraction
+bar_no_bar_bin_frac                 22     -          arith.ratio      barred: binned (raw) unbarred vote fraction
+spiral_spiral_bin_frac              23     -          arith.ratio      spiral arm pattern: binned (raw) yes vote fraction
+spiral_no_spiral_bin_frac           24     -          arith.ratio      spiral arm pattern: binned (raw) no vote fraction
+bulge_no_bulge_bin_frac             25     -          arith.ratio      bulge prominence: binned (raw) no bulge vote fraction
+bulge_obvious_bin_frac              26     -          arith.ratio      bulge prominence: binned (raw) obvious vote fraction
+bulge_dominant_bin_frac             27     -          arith.ratio      bulge prominence: binned (raw) dominant vote fraction
+spiralwinding_tight_bin_frac        28     -          arith.ratio      spiral arm winding: binned (raw) tight vote fraction
+spiralwinding_medium_bin_frac       29     -          arith.ratio      spiral arm winding: binned (raw) medium vote fraction
+spiralwinding_loose_bin_frac        30     -          arith.ratio      spiral arm winding: binned (raw) loose vote fraction
+spiralnumber_1_bin_frac             31     -          arith.ratio      spiral arm number: binned (raw) 1 vote fraction
+spiralnumber_2_bin_frac             32     -          arith.ratio      spiral arm number: binned (raw) 2 vote fraction
+spiralnumber_3_bin_frac             33     -          arith.ratio      spiral arm number: binned (raw) 3 vote fraction
+spiralnumber_4_bin_frac             34     -          arith.ratio      spiral arm number: binned (raw) 4 vote fraction
+spiralnumber_more_than_4_bin_frac   35     -          arith.ratio      spiral arm number: binned (raw) more than 4 vote fraction
+bulgeshape_rounded_bin_frac         36     -          arith.ratio      central bulge: binned (raw) rounded vote fraction
+bulgeshape_boxy_bin_frac            37     -          arith.ratio      central bulge: binned (raw) boxy vote fraction
+bulgeshape_no_bulge_bin_frac        38     -          arith.ratio      central bulge: binned (raw) no bulge vote fraction
+round_completely_round_bin_frac     39     -          arith.ratio      roundedness: binned (raw) completely round vote fraction
+round_in_between_bin_frac           40     -          arith.ratio      roundedness: binned (raw) in-between vote fraction
+round_cigar_shaped_bin_frac         41     -          arith.ratio      roundedness: binned (raw) cigar shaped vote fraction
+mergers_merging_bin_frac            42     -          arith.ratio      merging/tidal debris: binned (raw) merging vote fraction
+mergers_tidal_debris_bin_frac       43     -          arith.ratio      merging/tidal debris: binned (raw) tidal debris vote fraction
+mergers_both_bin_frac               44     -          arith.ratio      merging/tidal debris: binned (raw) merging and tidal debris vote fraction
+mergers_neither_bin_frac            45     -          arith.ratio      merging/tidal debris: binned (raw) neither merging nor tidal debris vote fraction
+oddtype_none_bin_frac               46     -          arith.ratio      odd features: binned (raw) none vote fraction
+oddtype_ring_bin_frac               47     -          arith.ratio      odd features: binned (raw) ring vote fraction
+oddtype_lens_or_arc_bin_frac        48     -          arith.ratio      odd features: binned (raw) lens or arc vote fraction
+oddtype_irregular_bin_frac          49     -          arith.ratio      odd features: binned (raw) irregular vote fraction
+oddtype_other_bin_frac              50     -          arith.ratio      odd features: binned (raw) other vote fraction
+oddtype_dust_lane_bin_frac          51     -          arith.ratio      odd features: binned (raw) dust lane vote fraction
+oddtype_overlapping_bin_frac        52     -          arith.ratio      odd features: binned (raw) overlapping vote fraction
+discuss_yes_bin_frac                53     -          arith.ratio      further discussion: binned (raw) yes vote fraction
+discuss_no_bin_frac                 54     -          arith.ratio      further discussion: binned (raw) no vote fraction
+

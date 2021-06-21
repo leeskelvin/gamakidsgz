@@ -1,0 +1,93 @@
+# GKGZMorphologyDMU
+# GKGZFinal
+# v01
+# 2021-05-25
+# Lee Kelvin <lkelvin@astro.princeton.edu>
+#
+# This table provides final GAMA-KiDS Galaxy Zoo classification results, and 
+# should be considered the primary scientific output. Total vote counts are 
+# identical to those in the cleaned catalogue, whereas vote fractions and 
+# prior probability flags are identical to those in the debiased catalogue. 
+# Additional information on postage stamp filenames and URLs are also provided.
+#
+# parameter                         column unit       UCD              description
+CATAID                              1      -          meta.id          GAMA CATAID
+RA                                  2      deg        pos.eq.ra        right ascension
+DEC                                 3      deg        pos.eq.dec       declination
+zooniverse_id                       4      -          meta.id          Zooniverse ID
+subject_id                          5      -          meta.id          galaxy zoo ID
+absmag_r                            6      mag        phys.magAbs      absolute r-band magnitude
+GALRE_r_kpc                         7      kpc        phys.size.radius absolute half-light radius
+Z_TONRY                             8      -          src.redshift     spectroscopic redshift
+Zfof                                9      -          src.redshift     group friends-of-friends redshift
+features_clean_total                10     -          -                smooth, featured or star/artifact: cleaned (user-weighted) vote total
+features_deb_psamp                  11     -          meta.code        smooth, featured or star/artifact: debiased prior sample flag
+features_smooth_deb_frac            12     -          arith.ratio      smooth, featured or star/artifact: debiased smooth vote fraction
+features_features_deb_frac          13     -          arith.ratio      smooth, featured or star/artifact: debiased featured vote fraction
+features_star_or_artifact_deb_frac  14     -          arith.ratio      smooth, featured or star/artifact: debiased star/artifact vote fraction
+edgeon_clean_total                  15     -          -                edge-on disk: cleaned (user-weighted) vote total
+edgeon_deb_psamp                    16     -          meta.code        edge-on disk: debiased prior sample flag
+edgeon_yes_deb_frac                 17     -          arith.ratio      edge-on disk: debiased yes vote fraction
+edgeon_no_deb_frac                  18     -          arith.ratio      edge-on disk: debiased no vote fraction
+bar_clean_total                     19     -          -                barred: cleaned (user-weighted) vote total
+bar_deb_psamp                       20     -          meta.code        barred: debiased prior sample flag
+bar_bar_deb_frac                    21     -          arith.ratio      barred: debiased barred vote fraction
+bar_no_bar_deb_frac                 22     -          arith.ratio      barred: debiased unbarred vote fraction
+spiral_clean_total                  23     -          -                spiral arm pattern: cleaned (user-weighted) vote total
+spiral_deb_psamp                    24     -          meta.code        spiral arm pattern: debiased prior sample flag
+spiral_spiral_deb_frac              25     -          arith.ratio      spiral arm pattern: debiased yes vote fraction
+spiral_no_spiral_deb_frac           26     -          arith.ratio      spiral arm pattern: debiased no vote fraction
+bulge_clean_total                   27     -          -                bulge prominence: cleaned (user-weighted) vote total
+bulge_deb_psamp                     28     -          meta.code        bulge prominence: debiased prior sample flag
+bulge_no_bulge_deb_frac             29     -          arith.ratio      bulge prominence: debiased no bulge vote fraction
+bulge_obvious_deb_frac              30     -          arith.ratio      bulge prominence: debiased obvious vote fraction
+bulge_dominant_deb_frac             31     -          arith.ratio      bulge prominence: debiased dominant vote fraction
+spiralwinding_clean_total           32     -          -                spiral arm winding: cleaned (user-weighted) vote total
+spiralwinding_deb_psamp             33     -          meta.code        spiral arm winding: debiased prior sample flag
+spiralwinding_tight_deb_frac        34     -          arith.ratio      spiral arm winding: debiased tight vote fraction
+spiralwinding_medium_deb_frac       35     -          arith.ratio      spiral arm winding: debiased medium vote fraction
+spiralwinding_loose_deb_frac        36     -          arith.ratio      spiral arm winding: debiased loose vote fraction
+spiralnumber_clean_total            37     -          -                spiral arm number: cleaned (user-weighted) vote total
+spiralnumber_deb_psamp              38     -          meta.code        spiral arm number: debiased prior sample flag
+spiralnumber_1_deb_frac             39     -          arith.ratio      spiral arm number: debiased 1 vote fraction
+spiralnumber_2_deb_frac             40     -          arith.ratio      spiral arm number: debiased 2 vote fraction
+spiralnumber_3_deb_frac             41     -          arith.ratio      spiral arm number: debiased 3 vote fraction
+spiralnumber_4_deb_frac             42     -          arith.ratio      spiral arm number: debiased 4 vote fraction
+spiralnumber_more_than_4_deb_frac   43     -          arith.ratio      spiral arm number: debiased more than 4 vote fraction
+bulgeshape_clean_total              44     -          -                central bulge: cleaned (user-weighted) vote total
+bulgeshape_deb_psamp                45     -          meta.code        central bulge: debiased prior sample flag
+bulgeshape_rounded_deb_frac         46     -          arith.ratio      central bulge: debiased rounded vote fraction
+bulgeshape_boxy_deb_frac            47     -          arith.ratio      central bulge: debiased boxy vote fraction
+bulgeshape_no_bulge_deb_frac        48     -          arith.ratio      central bulge: debiased no bulge vote fraction
+round_clean_total                   49     -          -                roundedness: cleaned (user-weighted) vote total
+round_deb_psamp                     50     -          meta.code        roundedness: debiased prior sample flag
+round_completely_round_deb_frac     51     -          arith.ratio      roundedness: debiased completely round vote fraction
+round_in_between_deb_frac           52     -          arith.ratio      roundedness: debiased in-between vote fraction
+round_cigar_shaped_deb_frac         53     -          arith.ratio      roundedness: debiased cigar shaped vote fraction
+mergers_clean_total                 54     -          -                merging/tidal debris: cleaned (user-weighted) vote total
+mergers_deb_psamp                   55     -          meta.code        merging/tidal debris: debiased prior sample flag
+mergers_merging_deb_frac            56     -          arith.ratio      merging/tidal debris: debiased merging vote fraction
+mergers_tidal_debris_deb_frac       57     -          arith.ratio      merging/tidal debris: debiased tidal debris vote fraction
+mergers_both_deb_frac               58     -          arith.ratio      merging/tidal debris: debiased merging and tidal debris vote fraction
+mergers_neither_deb_frac            59     -          arith.ratio      merging/tidal debris: debiased neither merging nor tidal debris vote fraction
+oddtype_clean_total                 60     -          -                odd features: cleaned (user-weighted) vote total
+oddtype_deb_psamp                   61     -          meta.code        odd features: debiased prior sample flag
+oddtype_none_deb_frac               62     -          arith.ratio      odd features: debiased none vote fraction
+oddtype_ring_deb_frac               63     -          arith.ratio      odd features: debiased ring vote fraction
+oddtype_lens_or_arc_deb_frac        64     -          arith.ratio      odd features: debiased lens or arc vote fraction
+oddtype_irregular_deb_frac          65     -          arith.ratio      odd features: debiased irregular vote fraction
+oddtype_other_deb_frac              66     -          arith.ratio      odd features: debiased other vote fraction
+oddtype_dust_lane_deb_frac          67     -          arith.ratio      odd features: debiased dust lane vote fraction
+oddtype_overlapping_deb_frac        68     -          arith.ratio      odd features: debiased overlapping vote fraction
+discuss_clean_total                 69     -          -                further discussion: cleaned (user-weighted) vote total
+discuss_deb_psamp                   70     -          meta.code        further discussion: debiased prior sample flag
+discuss_yes_deb_frac                71     -          arith.ratio      further discussion: debiased yes vote fraction
+discuss_no_deb_frac                 72     -          arith.ratio      further discussion: debiased no vote fraction
+FILENAME_NATIVE                     73     -          meta.file        PNG file path on the server, native colour map
+FILENAME_INVERT                     74     -          meta.file        PNG file path on the server, inverted colour map
+URL_NATIVE                          75     -          meta.ref.url     link to PNG, native colour map
+URL_INVERT                          76     -          meta.ref.url     link to PNG, inverted colour map
+URL_NATIVE_424                      77     -          meta.ref.url     link to PNG, native colour map (424x424 pixel scaled)
+URL_INVERT_424                      78     -          meta.ref.url     link to PNG, inverted colour map (424x424 pixel scaled)
+URL_THUMB                           79     -          meta.ref.url     link to PNG, native colour map (thumbnail)
+

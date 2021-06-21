@@ -1,0 +1,68 @@
+# GKGZMorphologyDMU
+# GKGZCleaned
+# v01
+# 2021-05-25
+# Lee Kelvin <lkelvin@astro.princeton.edu>
+#
+# This table provides cleaned (user-weighted) GAMA-KiDS Galaxy Zoo 
+# classification results. Following Willett et al. (2013), each user is 
+# assigned a weight according to their consistency with other classifiers. 
+# Accordingly, their classification results are weighted here in order to 
+# reduce the influence of potentially unreliable classifiers.
+#
+# parameter                         column unit       UCD              description
+CATAID                              1      -          meta.id          GAMA CATAID
+zooniverse_id                       2      -          meta.id          Zooniverse ID
+subject_id                          3      -          meta.id          galaxy zoo ID
+features_clean_total                4      -          -                smooth, featured or star/artifact: cleaned (user-weighted) vote total
+edgeon_clean_total                  5      -          -                edge-on disk: cleaned (user-weighted) vote total
+bar_clean_total                     6      -          -                barred: cleaned (user-weighted) vote total
+spiral_clean_total                  7      -          -                spiral arm pattern: cleaned (user-weighted) vote total
+bulge_clean_total                   8      -          -                bulge prominence: cleaned (user-weighted) vote total
+spiralwinding_clean_total           9      -          -                spiral arm winding: cleaned (user-weighted) vote total
+spiralnumber_clean_total            10     -          -                spiral arm number: cleaned (user-weighted) vote total
+bulgeshape_clean_total              11     -          -                central bulge: cleaned (user-weighted) vote total
+round_clean_total                   12     -          -                roundedness: cleaned (user-weighted) vote total
+mergers_clean_total                 13     -          -                merging/tidal debris: cleaned (user-weighted) vote total
+oddtype_clean_total                 14     -          -                odd features: cleaned (user-weighted) vote total
+discuss_clean_total                 15     -          -                further discussion: cleaned (user-weighted) vote total
+features_smooth_clean_frac          16     -          arith.ratio      smooth, featured or star/artifact: cleaned (user-weighted) smooth vote fraction
+features_features_clean_frac        17     -          arith.ratio      smooth, featured or star/artifact: cleaned (user-weighted) featured vote fraction
+features_star_or_artifact_clean_frac 18     -          arith.ratio      smooth, featured or star/artifact: cleaned (user-weighted) star/artifact vote fraction
+edgeon_yes_clean_frac               19     -          arith.ratio      edge-on disk: cleaned (user-weighted) yes vote fraction
+edgeon_no_clean_frac                20     -          arith.ratio      edge-on disk: cleaned (user-weighted) no vote fraction
+bar_bar_clean_frac                  21     -          arith.ratio      barred: cleaned (user-weighted) barred vote fraction
+bar_no_bar_clean_frac               22     -          arith.ratio      barred: cleaned (user-weighted) unbarred vote fraction
+spiral_spiral_clean_frac            23     -          arith.ratio      spiral arm pattern: cleaned (user-weighted) yes vote fraction
+spiral_no_spiral_clean_frac         24     -          arith.ratio      spiral arm pattern: cleaned (user-weighted) no vote fraction
+bulge_no_bulge_clean_frac           25     -          arith.ratio      bulge prominence: cleaned (user-weighted) no bulge vote fraction
+bulge_obvious_clean_frac            26     -          arith.ratio      bulge prominence: cleaned (user-weighted) obvious vote fraction
+bulge_dominant_clean_frac           27     -          arith.ratio      bulge prominence: cleaned (user-weighted) dominant vote fraction
+spiralwinding_tight_clean_frac      28     -          arith.ratio      spiral arm winding: cleaned (user-weighted) tight vote fraction
+spiralwinding_medium_clean_frac     29     -          arith.ratio      spiral arm winding: cleaned (user-weighted) medium vote fraction
+spiralwinding_loose_clean_frac      30     -          arith.ratio      spiral arm winding: cleaned (user-weighted) loose vote fraction
+spiralnumber_1_clean_frac           31     -          arith.ratio      spiral arm number: cleaned (user-weighted) 1 vote fraction
+spiralnumber_2_clean_frac           32     -          arith.ratio      spiral arm number: cleaned (user-weighted) 2 vote fraction
+spiralnumber_3_clean_frac           33     -          arith.ratio      spiral arm number: cleaned (user-weighted) 3 vote fraction
+spiralnumber_4_clean_frac           34     -          arith.ratio      spiral arm number: cleaned (user-weighted) 4 vote fraction
+spiralnumber_more_than_4_clean_frac 35     -          arith.ratio      spiral arm number: cleaned (user-weighted) more than 4 vote fraction
+bulgeshape_rounded_clean_frac       36     -          arith.ratio      central bulge: cleaned (user-weighted) rounded vote fraction
+bulgeshape_boxy_clean_frac          37     -          arith.ratio      central bulge: cleaned (user-weighted) boxy vote fraction
+bulgeshape_no_bulge_clean_frac      38     -          arith.ratio      central bulge: cleaned (user-weighted) no bulge vote fraction
+round_completely_round_clean_frac   39     -          arith.ratio      roundedness: cleaned (user-weighted) completely round vote fraction
+round_in_between_clean_frac         40     -          arith.ratio      roundedness: cleaned (user-weighted) in-between vote fraction
+round_cigar_shaped_clean_frac       41     -          arith.ratio      roundedness: cleaned (user-weighted) cigar shaped vote fraction
+mergers_merging_clean_frac          42     -          arith.ratio      merging/tidal debris: cleaned (user-weighted) merging vote fraction
+mergers_tidal_debris_clean_frac     43     -          arith.ratio      merging/tidal debris: cleaned (user-weighted) tidal debris vote fraction
+mergers_both_clean_frac             44     -          arith.ratio      merging/tidal debris: cleaned (user-weighted) merging and tidal debris vote fraction
+mergers_neither_clean_frac          45     -          arith.ratio      merging/tidal debris: cleaned (user-weighted) neither merging nor tidal debris vote fraction
+oddtype_none_clean_frac             46     -          arith.ratio      odd features: cleaned (user-weighted) none vote fraction
+oddtype_ring_clean_frac             47     -          arith.ratio      odd features: cleaned (user-weighted) ring vote fraction
+oddtype_lens_or_arc_clean_frac      48     -          arith.ratio      odd features: cleaned (user-weighted) lens or arc vote fraction
+oddtype_irregular_clean_frac        49     -          arith.ratio      odd features: cleaned (user-weighted) irregular vote fraction
+oddtype_other_clean_frac            50     -          arith.ratio      odd features: cleaned (user-weighted) other vote fraction
+oddtype_dust_lane_clean_frac        51     -          arith.ratio      odd features: cleaned (user-weighted) dust lane vote fraction
+oddtype_overlapping_clean_frac      52     -          arith.ratio      odd features: cleaned (user-weighted) overlapping vote fraction
+discuss_yes_clean_frac              53     -          arith.ratio      further discussion: cleaned (user-weighted) yes vote fraction
+discuss_no_clean_frac               54     -          arith.ratio      further discussion: cleaned (user-weighted) no vote fraction
+

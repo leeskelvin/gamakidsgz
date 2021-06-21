@@ -1,0 +1,43 @@
+# GKGZMorphologyDMU
+# GKGZUserWeights
+# v01
+# 2021-05-25
+# Lee Kelvin <lkelvin@astro.princeton.edu>
+#
+# This table provides user-weighting for each unique classifier contributing 
+# to the GAMA-KiDS Galaxy Zoo project. Following Willett et al. (2013), each 
+# user is assigned a weight according to their consistency with other 
+# classifiers. Usernames have been anonymised, here replaced with the user_id 
+# column. Negative user IDs correspond to users who were not logged in.
+#
+# parameter                         column unit       UCD              description
+user_id                             1      -          meta.id          user ID
+weight                              2      -          -                -
+consistency                         3      -          -                -
+agreement                           4      -          -                -
+features_consistency                5      -          -                smooth, featured or star/artifact
+features_agreement                  6      -          -                smooth, featured or star/artifact
+edgeon_consistency                  7      -          -                edge-on disk
+edgeon_agreement                    8      -          -                edge-on disk
+bar_consistency                     9      -          -                barred
+bar_agreement                       10     -          -                barred
+spiral_consistency                  11     -          -                spiral arm pattern
+spiral_agreement                    12     -          -                spiral arm pattern
+bulge_consistency                   13     -          -                bulge prominence
+bulge_agreement                     14     -          -                bulge prominence
+spiralwinding_consistency           15     -          -                spiral arm winding
+spiralwinding_agreement             16     -          -                spiral arm winding
+spiralnumber_consistency            17     -          -                spiral arm number
+spiralnumber_agreement              18     -          -                spiral arm number
+bulgeshape_consistency              19     -          -                central bulge
+bulgeshape_agreement                20     -          -                central bulge
+round_consistency                   21     -          -                roundedness
+round_agreement                     22     -          -                roundedness
+mergers_consistency                 23     -          -                merging/tidal debris
+mergers_agreement                   24     -          -                merging/tidal debris
+nanswered                           25     -          -                -
+artifact                            26     -          -                -
+count_unweighted                    27     -          -                -
+count                               28     -          -                -
+artifact_fraction                   29     -          arith.ratio      - vote fraction
+
