@@ -27,3 +27,7 @@ in the data processing pipeline. For scientific purposes, the final catalogue
     GKGZFinalv01 - science catalogue; GKGZDebiasedv01 with additional columns
 
 Further information may be found in Kelvin et al. (in prep.)
+
+Notes:
+* All catalogues except 'GKGZFinal' are ordered by 'subject_id', but 'GKGZFinal' is ordered by 'CATAID'.
+* The ancilliary data in 'GKGZExtra' and 'GKGZFinal' is that which was used to initially define the sample, and may not perfectly match the latest catalogues in other DMUs.
