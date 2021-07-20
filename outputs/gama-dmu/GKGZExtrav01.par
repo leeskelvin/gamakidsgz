@@ -1,13 +1,13 @@
-# GKGZMorphologyDMU
+# GKGZMorphology
 # GKGZExtra
 # v01
 # 2021-05-25
 # Lee Kelvin <lkelvin@astro.princeton.edu>
 #
-# This table lists additional ancillary data taken from existing GAMA 
-# catalogues which have been used during data reduction of the GAMA-KiDS 
-# Galaxy Zoo dataset. GAMA data in this table are derived from TilingCatv46, 
-# DistancesFramesv14 and GroupFindingv08. GAMA CATAIDs have been matched to 
+# This table lists additional ancillary data taken from existing GAMA
+# catalogues which have been used during data reduction of the GAMA-KiDS
+# Galaxy Zoo dataset. GAMA data in this table are derived from TilingCatv46,
+# DistancesFramesv14 and GroupFindingv08. GAMA CATAIDs have been matched to
 # Zooniverse IDs and galaxy zoo classification IDs, for reference.
 #
 # parameter                         column unit       UCD              description
@@ -20,4 +20,3 @@ absmag_r                            6      mag        phys.magAbs      absolute 
 GALRE_r_kpc                         7      kpc        phys.size.radius absolute half-light radius
 Z_TONRY                             8      -          src.redshift     spectroscopic redshift
 Zfof                                9      -          src.redshift     group friends-of-friends redshift
-

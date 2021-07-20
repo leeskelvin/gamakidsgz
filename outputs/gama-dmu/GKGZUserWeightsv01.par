@@ -1,13 +1,13 @@
-# GKGZMorphologyDMU
+# GKGZMorphology
 # GKGZUserWeights
 # v01
 # 2021-05-25
 # Lee Kelvin <lkelvin@astro.princeton.edu>
 #
-# This table provides user-weighting for each unique classifier contributing 
-# to the GAMA-KiDS Galaxy Zoo project. Following Willett et al. (2013), each 
-# user is assigned a weight according to their consistency with other 
-# classifiers. Usernames have been anonymised, here replaced with the user_id 
+# This table provides user-weighting for each unique classifier contributing
+# to the GAMA-KiDS Galaxy Zoo project. Following Willett et al. (2013), each
+# user is assigned a weight according to their consistency with other
+# classifiers. Usernames have been anonymised, here replaced with the user_id
 # column. Negative user IDs correspond to users who were not logged in.
 #
 # parameter                         column unit       UCD              description
@@ -40,4 +40,3 @@ artifact                            26     -          -                -
 count_unweighted                    27     -          -                -
 count                               28     -          -                -
 artifact_fraction                   29     -          arith.ratio      - vote fraction
-

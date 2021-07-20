@@ -1,0 +1,176 @@
+GKGZMorphology
+GKGZAlpha
+v01
+2021-05-25
+Lee Kelvin <lkelvin@astro.princeton.edu>
+
+This table provides alpha (raw) GAMA-KiDS Galaxy Zoo classification results.
+Each row in this catalogue corresponds to an individual galaxy classified by
+a singular user.
+
+In total, 23,716 unique classifiers classified 49,866 galaxies to construct
+this dataset. Citizen scientist classifiers were shown a three-colour postage
+stamp constructed from g-band and r-band KiDS imaging, and presented with a
+series of questions. The cutout size for each postage stamp is fixed at
+50x50 kpc, making use of the associated GAMA spectroscopic redshift.
+
+The questions shown to each user varied, depending on their
+chosen answers in prior questions. Galaxies were retired from further
+classification when 40 unique classifiers had successfully completed
+classification. Due to the somewhat stochastic nature of client-side caching,
+some galaxies were ultimately classified more than 40 times (peaking at 75 for
+one system).
+
+To construct the input manifest, the following GAMA DMUs / catalogues are used:
+
+* EqInputCatv46
+  * TilingCatv46
+* LocalFlowCorrectionv14
+  * DistancesFramesv14
+* GroupFindingv08
+  * G3CGalv08
+  * G3CF0FGroupv08
+
+Using these catalogues, the following selection criteria have been applied:
+
+    Z_TONRY >= 0.002
+    & (Z_TONRY <= 0.15 | Z_FOF <= 0.15)
+    & (NQ >= 3 | NQ2_FLAG >= 1)
+    & SURVEY_CLASS >= 1
+
+This selection criteria selects all GAMA sources that are non-local (i.e.,
+excluding stars); that have a maximum spectroscopic redshift of less than 0.15
+OR a group friends-of-friends redshift of less than 0.15 (if grouped); that
+have a GAMA survey redshift quality flag of greater than or equal to 3 (i.e., a
+high degree of certainty on the assigned redshift) OR an NQ2 flag greater than
+or equal to 1 (i.e., a sufficient number of observers agree on a chosen
+redshift); and a survey class greater or equal to 1 (i.e., part of the main
+survey).
+
+Basic information about the classifier (user) are provided,
+followed by the chosen answer for each question (gama-N columns). Detailed
+descriptors for each question (task, T##) and answers (A#) are provided below:
+
+## gama-0: smooth, featured or star/artifact?
+
+T00: Is the galaxy in the centre of the image simply smooth and rounded, or
+does it have features?
+
+Possible answers:
+
+* A0: Smooth
+* A1: Features
+* A2: Star or artifact
+
+## gama-1: edge-on disk?
+
+T01: Could this be a disk viewed edge-on?
+
+Possible answers:
+
+* A0: Yes
+* A1: No
+
+## gama-2: barred?
+
+T02: Is there any sign of a bar feature through the centre of the galaxy?
+
+Possible answers:
+
+* A0: Bar
+* A1: No bar
+
+## gama-3: spiral arm pattern?
+
+T03: Is there any sign of a spiral arm pattern?
+
+Possible answers:
+
+* A0: Spiral
+* A1: No spiral
+
+## gama-4: bulge prominence?
+
+T04: How prominent is the central bulge, compared with the rest of the galaxy?
+
+Possible answers:
+
+* A0: No bulge
+* A1: Obvious
+* A2: Dominant
+
+## gama-5: spiral arm winding?
+
+T05: How tightly wound do the spiral arms appear?
+
+Possible answers:
+
+* A0: Tight
+* A1: Medium
+* A2: Loose
+
+## gama-6: spiral arm number?
+
+T06: How many spiral arms are there?
+
+Possible answers:
+
+* A0: 1
+* A1: 2
+* A2: 3
+* A3: 4
+* A4: More than 4
+
+## gama-7: central bulge?
+
+T07: Does the galaxy have a bulge at its centre?
+
+Possible answers:
+
+* A0: Rounded
+* A1: Boxy
+* A2: No bulge
+
+## gama-8: roundedness?
+
+T08: How rounded is it?
+
+Possible answers:
+
+* A0: Completely round
+* A1: In between
+* A2: Cigar shaped
+
+## gama-9: merging/tidal debris?
+
+T09: Is the galaxy currently merging or is there any sign of tidal debris?
+
+Possible answers:
+
+* A0: Merging
+* A1: Tidal debris
+* A2: Both
+* A3: Neither
+
+## gama-10: odd features?
+
+T10: Do you see any of these odd features in the image?
+
+Possible answers:
+
+* A0: None
+* A1: Ring
+* A2: Lens or arc
+* A3: Irregular
+* A4: Other
+* A5: Dust lane
+* A6: Overlapping
+
+## gama-11: further discussion?
+
+T11: Would you like to discuss this object?
+
+Possible answers:
+
+* A0: Yes
+* A1: No

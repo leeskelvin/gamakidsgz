@@ -1,13 +1,13 @@
-# GKGZMorphologyDMU
+# GKGZMorphology
 # GKGZFinal
 # v01
 # 2021-05-25
 # Lee Kelvin <lkelvin@astro.princeton.edu>
 #
-# This table provides final GAMA-KiDS Galaxy Zoo classification results, and 
-# should be considered the primary scientific output. Total vote counts are 
-# identical to those in the cleaned catalogue, whereas vote fractions and 
-# prior probability flags are identical to those in the debiased catalogue. 
+# This table provides final GAMA-KiDS Galaxy Zoo classification results, and
+# should be considered the primary scientific output. Total vote counts are
+# identical to those in the cleaned catalogue, whereas vote fractions and
+# prior probability flags are identical to those in the debiased catalogue.
 # Additional information on postage stamp filenames and URLs are also provided.
 #
 # parameter                         column unit       UCD              description
@@ -90,4 +90,3 @@ URL_INVERT                          76     -          meta.ref.url     link to P
 URL_NATIVE_424                      77     -          meta.ref.url     link to PNG, native colour map (424x424 pixel scaled)
 URL_INVERT_424                      78     -          meta.ref.url     link to PNG, inverted colour map (424x424 pixel scaled)
 URL_THUMB                           79     -          meta.ref.url     link to PNG, native colour map (thumbnail)
-
