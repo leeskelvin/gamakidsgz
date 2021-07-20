@@ -1,0 +1,12 @@
+GKGZMorphology
+GKGZCleaned
+v01
+2021-05-25
+Lee Kelvin <lkelvin@astro.princeton.edu>
+
+This table provides cleaned (user-weighted) GAMA-KiDS Galaxy Zoo
+classification results. Following Willett et al. (2013), each user is
+assigned a weight according to their consistency with other classifiers.
+Accordingly, their classification results are weighted here in order to
+reduce the influence of potentially unreliable classifiers.
+

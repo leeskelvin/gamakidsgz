@@ -1,0 +1,12 @@
+GKGZMorphology
+GKGZExtra
+v01
+2021-05-25
+Lee Kelvin <lkelvin@astro.princeton.edu>
+
+This table lists additional ancillary data taken from existing GAMA
+catalogues which have been used during data reduction of the GAMA-KiDS
+Galaxy Zoo dataset. GAMA data in this table are derived from TilingCatv46,
+DistancesFramesv14 and GroupFindingv08. GAMA CATAIDs have been matched to
+Zooniverse IDs and galaxy zoo classification IDs, for reference.
+

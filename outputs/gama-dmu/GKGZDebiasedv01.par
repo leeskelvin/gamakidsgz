@@ -1,13 +1,13 @@
-# GKGZMorphologyDMU
+# GKGZMorphology
 # GKGZDebiased
 # v01
 # 2021-05-25
 # Lee Kelvin <lkelvin@astro.princeton.edu>
 #
-# This table provides debiased GAMA-KiDS Galaxy Zoo classification results. 
-# Following Hart et al. (2016), cleaned (user-weighted) vote fractions are 
-# corrected for the effect of redshift bias (*_deb_* columns). Additionally, 
-# the "prior sample" psamp flag shows the galaxies for which it makes sense to 
+# This table provides debiased GAMA-KiDS Galaxy Zoo classification results.
+# Following Hart et al. (2016), cleaned (user-weighted) vote fractions are
+# corrected for the effect of redshift bias (*_deb_* columns). Additionally,
+# the "prior sample" psamp flag shows the galaxies for which it makes sense to
 # ask a given question (p_prior >= 0.5 AND N >= 5).
 #
 # parameter                         column unit       UCD              description
@@ -77,4 +77,3 @@ oddtype_overlapping_deb_frac        63     -          arith.ratio      odd featu
 discuss_deb_psamp                   64     -          meta.code        further discussion: debiased prior sample flag
 discuss_yes_deb_frac                65     -          arith.ratio      further discussion: debiased yes vote fraction
 discuss_no_deb_frac                 66     -          arith.ratio      further discussion: debiased no vote fraction
-

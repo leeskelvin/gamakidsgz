@@ -1,13 +1,13 @@
-# GKGZMorphologyDMU
+# GKGZMorphology
 # GKGZCleaned
 # v01
 # 2021-05-25
 # Lee Kelvin <lkelvin@astro.princeton.edu>
 #
-# This table provides cleaned (user-weighted) GAMA-KiDS Galaxy Zoo 
-# classification results. Following Willett et al. (2013), each user is 
-# assigned a weight according to their consistency with other classifiers. 
-# Accordingly, their classification results are weighted here in order to 
+# This table provides cleaned (user-weighted) GAMA-KiDS Galaxy Zoo
+# classification results. Following Willett et al. (2013), each user is
+# assigned a weight according to their consistency with other classifiers.
+# Accordingly, their classification results are weighted here in order to
 # reduce the influence of potentially unreliable classifiers.
 #
 # parameter                         column unit       UCD              description
@@ -65,4 +65,3 @@ oddtype_dust_lane_clean_frac        51     -          arith.ratio      odd featu
 oddtype_overlapping_clean_frac      52     -          arith.ratio      odd features: cleaned (user-weighted) overlapping vote fraction
 discuss_yes_clean_frac              53     -          arith.ratio      further discussion: cleaned (user-weighted) yes vote fraction
 discuss_no_clean_frac               54     -          arith.ratio      further discussion: cleaned (user-weighted) no vote fraction
-

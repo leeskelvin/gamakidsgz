@@ -1,13 +1,13 @@
-# GKGZMorphologyDMU
+# GKGZMorphology
 # GKGZBinned
 # v01
 # 2021-05-25
 # Lee Kelvin <lkelvin@astro.princeton.edu>
 #
-# This table provides binned GAMA-KiDS Galaxy Zoo classification results. To 
-# construct this table, alpha (raw) level results are concatenated per-galaxy. 
-# The retirement number for each galaxy was set at 40, i.e., each galaxy aims 
-# for at least 40 distinct classifiers. The _total columns show the total 
+# This table provides binned GAMA-KiDS Galaxy Zoo classification results. To
+# construct this table, alpha (raw) level results are concatenated per-galaxy.
+# The retirement number for each galaxy was set at 40, i.e., each galaxy aims
+# for at least 40 distinct classifiers. The _total columns show the total
 # number of classifiers answering a question; _frac shows the answer fraction.
 #
 # parameter                         column unit       UCD              description
@@ -65,4 +65,3 @@ oddtype_dust_lane_bin_frac          51     -          arith.ratio      odd featu
 oddtype_overlapping_bin_frac        52     -          arith.ratio      odd features: binned (raw) overlapping vote fraction
 discuss_yes_bin_frac                53     -          arith.ratio      further discussion: binned (raw) yes vote fraction
 discuss_no_bin_frac                 54     -          arith.ratio      further discussion: binned (raw) no vote fraction
-

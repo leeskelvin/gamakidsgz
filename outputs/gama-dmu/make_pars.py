@@ -8,7 +8,7 @@ cats = sorted([x for x in os.listdir(indir) if '.fits.gz' in x])
 print('Generating .par files for:')
 _ = [print('* ' + x) for x in cats]
 
-parDMU = 'GKGZMorphologyDMU'
+parDMU = 'GKGZMorphology'
 parDATE = '2021-05-25'
 parAUTHOR = 'Lee Kelvin <lkelvin@astro.princeton.edu>'
 
@@ -28,46 +28,46 @@ for cat in cats:
     # catalogue description
     notes = ''
     if 'Alpha' in cat:
-        notes = ['# This table provides alpha (raw) GAMA-KiDS Galaxy Zoo classification results. ',
-                 '# Each row in this catalogue corresponds to an individual galaxy classified by ',
-                 '# a singular user. Basic information about the classifier (user) are provided, ',
-                 '# followed by the chosen answer for each question (gama-N columns). For a full ',
+        notes = ['# This table provides alpha (raw) GAMA-KiDS Galaxy Zoo classification results.',
+                 '# Each row in this catalogue corresponds to an individual galaxy classified by',
+                 '# a singular user. Basic information about the classifier (user) are provided,',
+                 '# followed by the chosen answer for each question (gama-N columns). For a full',
                  '# description of all decision tree question-answer pairs, see the notes file.']
     if 'Binned' in cat:
-        notes = ['# This table provides binned GAMA-KiDS Galaxy Zoo classification results. To ',
-                 '# construct this table, alpha (raw) level results are concatenated per-galaxy. ',
-                 '# The retirement number for each galaxy was set at 40, i.e., each galaxy aims ',
-                 '# for at least 40 distinct classifiers. The _total columns show the total ',
+        notes = ['# This table provides binned GAMA-KiDS Galaxy Zoo classification results. To',
+                 '# construct this table, alpha (raw) level results are concatenated per-galaxy.',
+                 '# The retirement number for each galaxy was set at 40, i.e., each galaxy aims',
+                 '# for at least 40 distinct classifiers. The _total columns show the total',
                  '# number of classifiers answering a question; _frac shows the answer fraction.']
     if 'Cleaned' in cat:
-        notes = ['# This table provides cleaned (user-weighted) GAMA-KiDS Galaxy Zoo ',
-                 '# classification results. Following Willett et al. (2013), each user is ',
-                 '# assigned a weight according to their consistency with other classifiers. ',
-                 '# Accordingly, their classification results are weighted here in order to ',
+        notes = ['# This table provides cleaned (user-weighted) GAMA-KiDS Galaxy Zoo',
+                 '# classification results. Following Willett et al. (2013), each user is',
+                 '# assigned a weight according to their consistency with other classifiers.',
+                 '# Accordingly, their classification results are weighted here in order to',
                  '# reduce the influence of potentially unreliable classifiers.']
     if 'Debiased' in cat:
-        notes = ['# This table provides debiased GAMA-KiDS Galaxy Zoo classification results. ',
-                 '# Following Hart et al. (2016), cleaned (user-weighted) vote fractions are ',
-                 '# corrected for the effect of redshift bias (*_deb_* columns). Additionally, ',
-                 '# the "prior sample" psamp flag shows the galaxies for which it makes sense to ',
+        notes = ['# This table provides debiased GAMA-KiDS Galaxy Zoo classification results.',
+                 '# Following Hart et al. (2016), cleaned (user-weighted) vote fractions are',
+                 '# corrected for the effect of redshift bias (*_deb_* columns). Additionally,',
+                 '# the "prior sample" psamp flag shows the galaxies for which it makes sense to',
                  '# ask a given question (p_prior >= 0.5 AND N >= 5).']
     if 'Extra' in cat:
-        notes = ['# This table lists additional ancillary data taken from existing GAMA ',
-                 '# catalogues which have been used during data reduction of the GAMA-KiDS ',
-                 '# Galaxy Zoo dataset. GAMA data in this table are derived from TilingCatv46, ',
-                 '# DistancesFramesv14 and GroupFindingv08. GAMA CATAIDs have been matched to ',
+        notes = ['# This table lists additional ancillary data taken from existing GAMA',
+                 '# catalogues which have been used during data reduction of the GAMA-KiDS',
+                 '# Galaxy Zoo dataset. GAMA data in this table are derived from TilingCatv46,',
+                 '# DistancesFramesv14 and GroupFindingv08. GAMA CATAIDs have been matched to',
                  '# Zooniverse IDs and galaxy zoo classification IDs, for reference.']
     if 'Final' in cat:
-        notes = ['# This table provides final GAMA-KiDS Galaxy Zoo classification results, and ',
-                 '# should be considered the primary scientific output. Total vote counts are ',
-                 '# identical to those in the cleaned catalogue, whereas vote fractions and ',
-                 '# prior probability flags are identical to those in the debiased catalogue. ',
+        notes = ['# This table provides final GAMA-KiDS Galaxy Zoo classification results, and',
+                 '# should be considered the primary scientific output. Total vote counts are',
+                 '# identical to those in the cleaned catalogue, whereas vote fractions and',
+                 '# prior probability flags are identical to those in the debiased catalogue.',
                  '# Additional information on postage stamp filenames and URLs are also provided.']
     if 'UserWeights' in cat:
-        notes = ['# This table provides user-weighting for each unique classifier contributing ',
-                 '# to the GAMA-KiDS Galaxy Zoo project. Following Willett et al. (2013), each ',
-                 '# user is assigned a weight according to their consistency with other ',
-                 '# classifiers. Usernames have been anonymised, here replaced with the user_id ',
+        notes = ['# This table provides user-weighting for each unique classifier contributing',
+                 '# to the GAMA-KiDS Galaxy Zoo project. Following Willett et al. (2013), each',
+                 '# user is assigned a weight according to their consistency with other',
+                 '# classifiers. Usernames have been anonymised, here replaced with the user_id',
                  '# column. Negative user IDs correspond to users who were not logged in.']
     with open(parfile, 'a') as par:
         for note in notes:
@@ -313,6 +313,6 @@ for cat in cats:
                       f'{ucd:16s} '
                       f'{desc}\n')
 
-    # finish up
-    with open(parfile, 'a') as par:
-        par.write('\n')
+    # # finish up
+    # with open(parfile, 'a') as par:
+    #     par.write('\n')

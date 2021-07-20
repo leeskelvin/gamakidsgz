@@ -1,0 +1,12 @@
+GKGZMorphology
+GKGZUserWeights
+v01
+2021-05-25
+Lee Kelvin <lkelvin@astro.princeton.edu>
+
+This table provides user-weighting for each unique classifier contributing
+to the GAMA-KiDS Galaxy Zoo project. Following Willett et al. (2013), each
+user is assigned a weight according to their consistency with other
+classifiers. Usernames have been anonymised, here replaced with the user_id
+column. Negative user IDs correspond to users who were not logged in.
+

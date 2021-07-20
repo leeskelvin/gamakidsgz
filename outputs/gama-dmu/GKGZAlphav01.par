@@ -1,13 +1,13 @@
-# GKGZMorphologyDMU
+# GKGZMorphology
 # GKGZAlpha
 # v01
 # 2021-05-25
 # Lee Kelvin <lkelvin@astro.princeton.edu>
 #
-# This table provides alpha (raw) GAMA-KiDS Galaxy Zoo classification results. 
-# Each row in this catalogue corresponds to an individual galaxy classified by 
-# a singular user. Basic information about the classifier (user) are provided, 
-# followed by the chosen answer for each question (gama-N columns). For a full 
+# This table provides alpha (raw) GAMA-KiDS Galaxy Zoo classification results.
+# Each row in this catalogue corresponds to an individual galaxy classified by
+# a singular user. Basic information about the classifier (user) are provided,
+# followed by the chosen answer for each question (gama-N columns). For a full
 # description of all decision tree question-answer pairs, see the notes file.
 #
 # parameter                         column unit       UCD              description
@@ -29,4 +29,3 @@ gama-8                              15     -          -                roundedne
 gama-9                              16     -          -                merging/tidal debris?
 gama-10                             17     -          -                odd features?
 gama-11                             18     -          -                further discussion?
-
