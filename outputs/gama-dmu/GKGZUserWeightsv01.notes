@@ -9,4 +9,3 @@ to the GAMA-KiDS Galaxy Zoo project. Following Willett et al. (2013), each
 user is assigned a weight according to their consistency with other
 classifiers. Usernames have been anonymised, here replaced with the user_id
 column. Negative user IDs correspond to users who were not logged in.
-

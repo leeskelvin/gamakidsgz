@@ -9,4 +9,3 @@ Following Hart et al. (2016), cleaned (user-weighted) vote fractions are
 corrected for the effect of redshift bias (*_deb_* columns). Additionally,
 the "prior sample" psamp flag shows the galaxies for which it makes sense to
 ask a given question (p_prior >= 0.5 AND N >= 5).
-

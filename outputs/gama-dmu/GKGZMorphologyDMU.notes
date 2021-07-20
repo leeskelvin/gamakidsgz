@@ -1,4 +1,4 @@
-GKGZMorphologyDMU
+GKGZMorphology
 2021-05-25
 Lee Kelvin <lkelvin@astro.princeton.edu>
 
@@ -29,5 +29,8 @@ in the data processing pipeline. For scientific purposes, the final catalogue
 Further information may be found in Kelvin et al. (in prep.)
 
 Notes:
-* All catalogues except 'GKGZFinal' are ordered by 'subject_id', but 'GKGZFinal' is ordered by 'CATAID'.
-* The ancilliary data in 'GKGZExtra' and 'GKGZFinal' is that which was used to initially define the sample, and may not perfectly match the latest catalogues in other DMUs.
+* All catalogues except 'GKGZFinal' are ordered by 'subject_id', but
+  'GKGZFinal' is ordered by 'CATAID'.
+* The ancilliary data in 'GKGZExtra' and 'GKGZFinal' is that which was used to
+  initially define the sample, and may not perfectly match the latest
+  catalogues in other DMUs.
